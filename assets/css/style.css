@@ -1,0 +1,800 @@
+@font-face {
+  font-family: mmc-regular;
+  src: url(../fonts/MMCOFFICE-Regular.ttf);
+}
+@font-face {
+  font-family: mmc-bold;
+  src: url(../fonts/MMCOFFICE-Bold.ttf);
+}
+@font-face {
+  font-family: mmc-medium;
+  src: url(../fonts/MMC-Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: mmc-regular;
+}
+
+body {
+  background: #e6dada; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #274046,
+    #e6dada
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #274046,
+    #e6dada
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.mmc-bold {
+  font-family: mmc-bold;
+}
+
+.mmc-medium {
+  font-family: mmc-medium;
+}
+
+.mmc-regular {
+  font-family: mmc-regular;
+}
+
+.logo {
+  width: 40%;
+}
+
+.font-navbar-whatsapp {
+  font-size: 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.sticky-navbar {
+  /* background: rgba(0, 0, 0, 0.3); */
+  background: black;
+}
+
+.thumb {
+  width: 200px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.swiper-slide-testimoni {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.container-100 {
+  width: 100%;
+}
+
+.display-grid {
+  display: grid;
+  grid-template-areas:
+    "n1"
+    "n2";
+  gap: 10px;
+}
+
+.n1 {
+  grid-area: n1;
+}
+
+.n2 {
+  grid-area: n2;
+}
+
+.container-profile {
+  padding-top: 120px;
+  padding-bottom: 140px;
+  padding-right: 50px;
+  margin-left: auto;
+  width: 800px;
+}
+
+.palet {
+  display: inline-block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.color-black {
+  background: #050505;
+}
+.color-white {
+  background: #e6e6e6;
+}
+.color-grey {
+  background: #303034;
+}
+.color-silver {
+  background: #81817f;
+}
+.color-bronze {
+  background: #664019;
+}
+.color-red {
+  background: #d41111;
+}
+.color-orange {
+  background: #d8810f;
+}
+.color-white-diamond {
+  background: #ffffff;
+}
+.color-yellow {
+  background: #ffec4f;
+}
+.text-black {
+  color: black;
+}
+
+/* Style the buttons that are used to open and close the simulasi panel */
+.simulasi {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.product .active,
+.simulasi:hover {
+  background-color: #ccc;
+}
+
+/* Style the simulasi panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Plus Sign */
+.simulasi:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+}
+
+/* Minus Sign */
+.product .active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+/* Akhir Testing */
+
+.btn-product {
+  width: 150px;
+  border-radius: 0 !important;
+}
+
+.line {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bg-xpander {
+  background-color: #dadada;
+}
+
+.bg-xpander-cross {
+  background-color: #fff;
+}
+
+.bg.pajero-sport {
+  background-color: #dadada;
+}
+
+.bg-eclipse-cross {
+  background-color: #dadada;
+}
+
+.bg-triton {
+  background-color: #dadada;
+}
+
+.bg-l300 {
+  background-color: #fff;
+}
+
+#selectTenor:focus {
+  color: black;
+}
+
+#buttonHitung {
+  border-radius: 0;
+}
+
+section.footer {
+  color: white;
+}
+
+section.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+section.footer a:hover {
+  color: red;
+}
+
+section.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  gap: 20px;
+}
+
+section.footer .tetap {
+  font-size: 12px;
+  font-weight: 700;
+  color: #9b9b9b;
+  text-align: center;
+}
+
+section.footer .tetap::before,
+section.footer .tetap::after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 60px;
+  height: 3px;
+  border-radius: 4px;
+  background: #da291c;
+}
+
+.outer-container-profile {
+  background: url(https://mitsubishimedan-vandys.id/assets/img/bg-profile.jpg);
+  background-size: cover;
+  text-align: right;
+}
+
+.bg-profile {
+  width: 50%;
+}
+
+.p-profile {
+  text-align: right;
+}
+
+.label-sardana {
+  font-size: 14px;
+}
+
+.swiper-container-exterior,
+.swiper-container-interior,
+.swiper-container-detail {
+  overflow-x: hidden;
+}
+
+section.detail-product .nav-link.active {
+  border-top: 2px solid black;
+}
+
+section.main-product {
+  margin-top: 40px;
+}
+
+.select-car {
+  text-align: right;
+}
+
+section.main-product .whatsapp-bg {
+  background: #25d366;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+section.main-product .whatsapp-bg:hover {
+  background: #128c7e;
+  text-decoration: none;
+}
+
+section.main-product .spek-mobile {
+  display: none;
+}
+
+section.main-product .spek-desktop {
+  display: block;
+}
+
+section.detail-product .nav-link.active {
+  background-color: #eee5e5 !important;
+}
+
+.header-alamat {
+  color: black;
+}
+
+.header-alamat:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.car-title,
+.select-car {
+  text-align: center;
+}
+
+.background-title {
+  background: black;
+  color: white;
+}
+
+#inputUangMuka,
+#inputSukuBunga,
+#selectTenor {
+  color: black;
+}
+
+/* Swiper */
+.swiper-button-prev-custom::after,
+.swiper-button-next-custom::after {
+  content: "none";
+}
+
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  height: 80px;
+  width: 80px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  transform: translateY(-50%);
+}
+
+.swiper-button-next-custom {
+  right: 2%;
+}
+
+.swiper-button-prev-custom {
+  left: 2%;
+}
+
+.swiper-button-prev-custom:hover,
+.swiper-button-next-custom:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.swiper-button-prev-custom::before {
+  content: "<";
+}
+
+.swiper-button-next-custom::before {
+  content: ">";
+}
+
+.swiper-button-prev-custom::before,
+.swiper-button-next-custom::before {
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  color: #fff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.swiper-pagination-bullets {
+  bottom: 0 !important;
+}
+/* Akhir Swiper */
+
+.table-custom {
+  width: 70%;
+  margin: auto;
+}
+
+.bg-parallax {
+  background: url(http://mitsubishimedan-vandys.id/assets/img/colt-diesel/parallax.jpg);
+  background-size: cover;
+}
+
+.video-fuso {
+  background: url(http://mitsubishimedan-vandys.id/assets/img/fuso/bg.jpg);
+  background-size: cover;
+}
+
+.menu-varian {
+  justify-content: center;
+  gap: 20px;
+}
+
+.variant-active {
+  color: rgb(223, 182, 2) !important;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion,
+.spesifikasi {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion.active,
+.accordion:hover,
+.spesifikasi:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Plus Sign */
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+}
+
+/* Minus Sign */
+.accordion.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.bg-red {
+  background: url(https://hargamitsubishimedan.id/assets/img/bg.jpg);
+  background-size: cover;
+}
+
+.container-tokopedia {
+  padding: 3rem;
+}
+
+.img-vandys {
+  width: 50%;
+}
+
+section.product .produk {
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.img-testimoni {
+  border: 2px solid white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Style the links inside the sidenav */
+section.footer .tutup {
+  position: fixed;
+  top: 41%;
+  background-color: #9f93a6;
+  z-index: 1000;
+  width: 70px;
+  text-align: right;
+  cursor: pointer;
+}
+
+section.footer .tutup i {
+  padding: 5px;
+}
+
+#hoverableSidenav a {
+  position: fixed; /* Position them fixed to the browser window */
+  left: -100px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 170px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1000;
+}
+
+#hoverableSidenav a:first-child {
+  border-radius: 0 0 0 0;
+}
+
+#hoverableSidenav a:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+#hoverableSidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+#hoverableSidenav a i {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* The about link: 20px from the top with a green background */
+#whatsapp {
+  top: 45%;
+  background-color: #4caf50;
+}
+
+#instagram {
+  top: 54.7%;
+  background-color: #f44336; /* Red */
+}
+
+#hoverableSidenav i {
+  font-size: 40px;
+}
+
+.swiper-container-testimoni .swiper-pagination-bullet-active {
+  background: red;
+}
+
+.dropdown-hover:hover {
+  color: black !important;
+}
+
+.dropdown-hover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-dropdown {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.img-promo {
+  width: 70%;
+}
+
+/* Tablet */
+@media only screen and (min-device-width: 577px) and (max-device-width: 768px) and (orientation: portrait) {
+  .img-vandys {
+    width: 70%;
+  }
+
+  .container-dealer {
+    margin-bottom: 1.5rem;
+  }
+
+  .container-profile {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .bg-profile {
+    margin-top: 40px;
+  }
+
+  .p-profile {
+    text-align: justify;
+    margin-top: 40px !important;
+  }
+
+  .palet {
+    width: 30px;
+    height: 30px;
+  }
+
+  section.main-product .spek-mobile {
+    display: block;
+  }
+
+  section.main-product .spek-desktop {
+    display: none;
+  }
+}
+
+/* Mobile (landscape) */
+@media only screen and (min-device-width: 577px) and (max-device-width: 768px) and (orientation: landscape) {
+  .container-dealer,
+  .container-tetap {
+    margin-bottom: 1.5rem;
+  }
+
+  .label-sardana {
+    font-size: 12px;
+  }
+
+  section.main-product .spek-mobile {
+    display: block;
+  }
+
+  section.main-product .spek-desktop {
+    display: none;
+  }
+}
+
+/* Mobile (Portrait) */
+@media (max-width: 576px) {
+  .img-promo {
+    width: 100%;
+  }
+
+  .dropdown-produk {
+    padding: 5px 0;
+  }
+
+  section.product .produk {
+    font-size: 35px;
+  }
+
+  .img-vandys {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    width: 60%;
+  }
+
+  .font-navbar-whatsapp {
+    font-size: 25px;
+  }
+
+  section.video-colt iframe,
+  section.video-fuso iframe {
+    width: 100%;
+  }
+
+  .bg-red {
+    background-position-x: -100px;
+  }
+
+  .menu-varian {
+    justify-content: flex-start;
+    gap: 20px;
+    overflow: auto;
+  }
+
+  section.promo img,
+  section.promo .table {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  section.video iframe {
+    width: 90%;
+  }
+
+  .table-custom {
+    width: 90%;
+  }
+
+  .img-360 {
+    width: 100%;
+  }
+
+  .container-dealer,
+  .container-tetap {
+    margin-bottom: 1.5rem;
+  }
+
+  .outer-container-profile {
+    background: url(https://mitsubishimedan-vandys.id/assets/img/bg-profile-mb.jpg);
+    background-size: cover;
+    text-align: center;
+  }
+
+  .palet {
+    width: 30px;
+    height: 30px;
+  }
+
+  .btn-product {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  .bg-profile {
+    margin-top: 30px;
+    width: 50%;
+  }
+
+  .container-profile {
+    margin-top: 20px !important;
+    padding: 0;
+    width: auto;
+    margin: auto;
+  }
+
+  .p-profile {
+    padding: 0 40px;
+    text-align: left;
+  }
+
+  .bg-profile {
+    width: 60%;
+  }
+
+  section.main-product .spek-mobile {
+    display: block;
+  }
+
+  section.main-product .spek-desktop {
+    display: none;
+  }
+
+  section.main-product .scale-down {
+    transform: scale(0.95);
+  }
+
+  section.warna-product .img-color {
+    width: 80%;
+  }
+
+  section.warna-product p {
+    font-size: 12px;
+  }
+
+  .swiper-button-next-custom {
+    right: 5%;
+  }
+
+  .swiper-button-prev-custom {
+    left: 5%;
+  }
+}
+
+/* iPads Pro (Portrait) */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1112px) and (orientation: portrait) {
+  .container-dealer {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* iPads Pro (Landscape) */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1112px) and (orientation: landscape) {
+}
