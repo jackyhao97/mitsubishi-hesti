@@ -1,4 +1,5 @@
 <?php
+  // require_once "../config.php";
   require_once "config.php";
 ?>
 
@@ -29,14 +30,14 @@
     <!-- Header -->
     <div class="container-fluid">
       <div class="row p-2">
-        <div class="col-12 col-sm-6">
-          <a target="_blank" href="javascript:void(0)">            
+        <div class="col-12 col-sm-6 container-logo">
+          <a href="<?=BASE_URL?>">            
             <img src="<?= BASE_URL.DS; ?>assets/img/logo-sardana-panjang.png" alt="Mitsubishi Sardana Medan" class="logo">
           </a>
         </div>        
         <div class="col-12 col-sm-6 text-right">
           <p style="margin-bottom: .3rem">Sales resmi PT. Sardana IndahBerlian Motor</p>
-          <a href="https://wa.me/+6281262526666" class="btn btn-danger">Hubungi Saya</a>
+          <a href="https://wa.me/+6281262526666" class="btn btn-danger hubungi">Hubungi Saya</a>
         </div>
       </div>
     </div>
@@ -56,14 +57,14 @@
             <div class="dropdown">
               <a class="btn btn-dark dropdown-toggle dropdown-produk text-uppercase mmc-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: black; border: 1px solid black">Produk</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background: black; padding: 0">
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'product/pajero-sport.php'?>">PAJERO SPORT <img src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/thumbnail/new-pajero-sport-thumb.png" alt="Mitsubishi Pajero Sport" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'product/xpander.php'?>">XPANDER <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-thumb.png'?>" alt="Mitsubishi Xpander" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'product/xpander-cross.php'?>">XPANDER CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" alt="Mitsubishi Xpander Cross" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'product/eclipse-cross.php'?>">ECLIPSE CROSS <img src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/thumbnail/eclipse-cross-thumb.png" alt="Mitsubishi Eclipse Cross" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'product/triton.php'?>">TRITON <img src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/thumbnail/triton-thumb.png" alt="Mitsubishi Triton" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'product/l300.php'?>">L300 <img src="<?=BASE_URL.DS.'assets/img/thumbs/l300-thumb.png'?>" alt="Mitsubishi L300" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'product/colt-diesel.php'?>">COLT DIESEL <img src="https://sardanagroup.co.id/fuso-medan/assets/img/thumbnails/CD01.png" alt="Mitsubishi Colt Diesel" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'product/fuso.php'?>">FUSO <img src="https://sardanagroup.co.id/fuso-medan/assets/img/thumbnails/FS01.png" alt="Mitsubishi Fuso" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">PAJERO SPORT <img src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/thumbnail/new-pajero-sport-thumb.png" alt="Mitsubishi Pajero Sport" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">XPANDER <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-thumb.png'?>" alt="Mitsubishi Xpander" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">XPANDER CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" alt="Mitsubishi Xpander Cross" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">ECLIPSE CROSS <img src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/thumbnail/eclipse-cross-thumb.png" alt="Mitsubishi Eclipse Cross" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">TRITON <img src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/thumbnail/triton-thumb.png" alt="Mitsubishi Triton" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">L300 <img src="<?=BASE_URL.DS.'assets/img/thumbs/l300-thumb.png'?>" alt="Mitsubishi L300" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">COLT DIESEL <img src="https://sardanagroup.co.id/fuso-medan/assets/img/thumbnails/CD01.png" alt="Mitsubishi Colt Diesel" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">FUSO <img src="https://sardanagroup.co.id/fuso-medan/assets/img/thumbnails/FS01.png" alt="Mitsubishi Fuso" class="img-dropdown"></a>
               </div>
             </div>
           </li>
@@ -90,13 +91,13 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="<?=BASE_URL.DS.'assets/img/cv.jpg'?>" class="d-block w-100" alt="...">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-rf-limited.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Rockford Limited">
         </div>
         <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/cv.jpg'?>" class="d-block w-100" alt="...">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.jpg'?>" class="d-block w-100" alt="Mitsubishi Pajero Sport">
         </div>
         <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/cv.jpg'?>" class="d-block w-100" alt="...">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-cv.jpg'?>" class="d-block w-100" alt="Mitsubishi Fuso & Colt Diesel">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -117,7 +118,7 @@
           <img class="bg-profile" src="<?= BASE_URL.DS.'assets/img/bg-foto.png'; ?>" alt="Hesti Ratnasari Karo Karo">
         </div>
         <div class="col-12 col-lg-6 container-profile">        
-          <h1 class="mmc-bold">Hesti Ratnasari Karo Karo</h1>
+          <h1 class="mmc-bold">Hesti Surbakti</h1>
           <h5 class="mmc-bold">Counter Sales</h5>
           <p class="mt-2 p-profile">Hesti, Sales counter Sardana Berlian yang sudah mengabdi selama bertahun - tahun. Pengalaman Hesti dalam menangani Customer sudah tidak usah diragukan lagi karena sudah banyak Customer Hesti yang senang bertransaksi dengan Hesti sendiri.
           <div class="mb-5">
@@ -134,57 +135,263 @@
       <div class="container">
         <div class="row mb-2 mt-4">
           <div class="col-md-12">
-            <h2 class="title">PASSENGER CAR</h2>
+            <h2 class="title mmc-bold">PASSENGER CAR</h2>
+          </div>
+        </div>
+        <div class="swiper-container swiper-container-xpander text-dark">
+          <div class="swiper-wrapper">              
+            <div class="swiper-slide" onclick="window.location='mitsubishi/xpander/'">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/xpander/red-ultimate-xpander.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Xpander</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <p class="text-justify">Generasi terbaru MPV yang diciptakan untuk menjawab semua keinginan keluarga Indonesia. </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'XPANDER' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/cross/xpander-cross-gray.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Cross Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Xpander Cross</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <p class="text-justify">Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV dan dilengkapi dengan tampilan yang lebih sporty dan tangguh.</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'XPANDER CROSS' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/pajero/pajero-sport-white.webp'; ?>" class="card-img w-80" alt="Mitsubishi Pajero Sport Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Pajero Sport</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <p class="text-justify">Temukan dunia baru melalui eksplorasi tanpa batas dengan New Pajero Sport yang kini hadir lebih tangguh dengan teknologi canggih untuk menemani Anda melalui segala petualangan.</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'PAJERO SPORT' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/eclipse/eclipse-cross-red.webp'; ?>" class="card-img w-80" alt="Mitsubishi Eclipse Cross Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Eclipse Cross</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <p class="text-justify">Stimulating design, confident inspiring driving, dan human connectivity. Eclipse Cross pilihan tepat bagi pecinta SUV.</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'ECLIPSE CROSS' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>            
+          </div>
+          <div class="swiper-button-next swiper-button-next-custom swiper-button-next-xpander"></div>
+          <div class="swiper-button-prev swiper-button-prev-custom swiper-button-prev-xpander"></div>
+          <div class="swiper-pagination swiper-pagination-xpander"></div>
+        </div>
+        <div class="row mb-2 mt-4">
+          <div class="col-md-12">
+            <h2 class="title mmc-bold">LIGHT COMMERCIAL VEHICLE</h2>
           </div>
         </div>
         <div class="swiper-container swiper-container-xpander text-dark">
           <div class="swiper-wrapper">
-            <?php
-              $sql = $conn->query("SELECT * FROM tb_harga WHERE (merek = 'XPANDER' OR merek = 'XPANDER BLACK EDITION') AND discontinue = 0 ORDER BY merek DESC, urutan");
-              while ($row = $sql->fetch_assoc()) :
-                $dp = 0.2 * $row["harga"];
-                $cicilan = ($row["harga"] - $dp) / 60;
-            ?>      
             <div class="swiper-slide">
-              <form action="product/xpander/" method="post">          
-                <div class="card mb-3" style="max-width: 540px">
-                  <div class="row no-gutters">
-                    <div class="col-md-12 text-center">
-                      <img src="<?= BASE_URL.DS.'assets/img/xpander/red-ultimate-xpander.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Medan">
-                    </div>
-                    <div class="col-md-12">
-                      <div class="card-body">
-                        <h5 class="card-title text-center">Mitsubishi Xpander</h5>
-                        <div class="row">
-                          <div class="col-5">Harga mulai</div>
-                          <div class="col-7"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
-                        </div>
-                        <div class="row">
-                          <div class="col-5">DP (20%) mulai</div>
-                          <div class="col-7"><?= "Rp " . number_format($dp, 0, ",", "."); ?></div>
-                        </div>
-                        <div class="row">
-                          <div class="col-5">Cicilan (5thn) mulai</div>
-                          <div class="col-7"><?= "Rp " . number_format($cicilan, 0, ",", ".") . " / Bulan"; ?></div>
-                        </div>     
-                        <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</small></p>
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <input type="hidden" name="title" value="<?= $row['tipe']; ?>">
-                            <input type="hidden" name="price" value="<?= $row['harga']; ?>">
-                            <input type="hidden" name="category" value="<?= $row['merek']; ?>">
-                            <input type="hidden" name="kode" value="<?= $row['kode']; ?>">
-                            <input type="hidden" name="varian" value="<?= $row['varian']; ?>">
-                            <button type="submit" class="btn btn-danger" name="cmdSubmit">Telusuri</button>
-                          </div>
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/triton/triton-gray.webp'; ?>" class="card-img w-80" alt="Mitsubishi Triton Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Triton</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <p class="text-justify">Triton 4X4 hadir dengan performa lebih tangguh dan fitur-fitur inovatif </p>
                         </div>
                       </div>
-                    </div>              
-                  </div>   
-                </div>          
-              </form>              
-            </div>      
-            <?php endwhile; ?>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'TRITON' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>              
+            <div class="swiper-slide">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/l300/1.webp'; ?>" class="card-img w-80" alt="Mitsubishi L300 Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi L300</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <p class="text-justify">Efisien dan memiliki ruang kargo luas yang didukung oleh mesin bertenaga </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'L300' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>              
+          </div>
+          <div class="swiper-button-next swiper-button-next-custom swiper-button-next-xpander"></div>
+          <div class="swiper-button-prev swiper-button-prev-custom swiper-button-prev-xpander"></div>
+          <div class="swiper-pagination swiper-pagination-xpander"></div>
+        </div>
+        <div class="row mb-2 mt-4">
+          <div class="col-md-12">
+            <h2 class="title mmc-bold">COMMERCIAL VEHICLE</h2>
+          </div>
+        </div>
+        <div class="swiper-container swiper-container-xpander text-dark">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/fuso/box-besi.png'; ?>" class="card-img w-80" alt="Mitsubishi Fuso Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Fuso</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height-cv">
+                          <p class="text-justify">Fuso merupakan truk kategori medium yang ekonomis dan dapat diandalkan untuk berbagai kebutuhan serta memiliki banyak keunggulan dari segi keamanan, kenyamanan, kinerja dan efisiens</p>
+                          <p><span class="text-warning">Beban Muatan</span> <br> 10 - 24 TON</p>
+                          <p><span class="text-warning">Roda</span> <br> 6 - 10 BAN</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'FUSO' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>  
+            <div class="swiper-slide">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.png'; ?>" class="card-img w-80" alt="Mitsubishi Colt Diesel Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi Colt Diesel</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height-cv">
+                          <p class="text-justify">Sangat cocok untuk bak kayu, aluminium dump truck, serta kargo lainnya. Sesuai untuk pengusaha di industri pertambangan, ekspedisi, pertanian dan perkebunan</p>
+                          <p><span class="text-warning">Beban Muatan</span> <br> 5 - 10 TON</p>
+                          <p><span class="text-warning">Roda</span> <br> 4 - 6 BAN</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'COLT DIESEL' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>  
           </div>
           <div class="swiper-button-next swiper-button-next-custom swiper-button-next-xpander"></div>
           <div class="swiper-button-prev swiper-button-prev-custom swiper-button-prev-xpander"></div>

@@ -822,4 +822,13 @@ $(document).ready(function () {
       },
     });
   }
+
+  const swiperXpander = new Swiper(".swiper-container-mitsubishi-xpander", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next-mitsubishi-xpander",
+      prevEl: ".swiper-button-prev-mitsubishi-xpander",
+    },
+  });
 });
