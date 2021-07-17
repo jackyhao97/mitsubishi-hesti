@@ -85,6 +85,35 @@
     </nav>  
     <!-- Akhir Navbar -->  
 
+    <!-- slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-rf-limited.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Rockford Limited">
+        </div>
+        <div class="carousel-item">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.jpg'?>" class="d-block w-100" alt="Mitsubishi Pajero Sport">
+        </div>
+        <div class="carousel-item">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-cv.jpg'?>" class="d-block w-100" alt="Mitsubishi Fuso & Colt Diesel">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- akhir slider -->
+
     <!-- Main -->
     <section class="mainProduct" id="mainProduct">
       <div class="container">
@@ -511,7 +540,7 @@
               Desain eksterior yang kuat dan kokoh dan berkaratek layaknya sebuah SUV
             </p>
           </div>
-          <div class="col-12  col-md-7 container-interior">
+          <div class="col-12  col-md-7 container-exterior">
             <h1 class="mmc-bold">Exterior</h1>
             <a
               class="btn btn-danger"

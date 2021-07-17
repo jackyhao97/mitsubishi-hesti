@@ -615,6 +615,89 @@ section.footer .tutup i {
   padding: 30px;
 }
 
+.container-exterior {
+  text-align: right;
+}
+
+#hoverableSidenav a {
+  position: fixed;
+  left: -50px;
+  transition: 0.3s;
+  padding: 5px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 0 5px 0 0;
+  display: flex;
+  align-items: center;
+  z-index: 10000;
+}
+
+#hoverableSidenav a:first-child {
+  left: -50px;
+  padding: 5px 0;
+}
+
+#hoverableSidenav a:nth-child(2),
+#hoverableSidenav a:nth-child(4) {
+  left: -80px;
+  width: 150px;
+  border-radius: 0;
+}
+
+#hoverableSidenav a:nth-child(3) {
+  left: -100px;
+  width: 170px;
+  padding: 10px 5px;
+  border-radius: 0;
+}
+
+#hoverableSidenav a:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+#hoverableSidenav i {
+  font-size: 40px;
+}
+
+#hoverableSidenav a:first-child i {
+  font-size: 50px;
+}
+
+#hoverableSidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+#hoverableSidenav a i {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#whatsapp {
+  top: 35%;
+  background-color: #4caf50;
+}
+
+#booking {
+  top: 45.1%;
+  background-color: #2196f3;
+}
+
+#brochure {
+  top: 53.5%;
+  background-color: #f44336;
+}
+
+#simulasi {
+  top: 63.3%;
+  background-color: #555;
+}
+
+.media-mobile {
+  display: none;
+}
+
 /* Tablet */
 @media only screen and (min-device-width: 577px) and (max-device-width: 768px) and (orientation: portrait) {
   .img-vandys {
@@ -675,7 +758,28 @@ section.footer .tutup i {
 
 /* Mobile (Portrait) */
 @media (max-width: 576px) {
-  .container-interior {
+  .media-mobile {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px 20px 0;
+    color: white;
+    background: black;
+    z-index: 1000;
+  }
+
+  .icon-media-mobile {
+    border-radius: 15px 15px 0 0 !important;
+    border-top: 4px solid rgb(187, 17, 7);
+    border-bottom: none;
+  }
+
+  #hoverableSidenav {
+    display: none;
+  }
+  .container-interior,
+  .container-exterior {
     text-align: center;
   }
 

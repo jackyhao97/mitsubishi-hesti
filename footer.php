@@ -30,4 +30,42 @@
       </div>
     </div> 
   </div>
+
+  <!-- Sosial Media Desktop -->
+  <div class="hoverable-sidenav text-center" id="hoverableSidenav">
+    <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." id="whatsapp" target="_blank">
+      <span style="padding-left: 10px">Chat Us</span>
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://web.facebook.com/cieesty.vozuegbf" id="booking" target="_blank">
+      <span>Facebook</span>      
+      <i class="fab fa-facebook-square"></i>
+    </a>
+    <a href="https://web.facebook.com/cieesty.vozuegbf" id="brochure" target="_blank">
+      <span>Instagram</span>
+      <i class="fa fa-instagram"></i>
+    </a>
+    <a href="tel:+6281262526666" id="simulasi" target="_blank">
+      <span>Call Us</span>
+      <i class="fas fa-phone"></i>
+    </a>    
+  </div>
+
+  <!-- Sosial Media Mobile -->
+  <div class="container-fluid media-mobile">
+      <div class="row text-center cp">
+          <div class="col-3 icon-media-mobile p-0 align-items-center">
+              <p class="p-0">WA <br/> <small>081262526666</small></p>
+          </div>
+          <div class="col-3 icon-media-mobile p-0" onclick="window.open='https://web.facebook.com/cieesty.vozuegbf'">
+              <p class="p-0 mt-3">Facebook</p>
+          </div>
+          <div class="col-3 icon-media-mobile p-0" onclick="window.open='https://web.facebook.com/cieesty.vozuegbf'">
+              <p class="p-0 mt-3">Instagram</p>
+          </div>
+          <div class="col-3 icon-media-mobile p-0" onclick="window.open='tel:+6281262526666'">
+              <p class="p-0">Call<br />Us</p>
+          </div>          
+      </div>
+  </div>
 </section>
