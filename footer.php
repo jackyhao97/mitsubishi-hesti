@@ -53,17 +53,17 @@
 
   <!-- Sosial Media Mobile -->
   <div class="container-fluid media-mobile">
-      <div class="row text-center cp">
-          <div class="col-3 icon-media-mobile p-0 align-items-center">
+      <div class="row text-center" style="cursor: pointer">
+          <div class="col-3 icon-media-mobile p-0 align-items-center" onclick="window.open('https://wa.me/+6281262526666?text=Halo Kak Hesti.')">
               <p class="p-0">WA <br/> <small>081262526666</small></p>
           </div>
-          <div class="col-3 icon-media-mobile p-0" onclick="window.open='https://web.facebook.com/cieesty.vozuegbf'">
+          <div class="col-3 icon-media-mobile p-0" onclick="window.open('https://web.facebook.com/cieesty.vozuegbf')">
               <p class="p-0 mt-3">Facebook</p>
           </div>
-          <div class="col-3 icon-media-mobile p-0" onclick="window.open='https://web.facebook.com/cieesty.vozuegbf'">
+          <div class="col-3 icon-media-mobile p-0" onclick="window.open('https://web.facebook.com/cieesty.vozuegbf')">
               <p class="p-0 mt-3">Instagram</p>
           </div>
-          <div class="col-3 icon-media-mobile p-0" onclick="window.open='tel:+6281262526666'">
+          <div class="col-3 icon-media-mobile p-0" onclick="window.open('tel:+6281262526666')">
               <p class="p-0">Call<br />Us</p>
           </div>          
       </div>

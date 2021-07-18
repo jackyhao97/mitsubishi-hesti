@@ -509,8 +509,13 @@ section.product .produk {
 }
 
 .img-testimoni {
-  border: 2px solid white;
+  border: 5px solid white;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+.cp {
+  cursor: pointer;
 }
 
 /* Style the links inside the sidenav */
@@ -698,6 +703,16 @@ section.footer .tutup i {
   display: none;
 }
 
+section.testimoni {
+  background: url(http://hargamitsubishimedan.id/assets/img/gedung-footer-2.webp);
+  background-blend-mode: darken;
+  background-color: #a29999;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: -220px;
+  padding: 50px;
+}
+
 /* Tablet */
 @media only screen and (min-device-width: 577px) and (max-device-width: 768px) and (orientation: portrait) {
   .img-vandys {
@@ -758,6 +773,14 @@ section.footer .tutup i {
 
 /* Mobile (Portrait) */
 @media (max-width: 576px) {
+  .img-testimoni {
+    margin-top: 20px;
+  }
+
+  .container-img-testimoni {
+    text-align: center;
+  }
+
   .media-mobile {
     display: block;
     position: fixed;
@@ -765,13 +788,13 @@ section.footer .tutup i {
     bottom: 0;
     padding: 10px 20px 0;
     color: white;
-    background: black;
+    background: rgb(187, 17, 7);
     z-index: 1000;
   }
 
   .icon-media-mobile {
     border-radius: 15px 15px 0 0 !important;
-    border-top: 4px solid rgb(187, 17, 7);
+    border-top: 4px solid black;
     border-bottom: none;
   }
 
