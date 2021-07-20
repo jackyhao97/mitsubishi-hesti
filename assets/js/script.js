@@ -831,4 +831,13 @@ $(document).ready(function () {
       prevEl: ".swiper-button-prev-mitsubishi-xpander",
     },
   });
+
+  const swiperPromo = new Swiper(".swiper-container-promo", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next-promo",
+      prevEl: ".swiper-button-prev-promo",
+    },
+  });
 });
