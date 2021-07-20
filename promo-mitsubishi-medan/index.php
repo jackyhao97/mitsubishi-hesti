@@ -101,28 +101,24 @@
     ?>
     <div class="container">
       <div class="row mt-4">
-        <div class="col-8">
+        <div class="col-lg-8 col-12">
           <h2 class="mmc-bold text-center"><?=$row["judul"]?></h2>
           <img src="https://sardanagroup.co.id/images/promo/program-penjualan-mitsubishi-motors-desember-2020.jpg" alt="Promo Mitsubishi" class="w-100 mb-4">
           <?=$row["deskripsi"]?>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-12 fixed-promo">
           <div class="swiper-container swiper-container-promo text-dark">
             <div class="swiper-wrapper">
-              <div class="swiper-slide" onclick="window.location='mitsubishi/xpander/'">
-                <div class="card mb-3" style="max-width: 540px">
+              <div class="swiper-slide" id="promo-xpander">
+                <div class="card mb-3" style="max-width: 540px;background:black;color:white">
                   <div class="row no-gutters">
                     <div class="col-md-12 text-center">
                       <img src="<?= BASE_URL.DS.'assets/img/xpander/red-ultimate-xpander.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Medan">
                     </div>
                     <div class="col-md-12">
                       <div class="card-body">
-                        <h5 class="card-title text-center mmc-bold">Mitsubishi Xpander</h5>
-                        <div class="row">
-                          <div class="col-12 desc-height">
-                            <p class="text-justify">Generasi terbaru MPV yang diciptakan untuk menjawab semua keinginan keluarga Indonesia. </p>
-                          </div>
-                        </div>
+                        <h5 class="card-title text-center mmc-bold">Mitsubishi Xpander</h5>                        
+                        <hr style="border-top: 3px solid rgba(0,0,0,.1);background:red">
                         <div class="row">
                           <div class="col-5 mmc-bold">Harga mulai</div>
                           <?php
@@ -138,19 +134,15 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="card mb-3" style="max-width: 540px">
+                <div class="card mb-3" id="promo-xpander-cross" style="max-width: 540px;background:black;color:white">
                   <div class="row no-gutters">
                     <div class="col-md-12 text-center">
                       <img src="<?= BASE_URL.DS.'assets/img/cross/xpander-cross-gray.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Cross Medan">
                     </div>
                     <div class="col-md-12">
                       <div class="card-body">
-                        <h5 class="card-title text-center mmc-bold">Mitsubishi Xpander Cross</h5>
-                        <div class="row">
-                          <div class="col-12 desc-height">
-                            <p class="text-justify">Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV dan dilengkapi dengan tampilan yang lebih sporty dan tangguh.</p>
-                          </div>
-                        </div>
+                        <h5 class="card-title text-center mmc-bold">Mitsubishi Xpander Cross</h5>                  
+                        <hr style="border-top: 3px solid rgba(0,0,0,.1);background:red">
                         <div class="row">
                           <div class="col-5 mmc-bold">Harga mulai</div>
                           <?php
@@ -166,19 +158,15 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="card mb-3" style="max-width: 540px">
+                <div class="card mb-3" id="promo-pajero-sport" style="max-width: 540px;background:black;color:white">
                   <div class="row no-gutters">
                     <div class="col-md-12 text-center">
                       <img src="<?= BASE_URL.DS.'assets/img/pajero/pajero-sport-white.webp'; ?>" class="card-img w-80" alt="Mitsubishi Pajero Sport Medan">
                     </div>
                     <div class="col-md-12">
                       <div class="card-body">
-                        <h5 class="card-title text-center mmc-bold">Mitsubishi Pajero Sport</h5>
-                        <div class="row">
-                          <div class="col-12 desc-height">
-                            <p class="text-justify">Temukan dunia baru melalui eksplorasi tanpa batas dengan New Pajero Sport yang kini hadir lebih tangguh dengan teknologi canggih untuk menemani Anda melalui segala petualangan.</p>
-                          </div>
-                        </div>
+                        <h5 class="card-title text-center mmc-bold">Mitsubishi Pajero Sport</h5>                 
+                        <hr style="border-top: 3px solid rgba(0,0,0,.1);background:red">
                         <div class="row">
                           <div class="col-5 mmc-bold">Harga mulai</div>
                           <?php
@@ -194,19 +182,15 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="card mb-3" style="max-width: 540px">
+                <div class="card mb-3" id="promo-eclipse-cross" style="max-width: 540px;background:black;color:white">
                   <div class="row no-gutters">
                     <div class="col-md-12 text-center">
                       <img src="<?= BASE_URL.DS.'assets/img/eclipse/eclipse-cross-red.webp'; ?>" class="card-img w-80" alt="Mitsubishi Eclipse Cross Medan">
                     </div>
                     <div class="col-md-12">
                       <div class="card-body">
-                        <h5 class="card-title text-center mmc-bold">Mitsubishi Eclipse Cross</h5>
-                        <div class="row">
-                          <div class="col-12 desc-height">
-                            <p class="text-justify">Stimulating design, confident inspiring driving, dan human connectivity. Eclipse Cross pilihan tepat bagi pecinta SUV.</p>
-                          </div>
-                        </div>
+                        <h5 class="card-title text-center mmc-bold">Mitsubishi Eclipse Cross</h5>                   
+                        <hr style="border-top: 3px solid rgba(0,0,0,.1);background:red">
                         <div class="row">
                           <div class="col-5 mmc-bold">Harga mulai</div>
                           <?php
@@ -220,11 +204,8 @@
                     </div>              
                   </div>   
                 </div>
-              </div>            
-            </div>
-            <div class="swiper-button-next swiper-button-next-custom swiper-button-next-promo"></div>
-            <div class="swiper-button-prev swiper-button-prev-custom swiper-button-prev-promo"></div>
-            <div class="swiper-pagination swiper-pagination-promo"></div>
+              </div>
+            </div>            
           </div>
         </div>
       </div>      

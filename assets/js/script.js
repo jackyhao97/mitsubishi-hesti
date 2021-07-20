@@ -839,5 +839,64 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next-promo",
       prevEl: ".swiper-button-prev-promo",
     },
+    autoplay: {
+      delay: 2000,
+    },
+  });
+
+  $("#promo-xpander").click(() => {
+    window.location =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      "/mitsubishi/xpander/";
+
+    // window.location =
+    //   window.location.protocol +
+    //   "//" +
+    //   window.location.host +
+    //   "/hesti/mitsubishi/xpander/";
+  });
+
+  $("#promo-xpander-cross").click(() => {
+    // window.location =
+    //   window.location.protocol +
+    //   "//" +
+    //   window.location.host +
+    //   "/hesti/mitsubishi/xpander-cross/";
+
+    window.location =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      "/mitsubishi/xpander-cross/";
+  });
+
+  $("#promo-pajero-sport").click(() => {
+    // window.location =
+    //   window.location.protocol +
+    //   "//" +
+    //   window.location.host +
+    //   "/hesti/mitsubishi/pajero-sport/";
+
+    window.location =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      "/mitsubishi/pajero-sport/";
+  });
+
+  $("#promo-eclipse-cross").click(() => {
+    // window.location =
+    //   window.location.protocol +
+    //   "//" +
+    //   window.location.host +
+    //   "/hesti/mitsubishi/eclipse-cross/";
+
+    window.location =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      "/mitsubishi/eclipse-cross/";
   });
 });

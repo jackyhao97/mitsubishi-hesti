@@ -713,8 +713,18 @@ section.testimoni {
   padding: 50px;
 }
 
+.fixed-promo {
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+
 /* Tablet */
 @media only screen and (min-device-width: 577px) and (max-device-width: 768px) and (orientation: portrait) {
+  .fixed-promo {
+    position: static;
+  }
+
   .img-vandys {
     width: 70%;
   }
@@ -753,6 +763,10 @@ section.testimoni {
 
 /* Mobile (landscape) */
 @media only screen and (min-device-width: 577px) and (max-device-width: 768px) and (orientation: landscape) {
+  .fixed-promo {
+    position: static;
+  }
+
   .container-dealer,
   .container-tetap {
     margin-bottom: 1.5rem;
@@ -773,6 +787,14 @@ section.testimoni {
 
 /* Mobile (Portrait) */
 @media (max-width: 576px) {
+  figure.table {
+    overflow: auto;
+  }
+
+  .fixed-promo {
+    position: static;
+  }
+
   .img-testimoni {
     margin-top: 20px;
   }
@@ -962,6 +984,10 @@ section.testimoni {
 
 /* iPads Pro (Portrait) */
 @media only screen and (min-device-width: 800px) and (max-device-width: 1112px) and (orientation: portrait) {
+  .fixed-promo {
+    position: static;
+  }
+
   .container-dealer {
     margin-bottom: 1.5rem;
   }
@@ -969,4 +995,7 @@ section.testimoni {
 
 /* iPads Pro (Landscape) */
 @media only screen and (min-device-width: 800px) and (max-device-width: 1112px) and (orientation: landscape) {
+  .fixed-promo {
+    position: static;
+  }
 }
