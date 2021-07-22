@@ -27,7 +27,7 @@
     <!-- Bootstrap Select -->
     <link rel="stylesheet" href="<?= BASE_URL.DS ?>assets/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="<?= BASE_URL.DS; ?>assets/css/style.css" />
-    <title>Mitsubishi Xpander Medan - Hesti</title>
+    <title>Mitsubishi Pajero Sport Medan - Hesti</title>
   </head>
   <body style="background:white;color:black">    
     <!-- Header -->
@@ -122,18 +122,16 @@
       <div class="container">
         <div class="row mb-3">
           <div class="col-lg-6 col-12">
-            <h3 id="carTitle" class="mmc-bold">MITSUBISHI XPANDER GLX MT</h3>
+            <h3 id="carTitle" class="mmc-bold">MITSUBISHI PAJERO SPORT EXCEED (4X2) MT</h3>
           </div>        
           <div class="col-lg-6 col-12 select-car">        
             <select class="selectpicker" id="selectTipe" data-width="auto" data-live-search="true" title="Silahkan Pilih Mobil Lain...">            
-              <option value="023">MITSUBISHI XPANDER GLX MT</option>
-              <option value="024">MITSUBISHI XPANDER GLS MT</option>
-              <option value="062">MITSUBISHI XPANDER GLS AT</option>
-              <option value="025">MITSUBISHI XPANDER EXCEED MT</option>
-              <option value="026">MITSUBISHI XPANDER EXCEED AT</option>
-              <option value="063">MITSUBISHI XPANDER SPORT MT</option>
-              <option value="027">MITSUBISHI XPANDER SPORT AT</option>
-              <option value="028">MITSUBISHI XPANDER ULTIMATE AT</option>                    
+              <option value="009">PAJERO SPORT EXCEED (4X2) MT</option>
+              <option value="008">PAJERO SPORT EXCEED (4X2) AT</option>
+              <option value="010">PAJERO SPORT GLX (4X4) MT</option>
+              <option value="007">PAJERO SPORT DAKAR (4X2) AT</option>          
+              <option value="006">PAJERO SPORT DAKAR ULTIMATE (4X2) AT</option>
+              <option value="005">PAJERO SPORT DAKAR (4X4) AT</option>
             </select>        
           </div>        
         </div>
@@ -184,8 +182,8 @@
                       </a>                  
                     </div>                     
                   </div>
-                  <div class="swiper-button-next swiper-button-next-mitsubishi-xpander" style="color: black"></div>
-                  <div class="swiper-button-prev swiper-button-prev-mitsubishi-xpander" style="color: black"></div>
+                  <div class="swiper-button-next swiper-button-next-mitsubishi-pajero-sport" style="color: black"></div>
+                  <div class="swiper-button-prev swiper-button-prev-mitsubishi-pajero-sport" style="color: black"></div>
                 </div>
               </div>
             </div>
@@ -198,7 +196,7 @@
                 </div>
                 <div class="row spek-container">
                   <?php
-                    $query = $conn->query("SELECT harga, tipe, merek FROM tb_harga WHERE merek = 'XPANDER' AND discontinue = 0 ORDER BY urutan");
+                    $query = $conn->query("SELECT harga, tipe, merek FROM tb_harga WHERE merek = 'PAJERO SPORT' AND discontinue = 0 ORDER BY urutan");
                     while ($row = $query->fetch_assoc()) :
                   ?>
                     <div class="col-lg-6 col-md-6 mt-2">
@@ -219,14 +217,14 @@
                 <div class="row mt-3 mb-3">
                   <div class="col-lg-12 d-flex justify-content-between">
                     <span><i class="fas fa-lg fa-user"></i> Hesti Surbakti</span>
-                    <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi Xpander" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0812 6252 6666
+                    <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi Pajero Sport" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0812 6252 6666
                     </a>
                   </div>                                                  
                 </div>
                 <div class="row mb-3">
                   <div class="col-lg-12 text-center">
                     <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." target="_blank" class="btn btn-danger">Chat</a>
-                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'brosur/xpander.pdf'?>" target="_blank">Download E-Brochure</a>
+                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'brosur/pajero-sport.pdf'?>" target="_blank">Download E-Brochure</a>
                   </div> 
                 </div>
               </div>  
@@ -243,7 +241,7 @@
                 <label for="plainTextHargaOtr" class="font-weight-bold col-lg-4 col-5 col-form-label">Harga OTR :</label>
                 <div class="col-lg-8 col-7">
                   <?php
-                    $tampil = $conn->query("SELECT MIN(harga) FROM tb_harga WHERE merek = 'XPANDER' AND discontinue = 0");
+                    $tampil = $conn->query("SELECT MIN(harga) FROM tb_harga WHERE merek = 'PAJERO SPORT' AND discontinue = 0");
                     $harga = $tampil->fetch_array();                
                     $harga = $harga[0];
                   ?>
@@ -252,7 +250,7 @@
               </div>
               <div class="form-group row">
                 <div class="col-lg-12 text-right">
-                  <a class="btn btn-danger" href="https://wa.me/+6281262526666?text=Halo Kak Hesti. Saya ingin beli tunai Mitsubishi Xpander. Gimana prosedurnya?" target="_blank">Beli Tunai</a>
+                  <a class="btn btn-danger" href="https://wa.me/+6281262526666?text=Halo Kak Hesti. Saya ingin beli tunai Mitsubishi Pajero Sport. Gimana prosedurnya?" target="_blank">Beli Tunai</a>
                 </div>
                 <div class="col-lg-12"><hr class="hr-perhitungan" style="margin-bottom: 0 !important" /></div>
                 <div class="col-lg-12">
@@ -279,7 +277,7 @@
               </div>     
               <div class="form-group row">
                 <div class="col-lg-12 text-right">
-                  <a class="btn btn-danger" href="https://wa.me/+6281262526666?text=Halo Kak Hesti, Saya mau panjar Mitsubishi Xpander. Gimana caranya?" target="_blank">Booking Fee</a>
+                  <a class="btn btn-danger" href="https://wa.me/+6281262526666?text=Halo Kak Hesti, Saya mau panjar Mitsubishi Pajero Sport. Gimana caranya?" target="_blank">Booking Fee</a>
                 </div>
                 <div class="col-lg-12"><hr class="hr-perhitungan" style="margin-bottom: 0 !important" /></div>
                 <div class="col-lg-12">
@@ -728,340 +726,7 @@
           </div>
         </div>
       </div>
-    </section>
-    
-    <!-- <section class="warnaProduct mt-5" id="warnaProduct">
-      <div class="container">   
-        <div class="row"> 
-          <div class="col-12 text-center mb-5">
-          <?php if ($_SESSION['category'] == 'XPANDER BLACK EDITION') : ?>
-            <img src="<?= BASE_URL.DS.'assets/img/xpander/car/xpander-black-edition.png'; ?>" alt="Mitsubishi Sardana Xpander Black Edition Medan" class="img-color img-color-xpander-black-edition">
-          <?php else : ?>
-            <img src="<?= BASE_URL.DS.'assets/img/xpander/car/xpander-white.png'; ?>" alt="Mitsubishi Sardana Xpander Medan" class="img-color img-color-xpander">        
-          <?php endif; ?>
-          </div>
-          <div class="col-12 text-center tombol-warna"> 
-            <?php if ($_SESSION['category'] == 'XPANDER' || $_SESSION['category'] == 'XPANDER BLACK EDITION' ) : ?>           
-              <span class="mr-3 color-black palet" data-toggle="tooltip" data-placement="bottom" title="Diamond Black Mica" style="background: #050505"></span>      
-              <span class="mr-3 color-white palet" data-toggle="tooltip" data-placement="bottom" title="Quartz White Pearl" style="background: #F4F4F4"></span>
-            <?php endif; ?>
-            <?php if ($_SESSION['kode'] == '024' || $_SESSION['kode'] == '062' || $_SESSION['kode'] == '025' || $_SESSION['kode'] == '026' || $_SESSION['kode'] == '063' || $_SESSION['kode'] == '027' || $_SESSION['kode'] == '028') : ?>
-            <span class="mr-3 color-grey palet" data-toggle="tooltip" data-placement="bottom" title="Graphite Grey Metallic" style="background: #303034"></span>
-            <?php endif; ?>
-            <?php if ($_SESSION['kode'] == '063' || $_SESSION['kode'] == '027' || $_SESSION['kode'] == '028') : ?>
-              <span class="mr-3 color-silver palet" data-toggle="tooltip" data-placement="bottom" title="Sterling Silver Metallic" style="background: #81817F" ></span>        
-              <span class="mr-3 color-red palet" data-toggle="tooltip" data-placement="bottom" title="Red Metallic" style="background: #AB0104"></span>    
-              <span class="mr-3 color-bronze palet" data-toggle="tooltip" data-placement="bottom" title="Deep Bronze Metallic" style="background: #664019"></span>      
-            <?php endif;?>
-          </div>
-          <div class="col-12 text-center mt-3">
-            <p>* Warna dan bentuk di atas dapat berbeda dengan warna dan bentuk mobil sesungguhnya. Untuk konfirmasi ketersediaan warna silahkan hubungi <a href="https://wa.me/+628116541800?text=Halo Mitsubishi Sardana." target="_blank">Whatsapp</a> kami.</p>
-          </div>
-        </div>
-      </div>
-    </section>        
-    <section class="detailProduct mt-5" id="detailProduct">  
-      <div class="container-fluid" style="padding-left: 0; padding-right: 0">      
-        <div class="row" style="margin-right:0; margin-left:0">
-          <div class="col-lg-12">          
-            <ul class="nav nav-tabs nav-justified">
-              <li class="nav-item">
-                <a class="nav-link nav-link-exterior text-dark active" href="">Exterior</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-link-interior text-dark" href="">Interior</a>
-              </li>                    
-            </ul>
-          </div>
-          <div class="col-lg-12 mb-5">
-            <div class="swiper-container-exterior swiper-container-exterior-xpander">
-            <?php if ($_SESSION['category'] == 'XPANDER BLACK EDITION') : ?>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/back-moulding.jpg'; ?>" data-lightbox="exterior" data-title="Rear Under Garnish">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/back-moulding.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">       
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/black-beltline.jpg'; ?>" data-lightbox="exterior" data-title="Black Beltline & Quarter Moulding">       
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/black-beltline.jpg'; ?>" width="100%" >
-                  </a>
-                </div>
-                <div class="swiper-slide">    
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/black-mirror.jpg'; ?>" data-lightbox="exterior" data-title="Black Door Mirror">          
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/black-mirror.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/emblem.jpg'; ?>" data-lightbox="exterior" data-title="Special Emblem">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/emblem.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/front-corner-extension.jpg'; ?>" data-lightbox="exterior" data-title="Front Corner Extension">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/front-corner-extension.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/side-under-garnish.jpg'; ?>" data-lightbox="exterior" data-title="Side Under Garnish">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/side-under-garnish.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/velg.jpg'; ?>" data-lightbox="exterior" data-title="Black Paint Alloy Wheel">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/velg.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-              </div>
-            <?php else : ?>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/front-rear-bumper.jpg'; ?>" data-lightbox="exterior" data-title="Front/Rear Bumper">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/front-rear-bumper.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">       
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-camera.jpg'; ?>" data-lightbox="exterior" data-title="Rear Camera">       
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-camera.jpg'; ?>" width="100%" >
-                  </a>
-                </div>
-                <div class="swiper-slide">    
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-parking.jpg'; ?>" data-lightbox="exterior" data-title="Rear Parking">          
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-parking.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-spoiler.jpg'; ?>" data-lightbox="exterior" data-title="Rear Spoiler">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-spoiler.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-window-defogger.jpg'; ?>" data-lightbox="exterior" data-title="Rear Window Defogger">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-window-defogger.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/shark-fin-antenna.jpg'; ?>" data-lightbox="exterior" data-title="Shark Fin Antenna">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/shark-fin-antenna.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/velg.jpg'; ?>" data-lightbox="exterior" data-title="Velg">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/velg.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-              </div>
-            <?php endif; ?>
-            </div>
-            <div class="swiper-container-interior" style="display: none">
-            <?php if ($_SESSION['category'] == 'XPANDER BLACK EDITION') : ?>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/black-edition/head-unit.jpg'; ?>" data-lightbox="interior" data-title="7 Inch Audio Head Unit with Smartphone Connectivity">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/black-edition/head-unit.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/black-edition/special-seat.jpg'; ?>" data-lightbox="interior" data-title="Special Seat Cover with Red Lining">       
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/black-edition/special-seat.jpg'; ?>" width="100%" >
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'; ?>" data-lightbox="interior" data-title="Ac Double Blower">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'; ?>" width="100%">
-                  </a>
-                </div>            
-                <div class="swiper-slide">    
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/bottle-holder.jpg'; ?>" data-lightbox="interior" data-title="Bottle Holder">          
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/bottle-holder.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/coin-box.jpg'; ?>" data-lightbox="interior" data-title="Coin Box">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/coin-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/cup-holder-depan.jpg'; ?>" data-lightbox="interior" data-title="Cup Holder Depan">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/cup-holder-depan.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/front-console-box.jpg'; ?>" data-lightbox="interior" data-title="Front Console Box">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/front-console-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/front-door-pocket.jpg'; ?>" data-lightbox="interior" data-title="Front Door Pocket">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/front-door-pocket.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/gantungan-serbaguna.jpg'; ?>" data-lightbox="interior" data-title="Gantungan Serbaguna">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/gantungan-serbaguna.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/glove-box.jpg'; ?>" data-lightbox="interior" data-title="Glove Box">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/glove-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>            
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/high-contrast-speedometer.jpg'; ?>" data-lightbox="interior" data-title="High Contrast Speedometer">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/high-contrast-speedometer.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-lower-tray.jpg'; ?>" data-lightbox="interior" data-title="Instrument Panel Lower Tray">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-lower-tray.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-side.jpg'; ?>" data-lightbox="interior" data-title="Instrument Panel Side">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-side.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/interior-depan.png'; ?>" data-lightbox="interior" data-title="Interior Depan">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/interior-depan.png'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/kemudahan-akses.jpg'; ?>" data-lightbox="interior" data-title="Kemudahan Akses">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/kemudahan-akses.jpg'; ?>" width="100%">
-                  </a>
-                </div> 
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/tilt-telescopic-steering.jpg'; ?>" data-lightbox="interior" data-title="Tilt Telescopic Steering">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/tilt-telescopic-steering.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/twetter.jpg'; ?>" data-lightbox="interior" data-title="Twetter">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/twetter.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/sandaran-lengan.jpg'; ?>" data-lightbox="interior" data-title="Sandaran Lengan">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/sandaran-lengan.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-penyimpanan-serbaguna.jpg'; ?>" data-lightbox="interior" data-title="Ruang Penyimpanan Serbaguna">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-penyimpanan-serbaguna.jpg'; ?>" width="100%">
-                  </a>
-                </div>           
-              </div>
-            <?php else : ?>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'; ?>" data-lightbox="interior" data-title="Ac Double Blower">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">       
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/black-interior.jpg'; ?>" data-lightbox="interior" data-title="Black Interior">       
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/black-interior.jpg'; ?>" width="100%" >
-                  </a>
-                </div>
-                <div class="swiper-slide">    
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/bottle-holder.jpg'; ?>" data-lightbox="interior" data-title="Bottle Holder">          
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/bottle-holder.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/coin-box.jpg'; ?>" data-lightbox="interior" data-title="Coin Box">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/coin-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/cup-holder-depan.jpg'; ?>" data-lightbox="interior" data-title="Cup Holder Depan">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/cup-holder-depan.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/front-console-box.jpg'; ?>" data-lightbox="interior" data-title="Front Console Box">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/front-console-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/front-door-pocket.jpg'; ?>" data-lightbox="interior" data-title="Front Door Pocket">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/front-door-pocket.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/gantungan-serbaguna.jpg'; ?>" data-lightbox="interior" data-title="Gantungan Serbaguna">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/gantungan-serbaguna.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/glove-box.jpg'; ?>" data-lightbox="interior" data-title="Glove Box">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/glove-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-bagasi-luas.jpg'; ?>" data-lightbox="interior" data-title="Ruang Bagasi Luas">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-bagasi-luas.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/high-contrast-speedometer.jpg'; ?>" data-lightbox="interior" data-title="High Contrast Speedometer">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/high-contrast-speedometer.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-lower-tray.jpg'; ?>" data-lightbox="interior" data-title="Instrument Panel Lower Tray">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-lower-tray.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-side.jpg'; ?>" data-lightbox="interior" data-title="Instrument Panel Side">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-side.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/interior-depan.png'; ?>" data-lightbox="interior" data-title="Interior Depan">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/interior-depan.png'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/kemudahan-akses.jpg'; ?>" data-lightbox="interior" data-title="Kemudahan Akses">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/kemudahan-akses.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-kabin-senyap.jpg'; ?>" data-lightbox="interior" data-title="Ruang Kabin Senyap">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-kabin-senyap.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/tilt-telescopic-steering.jpg'; ?>" data-lightbox="interior" data-title="Tilt Telescopic Steering">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/tilt-telescopic-steering.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/twetter.jpg'; ?>" data-lightbox="interior" data-title="Twetter">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/twetter.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/sandaran-lengan.jpg'; ?>" data-lightbox="interior" data-title="Sandaran Lengan">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/sandaran-lengan.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-penyimpanan-serbaguna.jpg'; ?>" data-lightbox="interior" data-title="Ruang Penyimpanan Serbaguna">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-penyimpanan-serbaguna.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-              </div>
-            <?php endif; ?>
-            </div>          
-          </div>
-        </div>
-      </div>
-    </section>     -->
-
+    </section>    
   
     <!-- Footer -->
     <?php require_once '../../footer.php'; ?>
@@ -1107,7 +772,7 @@
           $.ajax ({
             type: "post",
             data: {kode: kode, tipe: tipe},
-            url: "../../json/data-xpander.php",
+            url: "../../json/data-pajero-sport.php",
             success: function(data) {
               let hasil = JSON.parse(data);
               let totalCicilan = 0.2 * hasil.harga;
@@ -1115,7 +780,7 @@
               let tampilTotalCicilan = rpFormat.format(totalCicilan);
               let tampilCicilanPerBulan = rpFormat.format(cicilanPerBulan);
               let hargaOtr = rpFormat.format(hasil.harga);
-              $('#carTitle').html('MITSUBISHI XPANDER ' + hasil.tipe);
+              $('#carTitle').html('PAJERO SPORT ' + hasil.tipe);
               $('#plainTextHargaOtr').val(hargaOtr.substring(0, hargaOtr.length - 3));
 
               if (window.matchMedia("(min-width: 800px)").matches) {
@@ -1140,7 +805,7 @@
               $('.perhitungan').css('display', 'none');
             }
           });
-        });     
+        });
 
         setWarna();
         
