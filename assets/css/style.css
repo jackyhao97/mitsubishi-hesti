@@ -288,7 +288,7 @@ section.footer .tetap::after {
 }
 
 .outer-container-profile {
-  background: url(https://mitsubishimedan-vandys.id/assets/img/bg-profile.jpg);
+  background: url(https://hesti.mitsubishimedan-vandys.id/assets/img/bg.jpg);
   background-size: cover;
   text-align: right;
 }
@@ -723,7 +723,7 @@ section.footer .tutup i {
   }
 
   .outer-container-profile {
-    background: url(https://mitsubishimedan-vandys.id/assets/img/bg-profile-mb.jpg);
+    background: url(https://hesti.mitsubishimedan-vandys.id/assets/img/bg.jpg);
     background-size: cover;
     text-align: center;
   }
@@ -756,7 +756,7 @@ section.footer .tutup i {
   }
 
   .bg-profile {
-    width: 60%;
+    width: 50%;
   }
 
   section.main-product .spek-mobile {

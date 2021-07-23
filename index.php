@@ -1,5 +1,5 @@
 <?php
-  require_once "config.php";
+  require_once "../config.php";
 ?>
 
 <!DOCTYPE html>
@@ -90,13 +90,13 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="<?=BASE_URL.DS.'assets/img/cv.jpg'?>" class="d-block w-100" alt="...">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-rf-limited.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Rockford Limited">
         </div>
         <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/cv.jpg'?>" class="d-block w-100" alt="...">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.jpg'?>" class="d-block w-100" alt="Mitsubishi Pajero Sport">
         </div>
         <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/cv.jpg'?>" class="d-block w-100" alt="...">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-cv.jpg'?>" class="d-block w-100" alt="Mitsubishi Fuso & Colt Diesel">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -117,7 +117,7 @@
           <img class="bg-profile" src="<?= BASE_URL.DS.'assets/img/bg-foto.png'; ?>" alt="Hesti Ratnasari Karo Karo">
         </div>
         <div class="col-12 col-lg-6 container-profile">        
-          <h1 class="mmc-bold">Hesti Ratnasari Karo Karo</h1>
+          <h1 class="mmc-bold">Hesti Surbakti</h1>
           <h5 class="mmc-bold">Counter Sales</h5>
           <p class="mt-2 p-profile">Hesti, Sales counter Sardana Berlian yang sudah mengabdi selama bertahun - tahun. Pengalaman Hesti dalam menangani Customer sudah tidak usah diragukan lagi karena sudah banyak Customer Hesti yang senang bertransaksi dengan Hesti sendiri.
           <div class="mb-5">
@@ -141,6 +141,122 @@
           <div class="swiper-wrapper">
             <?php
               $sql = $conn->query("SELECT * FROM tb_harga WHERE (merek = 'XPANDER' OR merek = 'XPANDER BLACK EDITION') AND discontinue = 0 ORDER BY merek DESC, urutan");
+              while ($row = $sql->fetch_assoc()) :
+                $dp = 0.2 * $row["harga"];
+                $cicilan = ($row["harga"] - $dp) / 60;
+            ?>      
+            <div class="swiper-slide">
+              <form action="product/xpander/" method="post">          
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row no-gutters">
+                    <div class="col-md-12 text-center">
+                      <img src="<?= BASE_URL.DS.'assets/img/xpander/red-ultimate-xpander.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Medan">
+                    </div>
+                    <div class="col-md-12">
+                      <div class="card-body">
+                        <h5 class="card-title text-center">Mitsubishi Xpander</h5>
+                        <div class="row">
+                          <div class="col-5">Harga mulai</div>
+                          <div class="col-7"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-5">DP (20%) mulai</div>
+                          <div class="col-7"><?= "Rp " . number_format($dp, 0, ",", "."); ?></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-5">Cicilan (5thn) mulai</div>
+                          <div class="col-7"><?= "Rp " . number_format($cicilan, 0, ",", ".") . " / Bulan"; ?></div>
+                        </div>     
+                        <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</small></p>
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <input type="hidden" name="title" value="<?= $row['tipe']; ?>">
+                            <input type="hidden" name="price" value="<?= $row['harga']; ?>">
+                            <input type="hidden" name="category" value="<?= $row['merek']; ?>">
+                            <input type="hidden" name="kode" value="<?= $row['kode']; ?>">
+                            <input type="hidden" name="varian" value="<?= $row['varian']; ?>">
+                            <button type="submit" class="btn btn-danger" name="cmdSubmit">Telusuri</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>              
+                  </div>   
+                </div>          
+              </form>              
+            </div>      
+            <?php endwhile; ?>
+          </div>
+          <div class="swiper-button-next swiper-button-next-custom swiper-button-next-xpander"></div>
+          <div class="swiper-button-prev swiper-button-prev-custom swiper-button-prev-xpander"></div>
+          <div class="swiper-pagination swiper-pagination-xpander"></div>
+        </div>
+        <div class="row mb-2 mt-4">
+          <div class="col-md-12">
+            <h2 class="title">LIGHT COMMERCIAL VEHICLE</h2>
+          </div>
+        </div>
+        <div class="swiper-container swiper-container-xpander text-dark">
+          <div class="swiper-wrapper">
+            <?php
+              $sql = $conn->query("SELECT * FROM tb_harga WHERE (merek = 'TRITON' OR merek = 'L300') AND discontinue = 0 ORDER BY merek DESC, urutan");
+              while ($row = $sql->fetch_assoc()) :
+                $dp = 0.2 * $row["harga"];
+                $cicilan = ($row["harga"] - $dp) / 60;
+            ?>      
+            <div class="swiper-slide">
+              <form action="product/xpander/" method="post">          
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row no-gutters">
+                    <div class="col-md-12 text-center">
+                      <img src="<?= BASE_URL.DS.'assets/img/xpander/red-ultimate-xpander.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Medan">
+                    </div>
+                    <div class="col-md-12">
+                      <div class="card-body">
+                        <h5 class="card-title text-center">Mitsubishi Xpander</h5>
+                        <div class="row">
+                          <div class="col-5">Harga mulai</div>
+                          <div class="col-7"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-5">DP (20%) mulai</div>
+                          <div class="col-7"><?= "Rp " . number_format($dp, 0, ",", "."); ?></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-5">Cicilan (5thn) mulai</div>
+                          <div class="col-7"><?= "Rp " . number_format($cicilan, 0, ",", ".") . " / Bulan"; ?></div>
+                        </div>     
+                        <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara<br />* DP dan Cicilan merupakan estimasi, belum termasuk bunga, Asuransi, dll.</small></p>
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <input type="hidden" name="title" value="<?= $row['tipe']; ?>">
+                            <input type="hidden" name="price" value="<?= $row['harga']; ?>">
+                            <input type="hidden" name="category" value="<?= $row['merek']; ?>">
+                            <input type="hidden" name="kode" value="<?= $row['kode']; ?>">
+                            <input type="hidden" name="varian" value="<?= $row['varian']; ?>">
+                            <button type="submit" class="btn btn-danger" name="cmdSubmit">Telusuri</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>              
+                  </div>   
+                </div>          
+              </form>              
+            </div>      
+            <?php endwhile; ?>
+          </div>
+          <div class="swiper-button-next swiper-button-next-custom swiper-button-next-xpander"></div>
+          <div class="swiper-button-prev swiper-button-prev-custom swiper-button-prev-xpander"></div>
+          <div class="swiper-pagination swiper-pagination-xpander"></div>
+        </div>
+        <div class="row mb-2 mt-4">
+          <div class="col-md-12">
+            <h2 class="title">COMMERCIAL VEHICLE</h2>
+          </div>
+        </div>
+        <div class="swiper-container swiper-container-xpander text-dark">
+          <div class="swiper-wrapper">
+            <?php
+              $sql = $conn->query("SELECT * FROM tb_harga WHERE (merek = 'FUSO' OR merek = 'COLT DIESEL') AND discontinue = 0 ORDER BY merek DESC, urutan");
               while ($row = $sql->fetch_assoc()) :
                 $dp = 0.2 * $row["harga"];
                 $cicilan = ($row["harga"] - $dp) / 60;
