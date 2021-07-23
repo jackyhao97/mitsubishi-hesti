@@ -509,8 +509,13 @@ section.product .produk {
 }
 
 .img-testimoni {
-  border: 2px solid white;
+  border: 5px solid white;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+.cp {
+  cursor: pointer;
 }
 
 /* Style the links inside the sidenav */
@@ -599,8 +604,131 @@ section.footer .tutup i {
   width: 70%;
 }
 
+.desc-height {
+  height: 100px;
+}
+
+.desc-height-cv {
+  height: 250px;
+}
+
+.mainProduct {
+  margin-top: 40px;
+}
+
+.interior-up {
+  padding: 30px;
+}
+
+.container-exterior {
+  text-align: right;
+}
+
+#hoverableSidenav a {
+  position: fixed;
+  left: -50px;
+  transition: 0.3s;
+  padding: 5px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 0 5px 0 0;
+  display: flex;
+  align-items: center;
+  z-index: 10000;
+}
+
+#hoverableSidenav a:first-child {
+  left: -50px;
+  padding: 5px 0;
+}
+
+#hoverableSidenav a:nth-child(2),
+#hoverableSidenav a:nth-child(4) {
+  left: -80px;
+  width: 150px;
+  border-radius: 0;
+}
+
+#hoverableSidenav a:nth-child(3) {
+  left: -100px;
+  width: 170px;
+  padding: 10px 5px;
+  border-radius: 0;
+}
+
+#hoverableSidenav a:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+#hoverableSidenav i {
+  font-size: 40px;
+}
+
+#hoverableSidenav a:first-child i {
+  font-size: 50px;
+}
+
+#hoverableSidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+#hoverableSidenav a i {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#whatsapp {
+  top: 35%;
+  background-color: #4caf50;
+}
+
+#booking {
+  top: 45.1%;
+  background-color: #2196f3;
+}
+
+#brochure {
+  top: 53.5%;
+  background-color: #f44336;
+}
+
+#simulasi {
+  top: 63.3%;
+  background-color: #555;
+}
+
+.media-mobile {
+  display: none;
+}
+
+section.testimoni {
+  background: url(http://hargamitsubishimedan.id/assets/img/gedung-footer-2.webp);
+  background-blend-mode: darken;
+  background-color: #a29999;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: -220px;
+  padding: 50px;
+}
+
+.fixed-promo {
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+
+.container-price {
+  margin-top: 50px;
+}
+
 /* Tablet */
 @media only screen and (min-device-width: 577px) and (max-device-width: 768px) and (orientation: portrait) {
+  .fixed-promo {
+    position: static;
+  }
+
   .img-vandys {
     width: 70%;
   }
@@ -639,6 +767,10 @@ section.footer .tutup i {
 
 /* Mobile (landscape) */
 @media only screen and (min-device-width: 577px) and (max-device-width: 768px) and (orientation: landscape) {
+  .fixed-promo {
+    position: static;
+  }
+
   .container-dealer,
   .container-tetap {
     margin-bottom: 1.5rem;
@@ -659,6 +791,72 @@ section.footer .tutup i {
 
 /* Mobile (Portrait) */
 @media (max-width: 576px) {
+  figure.table {
+    overflow: auto;
+  }
+
+  .fixed-promo {
+    position: static;
+  }
+
+  .img-testimoni {
+    margin-top: 20px;
+  }
+
+  .container-img-testimoni {
+    text-align: center;
+  }
+
+  .media-mobile {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px 20px 0;
+    color: white;
+    background: rgb(187, 17, 7);
+    z-index: 1000;
+  }
+
+  .icon-media-mobile {
+    border-radius: 15px 15px 0 0 !important;
+    border-top: 4px solid black;
+    border-bottom: none;
+  }
+
+  #hoverableSidenav {
+    display: none;
+  }
+  .container-interior,
+  .container-exterior {
+    text-align: center;
+  }
+
+  .desc-interior {
+    text-align: justify;
+    margin-top: 20px;
+  }
+
+  .desc-height {
+    height: 150px;
+  }
+
+  #carTitle {
+    text-align: center;
+  }
+
+  .hubungi {
+    display: none;
+  }
+
+  .container-logo {
+    text-align: center;
+  }
+
+  .desc-height-cv {
+    height: 300px;
+  }
+
   .img-promo {
     width: 100%;
   }
@@ -790,6 +988,10 @@ section.footer .tutup i {
 
 /* iPads Pro (Portrait) */
 @media only screen and (min-device-width: 800px) and (max-device-width: 1112px) and (orientation: portrait) {
+  .fixed-promo {
+    position: static;
+  }
+
   .container-dealer {
     margin-bottom: 1.5rem;
   }
@@ -797,4 +999,7 @@ section.footer .tutup i {
 
 /* iPads Pro (Landscape) */
 @media only screen and (min-device-width: 800px) and (max-device-width: 1112px) and (orientation: landscape) {
+  .fixed-promo {
+    position: static;
+  }
 }
