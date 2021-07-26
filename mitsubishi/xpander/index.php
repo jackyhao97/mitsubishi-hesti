@@ -63,14 +63,14 @@
             <div class="dropdown">
               <a class="btn btn-dark dropdown-toggle dropdown-produk text-uppercase mmc-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: black; border: 1px solid black">Produk</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background: black; padding: 0">
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/pajero-sport/'?>">PAJERO SPORT <img src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/thumbnail/new-pajero-sport-thumb.png" alt="Mitsubishi Pajero Sport" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/pajero-sport/'?>">PAJERO SPORT <img src="<?=BASE_URL.DS.'assets/img/thumbs/pajero-sport-thumb.png'?>" alt="Mitsubishi Pajero Sport" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">XPANDER <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-thumb.png'?>" alt="Mitsubishi Xpander" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander-cross/'?>">XPANDER CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" alt="Mitsubishi Xpander Cross" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">ECLIPSE CROSS <img src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/thumbnail/eclipse-cross-thumb.png" alt="Mitsubishi Eclipse Cross" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">TRITON <img src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/thumbnail/triton-thumb.png" alt="Mitsubishi Triton" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">L300 <img src="<?=BASE_URL.DS.'assets/img/thumbs/l300-thumb.png'?>" alt="Mitsubishi L300" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">COLT DIESEL <img src="https://sardanagroup.co.id/fuso-medan/assets/img/thumbnails/CD01.png" alt="Mitsubishi Colt Diesel" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">FUSO <img src="https://sardanagroup.co.id/fuso-medan/assets/img/thumbnails/FS01.png" alt="Mitsubishi Fuso" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/eclipse-cross/'?>">ECLIPSE CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/eclipse-cross-thumb.png'?>" alt="Mitsubishi Eclipse Cross" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/triton/'?>">TRITON <img src="<?=BASE_URL.DS.'assets/img/thumbs/triton-thumb.png'?>" alt="Mitsubishi Triton" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/l300/'?>">L300 <img src="<?=BASE_URL.DS.'assets/img/thumbs/l300-thumb.png'?>" alt="Mitsubishi L300" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/colt-diesel/'?>">COLT DIESEL <img src="<?=BASE_URL.DS.'assets/img/thumbs/colt-diesel-thumb.png'?>" alt="Mitsubishi Colt Diesel" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/fuso/'?>">FUSO <img src="<?=BASE_URL.DS.'assets/img/thumbs/fuso-thumb.png'?>" alt="Mitsubishi Fuso" class="img-dropdown"></a>
               </div>
             </div>
           </li>
@@ -343,201 +343,6 @@
     <section class="interior" id="interior">
       <div class="container">
         <div class="row align-items-center interior-up">
-          <div class="col-12 col-md-5 container-interior">
-            <h1 class="mmc-bold">Interior</h1>
-            <a
-              class="btn btn-danger"
-              href="https://wa.me/+6285262526666?text=Halo Kak Hesti"
-              target="_blank"
-            >
-              <span class="mmc-bold">ORDER NOW</span>
-            </a>
-          </div>
-          <div class="col-12 col-md-7">
-            <p class="desc-interior">
-              Nuansa beige serta aksen kayu berkualitas memberikan kesah modern & mewah
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-container swiper-container-interior mb-3">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="<?=BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'?>"
-                data-lightbox="interior"
-                data-title="AC Double Blower"
-              >
-                <img
-                  src="<?=BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'?>"
-                  alt="AC Double Blower"
-                  class="w-100"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/2.jpg"
-                data-lightbox="interior"
-                data-title="New 8 Inch Color LCD Meter"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/2.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/3.jpg"
-                data-lightbox="interior"
-                data-title="Head Unit With Smartphone-Link Display Audio"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/3.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/4.png"
-                data-lightbox="interior"
-                data-title="New Auto Dimming Rear View Mirror"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/4.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/5.png"
-                data-lightbox="interior"
-                data-title="Stylish Floor Console With Soft Pad"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/5.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/6.jpg"
-                data-lightbox="interior"
-                data-title="Dual Zone Automatic AC"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/6.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/7.jpg"
-                data-lightbox="interior"
-                data-title="Electric Parking Brake + New Brake Auto Hold"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/7.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/8.png"
-                data-lightbox="interior"
-                data-title="Comfortable Interior Side"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/8.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/9.png"
-                data-lightbox="interior"
-                data-title="2nd Row Power Outlet"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/9.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/10.png"
-                data-lightbox="interior"
-                data-title="Comfortable 2nd Row Seat With Arm Rest & Cup Holder"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/10.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/11.png"
-                data-lightbox="interior"
-                data-title="Roof Monitor"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/11.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/12.png"
-                data-lightbox="interior"
-                data-title="Spacious Baggage"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/12.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="exterior" id="exterior">
-      <div class="container">
-        <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5">
             <p class="desc-interior">
               Desain eksterior yang kuat dan kokoh dan berkaratek layaknya sebuah SUV
@@ -555,17 +360,148 @@
           </div>          
         </div>
       </div>
+      <div class="swiper-container swiper-container-interior mb-3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <a
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/front-rear-bumper.jpg"
+                data-lightbox="interior"
+                data-title="Front Rear Bumper"
+              >
+                <img
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/front-rear-bumper.jpg"
+                  alt="Front Rear Bumper"
+                  class="w-100"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <a
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/rear-camera.jpg"
+                data-lightbox="interior"
+                data-title="Rear Camera"
+              >
+                <img
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/rear-camera.jpg"
+                  alt="Rear Camera"
+                  class="w-100"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <a
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/rear-parking.jpg"
+                data-lightbox="interior"
+                data-title="Rear Parking"
+              >
+                <img
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/rear-parking.jpg"
+                  alt="Rear Parking"
+                  class="w-100"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <a
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/rear-spoiler.jpg"
+                data-lightbox="interior"
+                data-title="Rear Spoiler"
+              >
+                <img
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/rear-spoiler.jpg"
+                  alt="Rear Spoiler"
+                  class="w-100"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <a
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/rear-window-defogger.jpg"
+                data-lightbox="interior"
+                data-title="Rear Window Defogger"
+              >
+                <img
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/rear-window-defogger.jpg"
+                  alt="Rear Window Defogger"
+                  class="w-100"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <a
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/shark-fin-antenna.jpg"
+                data-lightbox="interior"
+                data-title="Shark Fin Antenna"
+              >
+                <img
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/shark-fin-antenna.jpg"
+                  alt="Shark Fin Antenna"
+                  class="w-100"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <a
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/velg.jpg"
+                data-lightbox="interior"
+                data-title="Velg"
+              >
+                <img
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/exterior/velg.jpg"
+                  alt="Velg"
+                  class="w-100"
+                />
+              </a>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="exterior" id="exterior">
+      <div class="container">
+        <div class="row align-items-center interior-up">
+          <div class="col-12 col-md-5 container-interior">
+            <h1 class="mmc-bold">Interior</h1>
+            <a
+              class="btn btn-danger"
+              href="https://wa.me/+6285262526666?text=Halo Kak Hesti"
+              target="_blank"
+            >
+              <span class="mmc-bold">ORDER NOW</span>
+            </a>
+          </div>
+          <div class="col-12 col-md-7">
+            <p class="desc-interior">
+              Nuansa beige serta aksen kayu berkualitas memberikan kesah modern & mewah
+            </p>
+          </div>
+        </div>
+      </div>
       <div class="swiper-container swiper-container-exterior mb-3">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="card">
               <a
-                href="<?=BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'?>"
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/ac-double-blower.jpg"
                 data-lightbox="interior"
                 data-title="AC Double Blower"
               >
                 <img
-                  src="<?=BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'?>"
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/ac-double-blower.jpg"
                   alt="AC Double Blower"
                   class="w-100"
                 />
@@ -575,13 +511,14 @@
           <div class="swiper-slide">
             <div class="card">
               <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/2.jpg"
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/black-interior.jpg"
                 data-lightbox="interior"
-                data-title="New 8 Inch Color LCD Meter"
+                data-title="Black Interior"
               >
                 <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/2.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/black-interior.jpg"
+                  alt="Black Interior"
+                  class="w-100"
                 />
               </a>
             </div>
@@ -589,13 +526,14 @@
           <div class="swiper-slide">
             <div class="card">
               <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/3.jpg"
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/bottle-holder.jpg"
                 data-lightbox="interior"
-                data-title="Head Unit With Smartphone-Link Display Audio"
+                data-title="Bottle Holder"
               >
                 <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/3.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/bottle-holder.jpg"
+                  alt="Bottle Holder"
+                  class="w-100"
                 />
               </a>
             </div>
@@ -603,13 +541,14 @@
           <div class="swiper-slide">
             <div class="card">
               <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/4.png"
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/coin-box.jpg"
                 data-lightbox="interior"
-                data-title="New Auto Dimming Rear View Mirror"
+                data-title="Coin Box"
               >
                 <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/4.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/coin-box.jpg"
+                  alt="Coin Box"
+                  class="w-100"
                 />
               </a>
             </div>
@@ -617,13 +556,14 @@
           <div class="swiper-slide">
             <div class="card">
               <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/5.png"
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/cup-holder-depan.jpg"
                 data-lightbox="interior"
-                data-title="Stylish Floor Console With Soft Pad"
+                data-title="Front Cup Holder"
               >
                 <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/5.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/cup-holder-depan.jpg"
+                  alt="Front Cup Holder"
+                  class="w-100"
                 />
               </a>
             </div>
@@ -631,437 +571,21 @@
           <div class="swiper-slide">
             <div class="card">
               <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/6.jpg"
+                href="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/front-console-box.jpg"
                 data-lightbox="interior"
-                data-title="Dual Zone Automatic AC"
+                data-title="Front Console Box"
               >
                 <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/6.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
+                  src="https://mitsubishimedan-vandys.id/assets/img/xpander/interior/front-console-box.jpg"
+                  alt="Front Console Box"
+                  class="w-100"
                 />
               </a>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/7.jpg"
-                data-lightbox="interior"
-                data-title="Electric Parking Brake + New Brake Auto Hold"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/7.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/8.png"
-                data-lightbox="interior"
-                data-title="Comfortable Interior Side"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/8.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/9.png"
-                data-lightbox="interior"
-                data-title="2nd Row Power Outlet"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/9.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/10.png"
-                data-lightbox="interior"
-                data-title="Comfortable 2nd Row Seat With Arm Rest & Cup Holder"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/10.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/11.png"
-                data-lightbox="interior"
-                data-title="Roof Monitor"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/11.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/12.png"
-                data-lightbox="interior"
-                data-title="Spacious Baggage"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/12.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- <section class="warnaProduct mt-5" id="warnaProduct">
-      <div class="container">   
-        <div class="row"> 
-          <div class="col-12 text-center mb-5">
-          <?php if ($_SESSION['category'] == 'XPANDER BLACK EDITION') : ?>
-            <img src="<?= BASE_URL.DS.'assets/img/xpander/car/xpander-black-edition.png'; ?>" alt="Mitsubishi Sardana Xpander Black Edition Medan" class="img-color img-color-xpander-black-edition">
-          <?php else : ?>
-            <img src="<?= BASE_URL.DS.'assets/img/xpander/car/xpander-white.png'; ?>" alt="Mitsubishi Sardana Xpander Medan" class="img-color img-color-xpander">        
-          <?php endif; ?>
-          </div>
-          <div class="col-12 text-center tombol-warna"> 
-            <?php if ($_SESSION['category'] == 'XPANDER' || $_SESSION['category'] == 'XPANDER BLACK EDITION' ) : ?>           
-              <span class="mr-3 color-black palet" data-toggle="tooltip" data-placement="bottom" title="Diamond Black Mica" style="background: #050505"></span>      
-              <span class="mr-3 color-white palet" data-toggle="tooltip" data-placement="bottom" title="Quartz White Pearl" style="background: #F4F4F4"></span>
-            <?php endif; ?>
-            <?php if ($_SESSION['kode'] == '024' || $_SESSION['kode'] == '062' || $_SESSION['kode'] == '025' || $_SESSION['kode'] == '026' || $_SESSION['kode'] == '063' || $_SESSION['kode'] == '027' || $_SESSION['kode'] == '028') : ?>
-            <span class="mr-3 color-grey palet" data-toggle="tooltip" data-placement="bottom" title="Graphite Grey Metallic" style="background: #303034"></span>
-            <?php endif; ?>
-            <?php if ($_SESSION['kode'] == '063' || $_SESSION['kode'] == '027' || $_SESSION['kode'] == '028') : ?>
-              <span class="mr-3 color-silver palet" data-toggle="tooltip" data-placement="bottom" title="Sterling Silver Metallic" style="background: #81817F" ></span>        
-              <span class="mr-3 color-red palet" data-toggle="tooltip" data-placement="bottom" title="Red Metallic" style="background: #AB0104"></span>    
-              <span class="mr-3 color-bronze palet" data-toggle="tooltip" data-placement="bottom" title="Deep Bronze Metallic" style="background: #664019"></span>      
-            <?php endif;?>
-          </div>
-          <div class="col-12 text-center mt-3">
-            <p>* Warna dan bentuk di atas dapat berbeda dengan warna dan bentuk mobil sesungguhnya. Untuk konfirmasi ketersediaan warna silahkan hubungi <a href="https://wa.me/+628116541800?text=Halo Mitsubishi Sardana." target="_blank">Whatsapp</a> kami.</p>
-          </div>
+          </div>          
         </div>
       </div>
     </section>        
-    <section class="detailProduct mt-5" id="detailProduct">  
-      <div class="container-fluid" style="padding-left: 0; padding-right: 0">      
-        <div class="row" style="margin-right:0; margin-left:0">
-          <div class="col-lg-12">          
-            <ul class="nav nav-tabs nav-justified">
-              <li class="nav-item">
-                <a class="nav-link nav-link-exterior text-dark active" href="">Exterior</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-link-interior text-dark" href="">Interior</a>
-              </li>                    
-            </ul>
-          </div>
-          <div class="col-lg-12 mb-5">
-            <div class="swiper-container-exterior swiper-container-exterior-xpander">
-            <?php if ($_SESSION['category'] == 'XPANDER BLACK EDITION') : ?>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/back-moulding.jpg'; ?>" data-lightbox="exterior" data-title="Rear Under Garnish">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/back-moulding.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">       
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/black-beltline.jpg'; ?>" data-lightbox="exterior" data-title="Black Beltline & Quarter Moulding">       
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/black-beltline.jpg'; ?>" width="100%" >
-                  </a>
-                </div>
-                <div class="swiper-slide">    
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/black-mirror.jpg'; ?>" data-lightbox="exterior" data-title="Black Door Mirror">          
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/black-mirror.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/emblem.jpg'; ?>" data-lightbox="exterior" data-title="Special Emblem">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/emblem.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/front-corner-extension.jpg'; ?>" data-lightbox="exterior" data-title="Front Corner Extension">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/front-corner-extension.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/side-under-garnish.jpg'; ?>" data-lightbox="exterior" data-title="Side Under Garnish">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/side-under-garnish.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/velg.jpg'; ?>" data-lightbox="exterior" data-title="Black Paint Alloy Wheel">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/black-edition/velg.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-              </div>
-            <?php else : ?>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/front-rear-bumper.jpg'; ?>" data-lightbox="exterior" data-title="Front/Rear Bumper">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/front-rear-bumper.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">       
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-camera.jpg'; ?>" data-lightbox="exterior" data-title="Rear Camera">       
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-camera.jpg'; ?>" width="100%" >
-                  </a>
-                </div>
-                <div class="swiper-slide">    
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-parking.jpg'; ?>" data-lightbox="exterior" data-title="Rear Parking">          
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-parking.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-spoiler.jpg'; ?>" data-lightbox="exterior" data-title="Rear Spoiler">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-spoiler.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-window-defogger.jpg'; ?>" data-lightbox="exterior" data-title="Rear Window Defogger">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/rear-window-defogger.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/shark-fin-antenna.jpg'; ?>" data-lightbox="exterior" data-title="Shark Fin Antenna">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/shark-fin-antenna.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/exterior/velg.jpg'; ?>" data-lightbox="exterior" data-title="Velg">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/exterior/velg.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-              </div>
-            <?php endif; ?>
-            </div>
-            <div class="swiper-container-interior" style="display: none">
-            <?php if ($_SESSION['category'] == 'XPANDER BLACK EDITION') : ?>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/black-edition/head-unit.jpg'; ?>" data-lightbox="interior" data-title="7 Inch Audio Head Unit with Smartphone Connectivity">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/black-edition/head-unit.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/black-edition/special-seat.jpg'; ?>" data-lightbox="interior" data-title="Special Seat Cover with Red Lining">       
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/black-edition/special-seat.jpg'; ?>" width="100%" >
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'; ?>" data-lightbox="interior" data-title="Ac Double Blower">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'; ?>" width="100%">
-                  </a>
-                </div>            
-                <div class="swiper-slide">    
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/bottle-holder.jpg'; ?>" data-lightbox="interior" data-title="Bottle Holder">          
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/bottle-holder.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/coin-box.jpg'; ?>" data-lightbox="interior" data-title="Coin Box">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/coin-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/cup-holder-depan.jpg'; ?>" data-lightbox="interior" data-title="Cup Holder Depan">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/cup-holder-depan.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/front-console-box.jpg'; ?>" data-lightbox="interior" data-title="Front Console Box">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/front-console-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/front-door-pocket.jpg'; ?>" data-lightbox="interior" data-title="Front Door Pocket">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/front-door-pocket.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/gantungan-serbaguna.jpg'; ?>" data-lightbox="interior" data-title="Gantungan Serbaguna">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/gantungan-serbaguna.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/glove-box.jpg'; ?>" data-lightbox="interior" data-title="Glove Box">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/glove-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>            
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/high-contrast-speedometer.jpg'; ?>" data-lightbox="interior" data-title="High Contrast Speedometer">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/high-contrast-speedometer.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-lower-tray.jpg'; ?>" data-lightbox="interior" data-title="Instrument Panel Lower Tray">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-lower-tray.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-side.jpg'; ?>" data-lightbox="interior" data-title="Instrument Panel Side">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-side.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/interior-depan.png'; ?>" data-lightbox="interior" data-title="Interior Depan">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/interior-depan.png'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/kemudahan-akses.jpg'; ?>" data-lightbox="interior" data-title="Kemudahan Akses">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/kemudahan-akses.jpg'; ?>" width="100%">
-                  </a>
-                </div> 
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/tilt-telescopic-steering.jpg'; ?>" data-lightbox="interior" data-title="Tilt Telescopic Steering">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/tilt-telescopic-steering.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/twetter.jpg'; ?>" data-lightbox="interior" data-title="Twetter">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/twetter.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/sandaran-lengan.jpg'; ?>" data-lightbox="interior" data-title="Sandaran Lengan">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/sandaran-lengan.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-penyimpanan-serbaguna.jpg'; ?>" data-lightbox="interior" data-title="Ruang Penyimpanan Serbaguna">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-penyimpanan-serbaguna.jpg'; ?>" width="100%">
-                  </a>
-                </div>           
-              </div>
-            <?php else : ?>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'; ?>" data-lightbox="interior" data-title="Ac Double Blower">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">       
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/black-interior.jpg'; ?>" data-lightbox="interior" data-title="Black Interior">       
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/black-interior.jpg'; ?>" width="100%" >
-                  </a>
-                </div>
-                <div class="swiper-slide">    
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/bottle-holder.jpg'; ?>" data-lightbox="interior" data-title="Bottle Holder">          
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/bottle-holder.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/coin-box.jpg'; ?>" data-lightbox="interior" data-title="Coin Box">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/coin-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/cup-holder-depan.jpg'; ?>" data-lightbox="interior" data-title="Cup Holder Depan">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/cup-holder-depan.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">   
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/front-console-box.jpg'; ?>" data-lightbox="interior" data-title="Front Console Box">           
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/front-console-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/front-door-pocket.jpg'; ?>" data-lightbox="interior" data-title="Front Door Pocket">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/front-door-pocket.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/gantungan-serbaguna.jpg'; ?>" data-lightbox="interior" data-title="Gantungan Serbaguna">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/gantungan-serbaguna.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/glove-box.jpg'; ?>" data-lightbox="interior" data-title="Glove Box">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/glove-box.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-bagasi-luas.jpg'; ?>" data-lightbox="interior" data-title="Ruang Bagasi Luas">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-bagasi-luas.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/high-contrast-speedometer.jpg'; ?>" data-lightbox="interior" data-title="High Contrast Speedometer">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/high-contrast-speedometer.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-lower-tray.jpg'; ?>" data-lightbox="interior" data-title="Instrument Panel Lower Tray">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-lower-tray.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-side.jpg'; ?>" data-lightbox="interior" data-title="Instrument Panel Side">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/instrument-panel-side.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/interior-depan.png'; ?>" data-lightbox="interior" data-title="Interior Depan">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/interior-depan.png'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/kemudahan-akses.jpg'; ?>" data-lightbox="interior" data-title="Kemudahan Akses">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/kemudahan-akses.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-kabin-senyap.jpg'; ?>" data-lightbox="interior" data-title="Ruang Kabin Senyap">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-kabin-senyap.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/tilt-telescopic-steering.jpg'; ?>" data-lightbox="interior" data-title="Tilt Telescopic Steering">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/tilt-telescopic-steering.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/twetter.jpg'; ?>" data-lightbox="interior" data-title="Twetter">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/twetter.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/sandaran-lengan.jpg'; ?>" data-lightbox="interior" data-title="Sandaran Lengan">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/sandaran-lengan.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-                <div class="swiper-slide">              
-                  <a href="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-penyimpanan-serbaguna.jpg'; ?>" data-lightbox="interior" data-title="Ruang Penyimpanan Serbaguna">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/interior/ruang-penyimpanan-serbaguna.jpg'; ?>" width="100%">
-                  </a>
-                </div>
-              </div>
-            <?php endif; ?>
-            </div>          
-          </div>
-        </div>
-      </div>
-    </section>     -->
-
   
     <!-- Footer -->
     <?php require_once '../../footer.php'; ?>
