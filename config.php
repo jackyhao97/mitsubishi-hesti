@@ -19,7 +19,7 @@
   // $servername = "localhost";
   // $username = "mith3351_admin";
   // $password = "JackyVallent1997";
-  // $dbname = "mith3351_vandys";
+  // $dbname = "mith3351_hesti";
   // $conn = mysqli_connect($servername, $username, $password, $dbname);
   // if (!$conn) {
   //   echo "Failed to connect!";
