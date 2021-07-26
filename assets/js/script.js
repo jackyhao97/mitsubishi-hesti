@@ -832,6 +832,18 @@ $(document).ready(function () {
     },
   });
 
+  const swiperPajeroSport = new Swiper(
+    ".swiper-container-mitsubishi-pajero-sport",
+    {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next-mitsubishi-pajero-sport",
+        prevEl: ".swiper-button-prev-mitsubishi-pajero-sport",
+      },
+    }
+  );
+
   const swiperPromo = new Swiper(".swiper-container-promo", {
     slidesPerView: 1,
     spaceBetween: 10,
