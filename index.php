@@ -514,7 +514,7 @@
           </div>          
         </div>
         <div class="row mt-5 justify-content-center">
-          <a class="btn btn-lg btn-danger" href="<?=BASE_URL.DS.'testimoni-hesti-mitsubishi-medan/'?>">Lebih Lengkap</a>
+          <a class="btn btn-lg btn-danger" href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>">Lebih Lengkap</a>
         </div>
       </div>
     </section>

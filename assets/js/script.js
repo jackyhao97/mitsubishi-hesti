@@ -844,6 +844,30 @@ $(document).ready(function () {
     }
   );
 
+  const swiperEclipseCross = new Swiper(
+    ".swiper-container-mitsubishi-eclipse-cross",
+    {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next-mitsubishi-eclipse-cross",
+        prevEl: ".swiper-button-prev-mitsubishi-eclipse-cross",
+      },
+    }
+  );
+
+  const swiperXpanderCross = new Swiper(
+    ".swiper-container-mitsubishi-xpander-cross",
+    {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next-mitsubishi-xpander-cross",
+        prevEl: ".swiper-button-prev-mitsubishi-xpander-cross",
+      },
+    }
+  );
+
   const swiperPromo = new Swiper(".swiper-container-promo", {
     slidesPerView: 1,
     spaceBetween: 10,
