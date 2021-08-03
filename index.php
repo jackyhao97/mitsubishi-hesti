@@ -520,6 +520,53 @@
     </section>
     <!-- Akhir Testimoni -->
 
+    <section class="profile bg-light pt-5 pb-4" id="profile">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-xs-12">
+            <img src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>" alt="Mitsubishi Medan Hesti" class="w-100">
+          </div>
+          <div class="col-sm-8 col-xs-12">
+            <h1 class="text-danger mmc-bold">MAU TAU PROMO LAINNYA?</h1>
+            <p class="text-danger font-weight-bold">Hubungi <span class="text-dark">Hesti Surbakti</span> disini</p>
+            <hr style="background:red;border-top: 2px solid rgba(0,0,0,.1);">
+            <div class="row text-dark">
+              <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" height="60" viewBox="0 0 480 480" width="60"><path d="m339.27 136c-53.878-1.808-105.55-18.939-149.71-49.57-5.306-3.681-12.582.12-12.56 6.62 0 .2-.08 20.04-15.12 29.1-7.68 4.61-15.76 4.43-19.88 3.91-4.836-.594-9 3.181-9 7.94v76.13c0 58.99 48 106.99 107 106.99s107-48 107-106.99v-66.13c0-4.31-3.42-7.85-7.73-8zm-85.395 344h-27.751c-4.812 0-8.535-4.217-7.938-8.992l9.209-73.672c.612-4.899 5.493-8.155 10.203-6.674 1.438.452 3.345.453 4.787.004 4.72-1.47 9.606 1.763 10.219 6.669l9.209 73.673c.598 4.775-3.126 8.992-7.938 8.992zm-42.153-111.214-12.118 13.954c-2.156 2.482-6.219 1.449-6.926-1.762l-10.155-46.086c-.287-1.303 1.382-2.259 2.331-1.205l26.82 29.8c1.352 1.501 1.372 3.774.048 5.299zm68.673 13.953-12.118-13.953c-1.324-1.525-1.304-3.798.047-5.299l26.821-29.801c.929-1.032 2.625-.129 2.331 1.204l-10.155 46.087c-.707 3.211-4.77 4.244-6.926 1.762zm-78.582 90.253c-.5 4.003-3.904 7.008-7.938 7.008h-107.875c-4.418 0-8-3.582-8-8v-47.26c0-45.629 36.941-82.57 82.57-82.57 1.941 0 3.854-.169 5.727-.492.718-.124 1.409.319 1.566 1.031l14.325 65.012c1.411 6.404 9.544 8.485 13.853 3.524l7.141-8.223c2.591-2.984 7.479-.802 6.989 3.119zm200.187-48.252v47.26c0 4.418-3.582 8-8 8h-107.875c-4.035 0-7.438-3.004-7.938-7.008l-8.357-66.85c-.49-3.921 4.398-6.103 6.989-3.119l7.141 8.223c4.301 4.952 12.439 2.891 13.853-3.524l14.325-65.011c.157-.711.848-1.154 1.565-1.031 1.874.322 3.787.491 5.727.491 45.628-.001 82.57 36.939 82.57 82.569zm-30-337.2c0 101.629.015 95.29-.032 96.356-.255 5.786-8.968 5.496-8.968-.296v-39.6c0-12.901-10.226-23.54-23.19-23.99-49.4-1.654-98.425-17.094-141.13-46.73-15.843-10.994-37.636.316-37.68 19.68-.03.62-.59 11.39-7.37 15.47-3.55 2.14-7.57 2.02-9.64 1.76-14.481-1.823-26.99 9.554-26.99 23.81v49.6c0 5.791-8.714 6.081-8.968.296-.047-1.066-.032 5.466-.032-98.896 0-17.45 12.84-31.96 29.57-34.58 14.36-30.79 44.96-50.42 79.28-50.42h67.61c48.347 0 87.54 39.193 87.54 87.54zm-104.959 242.589c3.816-.859 6.49 3.66 3.873 6.567l-24.964 27.734c-3.18 3.54-8.72 3.54-11.9 0l-24.964-27.734c-2.617-2.907.057-7.426 3.873-6.567 17.709 3.985 36.335 3.993 54.082 0z"></path></svg>
+                <div class="container-profile-detail">
+                  <h5 class="mmc-bold">SENIOR SALES CONSULTANT</h5>
+                  <h5 class="mmc-bold text-danger">Hesti Surbakti</h5>
+                </div>                
+              </div>
+              <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">
+                <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.685 31.685" style="enable-background:new 0 0 31.685 31.685;" xml:space="preserve"> <g> <path d="M22.507,0H9.175C7.9,0,6.87,1.034,6.87,2.309v27.07c0,1.271,1.03,2.306,2.305,2.306h13.332 c1.273,0,2.307-1.034,2.307-2.306V2.309C24.813,1.034,23.78,0,22.507,0z M23.085,25.672H8.599V3.895h14.486V25.672z M18.932,2.343 h-6.181V1.669h6.182L18.932,2.343L18.932,2.343z M21.577,2.035c0,0.326-0.266,0.59-0.591,0.59c-0.326,0-0.591-0.265-0.591-0.59 s0.265-0.59,0.591-0.59C21.312,1.444,21.577,1.709,21.577,2.035z M18.655,29.225h-5.629v-1.732h5.629V29.225z"></path> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+                <div class="container-profile-detail">
+                  <h5 class="mmc-bold">PHONE</h5>                  
+                  <a href="tel:+6281262526666" class="mmc-bold text-danger">0812-6252-6666</a>
+                </div>                
+              </div>            
+            </div>
+            <div class="row text-dark">
+              <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">
+                <img alt="" data-src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" class="attachment-medium size-medium lazyloaded" src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" width="60" height="60">
+                <div class="container-profile-detail">
+                  <h5 class="mmc-bold">WHATSAPP</h5>
+                  <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." class="mmc-bold text-danger">0812-6252-6666</a>
+                </div>                
+              </div>
+              <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" height="60" viewBox="0 0 512 512" width="60"><g><path d="m476.861 456.764c-54.476 0-114.655 0-131.633 0v-31.867h121.165c-10.176-30.979-19.165-58.346-19.19-58.424-10.159 0-45.764 0-91.428 0-27.44 26.183-52.811 50.26-75.539 81.415l-24.238 33.225-24.235-33.227c-22.933-31.438-48.856-55.938-75.534-81.413-52.766 0-91.385 0-91.432 0-.158.483-9.091 27.676-19.19 58.424h121.165v31.867c-23.39 0-82.444 0-131.633 0-9.614 29.266-17.907 54.515-18.143 55.236h478.008c-.232-.709-8.527-25.964-18.143-55.236z"></path><path d="m256 430.207c72.315-99.128 175.27-137.375 175.27-254.938 0-100.434-74.836-175.269-175.27-175.269-100.402 0-175.27 74.835-175.27 175.27 0 117.547 102.988 155.841 175.27 254.937zm0-296.152c26.332 0 47.801 21.468 47.801 47.801 0 26.322-21.469 47.801-47.801 47.801-26.334 0-47.801-21.479-47.801-47.801 0-26.333 21.467-47.801 47.801-47.801z"></path></g></svg>
+                <div class="container-profile-detail">
+                  <h5 class="mmc-bold">LOKASI DEALER</h5>
+                  <a href="https://www.google.com/maps/place/Mitsubishi+Sardana+Medan+-+Gatot+Subroto/@3.5897229,98.6548474,17z/data=!3m1!4b1!4m5!3m4!1s0x30312f94a86ecdbb:0x83c7b521f607d461!8m2!3d3.5897229!4d98.6570361?hl=en" class="mmc-bold text-danger">JL. GATOT SUBROTO NO 437 MEDAN</a>                  
+                </div>                
+              </div>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <?php require_once 'footer.php'; ?>
     <!-- Akhir Footer -->
