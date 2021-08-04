@@ -856,6 +856,15 @@ $(document).ready(function () {
     }
   );
 
+  const swiperTriton = new Swiper(".swiper-container-mitsubishi-triton", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next-mitsubishi-triton",
+      prevEl: ".swiper-button-prev-mitsubishi-triton",
+    },
+  });
+
   const swiperXpanderCross = new Swiper(
     ".swiper-container-mitsubishi-xpander-cross",
     {
@@ -867,6 +876,15 @@ $(document).ready(function () {
       },
     }
   );
+
+  const swiperL300 = new Swiper(".swiper-container-mitsubishi-l300", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next-mitsubishi-l300",
+      prevEl: ".swiper-button-prev-mitsubishi-l300",
+    },
+  });
 
   const swiperPromo = new Swiper(".swiper-container-promo", {
     slidesPerView: 1,

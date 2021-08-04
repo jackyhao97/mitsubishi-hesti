@@ -136,51 +136,21 @@
           <div class="col-lg-6 pr-lg-5 scale-down">
             <div class="row">
               <div class="col-lg-12" style="border: 1px solid #aaa">
-                <div class="swiper-container swiper-container-mitsubishi-xpander">                
+                <div class="swiper-container swiper-container-mitsubishi-l300">                
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">                
-                      <a href="<?= BASE_URL.DS.'assets/img/xpander/1.webp'; ?>" data-lightbox="view-xpander" class="display">
-                        <img src="<?= BASE_URL.DS.'assets/img/xpander/1.webp'; ?>" width="100%">
+                      <a href="<?= BASE_URL.DS.'assets/img/l300/1.webp'; ?>" data-lightbox="view-l300" class="display">
+                        <img src="<?= BASE_URL.DS.'assets/img/l300/1.webp'; ?>" width="100%">
                       </a>                  
                     </div>                
                     <div class="swiper-slide">
-                      <a href="<?= BASE_URL.DS.'assets/img/xpander/2.webp'; ?>" data-lightbox="view-xpander" class="display">
-                        <img src="<?= BASE_URL.DS.'assets/img/xpander/2.webp'; ?>" width="100%">
+                      <a href="<?= BASE_URL.DS.'assets/img/l300/3.webp'; ?>" data-lightbox="view-l300" class="display">
+                        <img src="<?= BASE_URL.DS.'assets/img/l300/3.webp'; ?>" width="100%">
                       </a>                  
-                    </div>                                         
-                    <div class="swiper-slide">
-                      <a href="<?= BASE_URL.DS.'assets/img/xpander/3.webp'; ?>" data-lightbox="view-xpander" class="display">
-                        <img src="<?= BASE_URL.DS.'assets/img/xpander/3.webp'; ?>" width="100%">
-                      </a>                  
-                    </div>                
-                    <div class="swiper-slide">
-                      <a href="<?= BASE_URL.DS.'assets/img/xpander/4.webp'; ?>" data-lightbox="view-xpander" class="display">
-                        <img src="<?= BASE_URL.DS.'assets/img/xpander/4.webp'; ?>" width="100%">
-                      </a>     
-                    </div>  
-                    <div class="swiper-slide">
-                      <a href="<?= BASE_URL.DS.'assets/img/xpander/5.webp'; ?>" data-lightbox="view-xpander" class="display">
-                        <img src="<?= BASE_URL.DS.'assets/img/xpander/5.webp'; ?>" width="100%">
-                      </a>                  
-                    </div>                     
-                    <div class="swiper-slide">
-                      <a href="<?= BASE_URL.DS.'assets/img/xpander/6.webp'; ?>" data-lightbox="view-xpander" class="display">
-                        <img src="<?= BASE_URL.DS.'assets/img/xpander/6.webp'; ?>" width="100%">
-                      </a>                  
-                    </div>                     
-                    <div class="swiper-slide">
-                      <a href="<?= BASE_URL.DS.'assets/img/xpander/7.webp'; ?>" data-lightbox="view-xpander" class="display">
-                        <img src="<?= BASE_URL.DS.'assets/img/xpander/7.webp'; ?>" width="100%">
-                      </a>                  
-                    </div>                     
-                    <div class="swiper-slide">
-                      <a href="<?= BASE_URL.DS.'assets/img/xpander/8.webp'; ?>" data-lightbox="view-xpander" class="display">
-                        <img src="<?= BASE_URL.DS.'assets/img/xpander/8.webp'; ?>" width="100%">
-                      </a>                  
-                    </div>                     
-                  </div>
-                  <div class="swiper-button-next swiper-button-next-mitsubishi-triton" style="color: black"></div>
-                  <div class="swiper-button-prev swiper-button-prev-mitsubishi-triton" style="color: black"></div>
+                    </div>
+                  </div>   
+                  <div class="swiper-button-next swiper-button-next-mitsubishi-l300" style="color: black"></div>
+                  <div class="swiper-button-prev swiper-button-prev-mitsubishi-l300" style="color: black"></div>
                 </div>
               </div>
             </div>
@@ -350,181 +320,42 @@
           </div>
           <div class="col-12 col-md-7">
             <p class="desc-interior">
-              Nuansa beige serta aksen kayu berkualitas memberikan kesah modern & mewah
+              Kabin luas dan lega lebih nyaman di perjalanan
             </p>
           </div>
         </div>
       </div>
       <div class="swiper-container swiper-container-interior mb-3">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="<?=BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'?>"
-                data-lightbox="interior"
-                data-title="AC Double Blower"
-              >
-                <img
-                  src="<?=BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'?>"
-                  alt="AC Double Blower"
-                  class="w-100"
-                />
-              </a>
-            </div>
+        <div class="swiper-wrapper">                      
+          <div class="swiper-slide">              
+            <a href="<?= BASE_URL.DS.'assets/img/l300/interior/1.jpg'; ?>" data-lightbox="interior" data-title="CD/MP3 Player">
+              <img src="<?= BASE_URL.DS.'assets/img/l300/interior/1.jpg'; ?>" width="100%">
+            </a>
           </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/2.jpg"
-                data-lightbox="interior"
-                data-title="New 8 Inch Color LCD Meter"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/2.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
+          <div class="swiper-slide">       
+            <a href="<?= BASE_URL.DS.'assets/img/l300/interior/2.jpg'; ?>" data-lightbox="interior" data-title="Dashboard Luas">       
+              <img src="<?= BASE_URL.DS.'assets/img/l300/interior/2.jpg'; ?>" width="100%" >
+            </a>
           </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/3.jpg"
-                data-lightbox="interior"
-                data-title="Head Unit With Smartphone-Link Display Audio"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/3.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
+          <div class="swiper-slide">    
+            <a href="<?= BASE_URL.DS.'assets/img/l300/interior/3.jpg'; ?>" data-lightbox="interior" data-title="Kargo Luas">          
+              <img src="<?= BASE_URL.DS.'assets/img/l300/interior/3.jpg'; ?>" width="100%">
+            </a>
           </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/4.png"
-                data-lightbox="interior"
-                data-title="New Auto Dimming Rear View Mirror"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/4.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
+          <div class="swiper-slide">   
+            <a href="<?= BASE_URL.DS.'assets/img/l300/interior/4.jpg'; ?>" data-lightbox="interior" data-title="Laci">           
+              <img src="<?= BASE_URL.DS.'assets/img/l300/interior/4.jpg'; ?>" width="100%">
+            </a>
           </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/5.png"
-                data-lightbox="interior"
-                data-title="Stylish Floor Console With Soft Pad"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/5.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
+          <div class="swiper-slide">   
+            <a href="<?= BASE_URL.DS.'assets/img/l300/interior/5.jpg'; ?>" data-lightbox="interior" data-title="Power Steering">           
+              <img src="<?= BASE_URL.DS.'assets/img/l300/interior/5.jpg'; ?>" width="100%">
+            </a>
           </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/6.jpg"
-                data-lightbox="interior"
-                data-title="Dual Zone Automatic AC"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/6.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/7.jpg"
-                data-lightbox="interior"
-                data-title="Electric Parking Brake + New Brake Auto Hold"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/7.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/8.png"
-                data-lightbox="interior"
-                data-title="Comfortable Interior Side"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/8.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/9.png"
-                data-lightbox="interior"
-                data-title="2nd Row Power Outlet"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/9.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/10.png"
-                data-lightbox="interior"
-                data-title="Comfortable 2nd Row Seat With Arm Rest & Cup Holder"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/10.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/11.png"
-                data-lightbox="interior"
-                data-title="Roof Monitor"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/11.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/12.png"
-                data-lightbox="interior"
-                data-title="Spacious Baggage"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/12.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
+          <div class="swiper-slide">   
+            <a href="<?= BASE_URL.DS.'assets/img/l300/interior/6.jpg'; ?>" data-lightbox="interior" data-title="Speedometer">           
+              <img src="<?= BASE_URL.DS.'assets/img/l300/interior/6.jpg'; ?>" width="100%">
+            </a>
           </div>
         </div>
       </div>
@@ -535,7 +366,7 @@
         <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5">
             <p class="desc-interior">
-              Desain eksterior yang kuat dan kokoh dan berkaratek layaknya sebuah SUV
+              Pilihan kargo yang banyak dan bisa disesuaikan dengan kebutuhan Anda
             </p>
           </div>
           <div class="col-12  col-md-7 container-exterior">
@@ -551,176 +382,22 @@
         </div>
       </div>
       <div class="swiper-container swiper-container-exterior mb-3">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="<?=BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'?>"
-                data-lightbox="interior"
-                data-title="AC Double Blower"
-              >
-                <img
-                  src="<?=BASE_URL.DS.'assets/img/xpander/interior/ac-double-blower.jpg'?>"
-                  alt="AC Double Blower"
-                  class="w-100"
-                />
-              </a>
-            </div>
+        <div class="swiper-wrapper">            
+          <div class="swiper-slide">              
+            <a href="<?= BASE_URL.DS.'assets/img/l300/exterior/1.png'; ?>" data-lightbox="exterior">
+              <img src="<?= BASE_URL.DS.'assets/img/l300/exterior/1.png'; ?>" width="100%">
+            </a>
           </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/2.jpg"
-                data-lightbox="interior"
-                data-title="New 8 Inch Color LCD Meter"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/2.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
+          <div class="swiper-slide">       
+            <a href="<?= BASE_URL.DS.'assets/img/l300/exterior/2.png'; ?>" data-lightbox="exterior">       
+              <img src="<?= BASE_URL.DS.'assets/img/l300/exterior/2.png'; ?>" width="100%" >
+            </a>
           </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/3.jpg"
-                data-lightbox="interior"
-                data-title="Head Unit With Smartphone-Link Display Audio"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/3.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/4.png"
-                data-lightbox="interior"
-                data-title="New Auto Dimming Rear View Mirror"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/4.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/5.png"
-                data-lightbox="interior"
-                data-title="Stylish Floor Console With Soft Pad"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/5.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/6.jpg"
-                data-lightbox="interior"
-                data-title="Dual Zone Automatic AC"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/6.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/7.jpg"
-                data-lightbox="interior"
-                data-title="Electric Parking Brake + New Brake Auto Hold"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/7.jpg"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/8.png"
-                data-lightbox="interior"
-                data-title="Comfortable Interior Side"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/8.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/9.png"
-                data-lightbox="interior"
-                data-title="2nd Row Power Outlet"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/9.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/10.png"
-                data-lightbox="interior"
-                data-title="Comfortable 2nd Row Seat With Arm Rest & Cup Holder"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/10.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/11.png"
-                data-lightbox="interior"
-                data-title="Roof Monitor"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/11.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/12.png"
-                data-lightbox="interior"
-                data-title="Spacious Baggage"
-              >
-                <img
-                  src="https://sardanagroup.co.id/mitsubishi-medan/assets/img/interior/new-pajero/12.png"
-                  alt="Mitsubishi Pajero Sport Facelift"
-                />
-              </a>
-            </div>
-          </div>
+          <div class="swiper-slide">    
+            <a href="<?= BASE_URL.DS.'assets/img/l300/exterior/3.webp'; ?>" data-lightbox="exterior" data-title="Rear Parking">          
+              <img src="<?= BASE_URL.DS.'assets/img/l300/exterior/3.webp'; ?>" width="100%">
+            </a>
+          </div>            
         </div>
       </div>
     </section>    
