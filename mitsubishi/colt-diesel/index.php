@@ -157,8 +157,8 @@
                       </a>                  
                     </div>                
                     <div class="swiper-slide">
-                      <a href="<?=BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.png'?>" data-lightbox="view-colt-diesel" class="display">
-                        <img src="<?=BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.png'?>" width="100%">
+                      <a href="<?=BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.webp'?>" data-lightbox="view-colt-diesel" class="display">
+                        <img src="<?=BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.webp'?>" width="100%">
                       </a>                  
                     </div>
                   </div>

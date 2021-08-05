@@ -336,7 +336,7 @@
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
-                    <img src="<?= BASE_URL.DS.'assets/img/fuso/box-besi.png'; ?>" class="card-img w-80" alt="Mitsubishi Fuso Medan">
+                    <img src="<?= BASE_URL.DS.'assets/img/fuso/box-besi.webp'; ?>" class="card-img w-80" alt="Mitsubishi Fuso Medan">
                   </div>
                   <div class="col-md-12">
                     <div class="card-body">
@@ -366,7 +366,7 @@
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
-                    <img src="<?= BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.png'; ?>" class="card-img w-80" alt="Mitsubishi Colt Diesel Medan">
+                    <img src="<?= BASE_URL.DS.'assets/img/colt-diesel/colt-diesel.webp'; ?>" class="card-img w-80" alt="Mitsubishi Colt Diesel Medan">
                   </div>
                   <div class="col-md-12">
                     <div class="card-body">

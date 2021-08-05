@@ -159,45 +159,15 @@
                 <div class="swiper-container swiper-container-mitsubishi-pajero-sport">                
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">                
-                      <a href="https://mitsubishimedan-vandys.id/assets/img/pajero/1.webp" data-lightbox="view-pajero-sport" class="display">
-                        <img src="https://mitsubishimedan-vandys.id/assets/img/pajero/1.webp" width="100%">
+                    <a href="<?=BASE_URL.DS.'assets/img/hesti/fuso/box-besi.webp'?>" data-lightbox="view-fuso" class="display">
+                    <img src="<?=BASE_URL.DS.'assets/img/hesti/fuso/box-besi.webp'?>" width="100%">
                       </a>                  
                     </div>                
                     <div class="swiper-slide">
-                      <a href="https://mitsubishimedan-vandys.id/assets/img/pajero/8.webp" data-lightbox="view-pajero-sport" class="display">
-                        <img src="https://mitsubishimedan-vandys.id/assets/img/pajero/8.webp" width="100%">
+                    <a href="<?=BASE_URL.DS.'assets/img/hesti/fuso/fighter-tangki.png'?>" data-lightbox="view-fuso" class="display">
+                    <img src="<?=BASE_URL.DS.'assets/img/hesti/fuso/fighter-tangki.png'?>" width="100%"> 
                       </a>                  
-                    </div>                                         
-                    <div class="swiper-slide">
-                      <a href="https://mitsubishimedan-vandys.id/assets/img/pajero/7.webp" data-lightbox="view-pajero-sport" class="display">
-                        <img src="https://mitsubishimedan-vandys.id/assets/img/pajero/7.webp" width="100%">
-                      </a>                  
-                    </div>                
-                    <div class="swiper-slide">
-                      <a href="https://mitsubishimedan-vandys.id/assets/img/pajero/6.webp" data-lightbox="view-pajero-sport" class="display">
-                        <img src="https://mitsubishimedan-vandys.id/assets/img/pajero/6.webp" width="100%">
-                      </a>     
-                    </div>  
-                    <div class="swiper-slide">
-                      <a href="https://mitsubishimedan-vandys.id/assets/img/pajero/5.webp" data-lightbox="view-pajero-sport" class="display">
-                        <img src="https://mitsubishimedan-vandys.id/assets/img/pajero/5.webp" width="100%">
-                      </a>                  
-                    </div>                     
-                    <div class="swiper-slide">
-                      <a href="https://mitsubishimedan-vandys.id/assets/img/pajero/4.webp" data-lightbox="view-pajero-sport" class="display">
-                        <img src="https://mitsubishimedan-vandys.id/assets/img/pajero/4.webp" width="100%">
-                      </a>                  
-                    </div>                     
-                    <div class="swiper-slide">
-                      <a href="https://mitsubishimedan-vandys.id/assets/img/pajero/3.webp" data-lightbox="view-pajero-sport" class="display">
-                        <img src="https://mitsubishimedan-vandys.id/assets/img/pajero/3.webp" width="100%">
-                      </a>                  
-                    </div>                     
-                    <div class="swiper-slide">
-                      <a href="https://mitsubishimedan-vandys.id/assets/img/pajero/2.webp" data-lightbox="view-pajero-sport" class="display">
-                        <img src="https://mitsubishimedan-vandys.id/assets/img/pajero/2.webp" width="100%">
-                      </a>                  
-                    </div>                     
+                    </div>
                   </div>
                   <div class="swiper-button-next swiper-button-next-mitsubishi-pajero-sport" style="color: black"></div>
                   <div class="swiper-button-prev swiper-button-prev-mitsubishi-pajero-sport" style="color: black"></div>
