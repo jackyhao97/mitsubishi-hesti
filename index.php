@@ -54,6 +54,9 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto w-100 justify-content-end">   
           <li class="nav-item">
+            <a class="nav-link text-white text-uppercase mmc-bold" href="<?=BASE_URL?>">Home</a>
+          </li>
+          <li class="nav-item">
             <div class="dropdown">
               <a class="btn btn-dark dropdown-toggle dropdown-produk text-uppercase mmc-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: black; border: 1px solid black">Produk</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background: black; padding: 0">
@@ -88,6 +91,11 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -99,6 +107,18 @@
         <div class="carousel-item">
           <img src="<?=BASE_URL.DS.'assets/img/slider-cv.jpg'?>" class="d-block w-100" alt="Mitsubishi Fuso & Colt Diesel">
         </div>
+        <div class="carousel-item">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-eclipse-cross.jpg'?>" class="d-block w-100" alt="Mitsubishi Eclipse Cross">
+        </div>
+        <div class="carousel-item">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-triton.jpg'?>" class="d-block w-100" alt="Mitsubishi Triton">
+        </div>
+        <div class="carousel-item">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-xpander.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander">
+        </div>
+        <div class="carousel-item">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-xpander-cross.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Cross">
+        </div>        
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -168,7 +188,7 @@
                 </div>   
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="window.location='mitsubishi/xpander-cross/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
@@ -196,7 +216,7 @@
                 </div>   
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="window.location='mitsubishi/pajero-sport/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
@@ -224,7 +244,7 @@
                 </div>   
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="window.location='mitsubishi/eclipse-cross/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
@@ -264,7 +284,7 @@
         </div>
         <div class="swiper-container swiper-container-xpander text-dark">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="window.location='mitsubishi/triton/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
@@ -292,7 +312,7 @@
                 </div>   
               </div>
             </div>              
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="window.location='mitsubishi/l300/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
@@ -332,7 +352,7 @@
         </div>
         <div class="swiper-container swiper-container-xpander text-dark">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="window.location='mitsubishi/fuso/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
@@ -362,7 +382,7 @@
                 </div>   
               </div>
             </div>  
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="window.location='mitsubishi/colt-diesel/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">

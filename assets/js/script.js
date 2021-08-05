@@ -802,7 +802,6 @@ $(document).ready(function () {
 
   for (let i = 0; i < swiperVarian.length; i++) {
     const swiper = new Swiper(`.${swiperVarian[i]}`, {
-      slidesPerView: 3,
       spaceBetween: 10,
       pagination: {
         el: `.${swiperPagination[i]}`,

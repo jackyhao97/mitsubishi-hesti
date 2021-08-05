@@ -103,7 +103,7 @@
       <div class="row mt-4">
         <div class="col-lg-8 col-12">
           <h2 class="mmc-bold text-center"><?=$row["judul"]?></h2>
-          <img src="https://sardanagroup.co.id/images/promo/program-penjualan-mitsubishi-motors-desember-2020.jpg" alt="Promo Mitsubishi" class="w-100 mb-4">
+          <img src="<?=BASE_URL.DS.'assets/img/promo/'.$row['img_path']?>" alt="Promo Mitsubishi" class="w-100 mb-4">
           <?=$row["deskripsi"]?>
         </div>
         <div class="col-lg-4 col-12 fixed-promo">

@@ -204,7 +204,6 @@
                 <div class="row mb-3">
                   <div class="col-lg-12 text-center">
                     <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." target="_blank" class="btn btn-danger">Chat</a>
-                    <a class="btn btn-danger" href="<?=BASE_URL.DS.'brosur/colt-diesel.pdf'?>" target="_blank">Download E-Brochure</a>
                   </div> 
                 </div>
               </div>  
@@ -417,20 +416,7 @@
                 />
               </a>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card">
-              <a
-                href="<?=BASE_URL.DS.'assets/img/colt-diesel/karoseri/6.png'?>"
-                data-lightbox="interior"                
-              >
-                <img
-                  src="<?=BASE_URL.DS.'assets/img/colt-diesel/karoseri/6.png'?>"                  
-                  class="w-100"
-                />
-              </a>
-            </div>
-          </div>
+          </div>          
           <div class="swiper-slide">
             <div class="card">
               <a
@@ -619,7 +605,7 @@
                 slidesPerView: 1,
               },
               576: {
-                slidesPerView: 2,
+                slidesPerView: 3,
               },
               769: {
                 slidesPerView: 4,
