@@ -428,12 +428,12 @@
         <div class="row mt-4">
           <div class="col-12 col-sm-3 container-img-testimoni cp">            
             <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
+              href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpeg'?>"
               data-lightbox="Testimoni"
               data-title="Testimoni Hesti Mitsubishi"              
             >
               <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
+                src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpeg'?>"
                 alt="Testimoni Hesti Mitsubishi"
                 class="img-testimoni"
               />
@@ -534,7 +534,7 @@
           </div>          
         </div>
         <div class="row mt-5 justify-content-center">
-          <a class="btn btn-lg btn-danger" href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>">Lebih Lengkap</a>
+          <a class="btn btn-lg btn-warning" href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>">Lebih Lengkap</a>
         </div>
       </div>
     </section>
@@ -544,7 +544,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4 col-xs-12">
-            <img src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>" alt="Mitsubishi Medan Hesti" class="w-100">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpeg'?>" alt="Mitsubishi Medan Hesti" class="w-100">
           </div>
           <div class="col-sm-8 col-xs-12">
             <h1 class="text-danger mmc-bold">MAU TAU PROMO LAINNYA?</h1>

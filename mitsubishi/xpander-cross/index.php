@@ -31,7 +31,7 @@
   </head>
   <body style="background:white;color:black">    
     <!-- Header -->
-    <div class="container-fluid">
+    <div class="container-fluid" style="background: #e3e3e3">
       <div class="row p-2">
         <div class="col-12 col-sm-6 container-logo">
           <a href="<?=BASE_URL?>">            
@@ -92,19 +92,15 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>        
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="<?=BASE_URL.DS.'assets/img/slider-rf-limited.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Rockford Limited">
         </div>
         <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.jpg'?>" class="d-block w-100" alt="Mitsubishi Pajero Sport">
-        </div>
-        <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-cv.jpg'?>" class="d-block w-100" alt="Mitsubishi Fuso & Colt Diesel">
-        </div>
+          <img src="<?=BASE_URL.DS.'assets/img/slider-xpander-cross.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Cross">
+        </div>        
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -125,7 +121,7 @@
             <h3 id="carTitle" class="mmc-bold">MITSUBISHI XPANDER CROSS 1.5L M/T</h3>
           </div>        
           <div class="col-lg-6 col-12 select-car">        
-            <select class="selectpicker" id="selectTipe" data-width="auto" data-live-search="true" title="Silahkan Pilih Mobil Lain...">            
+            <select class="selectpicker" id="selectTipe" data-width="100%" data-live-search="true" data-style="btn-warning">            
               <option value="090">XPANDER CROSS 1.5L M/T</option>
               <option value="091">XPANDER CROSS 1.5L A/T</option>
               <option value="092">XPANDER CROSS 1.5L A/T PREMIUM</option>                 
@@ -335,7 +331,7 @@
     </section>
     <!-- Akhir Main -->
 
-    <section class="interior" id="interior">
+    <section class="interior mt-5" id="interior">
       <div class="container">
         <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5 container-interior">
@@ -451,7 +447,7 @@
       </div>
     </section>
 
-    <section class="exterior" id="exterior">
+    <section class="exterior mt-5" id="exterior">
       <div class="container">
         <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5">

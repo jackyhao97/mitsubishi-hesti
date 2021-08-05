@@ -125,7 +125,7 @@
             <h3 id="carTitle" class="mmc-bold">MITSUBISHI FUSO FM 517 HL LONG 4X2</h3>
           </div>        
           <div class="col-lg-6 col-12 select-car">        
-            <select class="selectpicker" id="selectTipe" data-width="auto" data-live-search="true" title="Silahkan Pilih Mobil Lain...">            
+            <select class="selectpicker" id="selectTipe" data-width="100%" data-live-search="true" data-style="btn-warning">            
               <option value="050">FM 517 HL LONG 4X2</option>
               <option value="051">FM 517 HL 4X2</option>
               <option value="052">FM 517 HS 4X2</option>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="row spek-container">
                   <?php
-                    $query = $conn->query("SELECT harga, tipe, merek FROM tb_harga WHERE merek = 'COLT DIESEL' AND discontinue = 0 ORDER BY urutan");
+                    $query = $conn->query("SELECT harga, tipe, merek FROM tb_harga WHERE merek = 'FUSO' AND discontinue = 0 ORDER BY urutan LIMIT 13");
                     while ($row = $query->fetch_assoc()) :
                   ?>
                     <div class="col-lg-6 col-md-6 mt-2">
@@ -195,24 +195,7 @@
                   <?php
                     endwhile;
                   ?>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12 text-center p-2 background-title">
-                    <h6 class="font-weight-bold text-white mt-1">Kontak Kami</h6>
-                  </div>
-                </div>
-                <div class="row mt-3 mb-3">
-                  <div class="col-lg-12 d-flex justify-content-between">
-                    <span><i class="fas fa-lg fa-user"></i> Hesti Surbakti</span>
-                    <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi Fuso" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0812 6252 6666
-                    </a>
-                  </div>                                                  
-                </div>
-                <div class="row mb-3">
-                  <div class="col-lg-12 text-center">
-                    <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." target="_blank" class="btn btn-danger">Chat</a>
-                  </div> 
-                </div>
+                </div>                                
               </div>  
             </div>
           </div>
@@ -318,13 +301,25 @@
                 </div>                      
               </div>
             </form>
+            <div class="row">
+              <div class="col-lg-12 text-center p-2 background-title">
+                <h6 class="font-weight-bold text-white mt-1">Kontak Kami</h6>
+              </div>
+            </div>
+            <div class="row mt-3 mb-3">
+              <div class="col-lg-12 d-flex justify-content-between">
+                <span><i class="fas fa-lg fa-user"></i> Hesti Surbakti</span>
+                <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi Fuso" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0812 6252 6666
+                </a>
+              </div>                                                  
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Akhir Main -->
 
-    <section class="interior" id="interior">
+    <section class="interior mt-5" id="interior">
       <div class="container">
         <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5 container-interior">

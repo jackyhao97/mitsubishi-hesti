@@ -18,20 +18,10 @@
 }
 
 body {
-  background: #e6dada; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #274046,
-    #e6dada
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #274046,
-    #e6dada
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e3e3e3; /* fallback for old browsers */
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: black;
 }
 
 .mmc-bold {
@@ -291,6 +281,7 @@ section.footer .tetap::after {
   background: url(https://hesti.mitsubishimedan-vandys.id/assets/img/bg.jpg);
   background-size: cover;
   text-align: right;
+  color: white;
 }
 
 .bg-profile {
@@ -711,6 +702,7 @@ section.testimoni {
   background-attachment: fixed;
   background-position-y: -220px;
   padding: 50px;
+  color: white;
 }
 
 .fixed-promo {
