@@ -886,6 +886,15 @@ $(document).ready(function () {
     },
   });
 
+  const swiperColt = new Swiper(".swiper-container-mitsubishi-colt-diesel", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next-mitsubishi-colt-diesel",
+      prevEl: ".swiper-button-prev-mitsubishi-colt-diesel",
+    },
+  });
+
   const swiperPromo = new Swiper(".swiper-container-promo", {
     slidesPerView: 1,
     spaceBetween: 10,
