@@ -140,7 +140,7 @@
         <div class="col-12 col-lg-6 container-profile">        
           <h1 class="mmc-bold">Hesti Surbakti</h1>
           <h5 class="mmc-bold">Counter Sales</h5>
-          <p class="mt-2 p-profile">Hesti, Sales counter Sardana Berlian yang sudah mengabdi selama bertahun - tahun. Pengalaman Hesti dalam menangani Customer sudah tidak usah diragukan lagi karena sudah banyak Customer Hesti yang senang bertransaksi dengan Hesti sendiri.
+          <p class="mt-2 p-profile">Hesti, Sales counter Sardana Berlian yang sudah melayani Customer Mitsubishi sejak 2016. Pengalaman Hesti dalam menangani Customer sudah tidak usah diragukan lagi karena sudah banyak Customer Hesti yang senang bertransaksi dengan Hesti sendiri.
           <div class="mb-5">
             <a target="_blank" href="https://wa.me/+6282370304974?text=Hai, Kak Hesti. Saya ingin bertanya tentang produk Mitsubishi." class="btn btn-danger">Hubungi Saya</a>
             <a href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>" class="btn btn-danger">Testimoni</a>
@@ -426,112 +426,26 @@
       <h1 class="text-center mmc-bold">Testimoni</h1>
       <div class="container">      
         <div class="row mt-4">
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/testimoni/1.jpeg'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpeg'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>      
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>          
-        </div>       
-        <div class="row mt-4">
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>      
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>          
+          <?php
+            $query = $conn->query("SELECT nama,caption FROM tb_testimoni ORDER BY tgl_buat DESC");
+            while ($row = $query->fetch_array()) {
+          ?>
+            <div class="col-12 col-sm-3 container-img-testimoni cp">            
+              <a
+                href="<?=BASE_URL.DS.'assets/img/testimoni/'.$row['nama']?>"
+                data-lightbox="Testimoni"
+                data-title="<?=$row['caption']?>"              
+              >
+                <img
+                  src="<?=BASE_URL.DS.'assets/img/testimoni/'.$row['nama']?>"
+                  alt="<?=$row['caption']?>"
+                  class="img-testimoni"
+                />
+              </a>
+            </div>
+          <?php
+            }
+          ?>     
         </div>
         <div class="row mt-5 justify-content-center">
           <a class="btn btn-lg btn-warning" href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>">Lebih Lengkap</a>
@@ -544,7 +458,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4 col-xs-12">
-            <img src="<?=BASE_URL.DS.'assets/img/testimoni/1.jpeg'?>" alt="Mitsubishi Medan Hesti" class="w-100">
+            <img src="<?=BASE_URL.DS.'assets/img/testimoni/12.jpeg'?>" alt="Mitsubishi Medan Hesti" class="w-100">
           </div>
           <div class="col-sm-8 col-xs-12">
             <h1 class="text-danger mmc-bold">MAU TAU PROMO LAINNYA?</h1>
