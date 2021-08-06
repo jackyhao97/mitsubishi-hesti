@@ -425,12 +425,12 @@
     <section class="testimoni mt-5" id="testimoni">
       <h1 class="text-center mmc-bold">Testimoni</h1>
       <div class="container">      
-        <div class="row mt-4">
+        <div class="row">
           <?php
-            $query = $conn->query("SELECT nama,caption FROM tb_testimoni ORDER BY tgl_buat DESC");
+            $query = $conn->query("SELECT nama,caption FROM tb_testimoni ORDER BY tgl_buat DESC LIMIT 8");
             while ($row = $query->fetch_array()) {
           ?>
-            <div class="col-12 col-sm-3 container-img-testimoni cp">            
+            <div class="col-12 col-sm-3 container-img-testimoni cp mt-4">
               <a
                 href="<?=BASE_URL.DS.'assets/img/testimoni/'.$row['nama']?>"
                 data-lightbox="Testimoni"

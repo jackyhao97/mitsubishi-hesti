@@ -86,169 +86,29 @@
 
     <section class="testimoni" id="testimoni">
       <h1 class="text-center mmc-bold">Testimoni</h1>
-      <div class="container">      
-        <div class="row mt-4">
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
+      <div class="container">    
+        <div class="row">  
+        <?php
+          $query = $conn->query("SELECT nama,caption FROM tb_testimoni ORDER BY tgl_buat DESC");
+          while ($row = $query->fetch_array()) {
+        ?>
+          <div class="col-12 col-sm-3 container-img-testimoni cp mt-4">            
             <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
+              href="<?=BASE_URL.DS.'assets/img/testimoni/'.$row['nama']?>"
               data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
+              data-title="<?=$row['caption']?>"              
             >
               <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
+                src="<?=BASE_URL.DS.'assets/img/testimoni/'.$row['nama']?>"
+                alt="<?=$row['caption']?>"
                 class="img-testimoni"
               />
             </a>
           </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>      
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>          
-        </div>       
-        <div class="row mt-4">
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>      
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>          
-        </div>       
-        <div class="row mt-4">
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>      
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-          <div class="col-12 col-sm-3 container-img-testimoni cp">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-              data-lightbox="Testimoni"
-              data-title="Testimoni Hesti Mitsubishi"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/bg-foto.png'?>"
-                alt="Testimoni Hesti Mitsubishi"
-                class="img-testimoni"
-              />
-            </a>
-          </div>          
-        </div>       
+        <?php
+          }
+        ?>
+        </div>
       </div>
     </section>
 
