@@ -37,7 +37,7 @@
         </div>        
         <div class="col-12 col-sm-6 text-right">
           <p style="margin-bottom: .3rem">Sales resmi PT. Sardana IndahBerlian Motor</p>
-          <a href="https://wa.me/+6281262526666" class="btn btn-danger hubungi">Hubungi Saya</a>
+          <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti" class="btn btn-danger hubungi" target="_blank">Hubungi Saya</a>
         </div>
       </div>
     </div>
