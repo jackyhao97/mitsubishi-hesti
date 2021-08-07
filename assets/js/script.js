@@ -961,4 +961,17 @@ $(document).ready(function () {
       window.location.host +
       "/mitsubishi/eclipse-cross/";
   });
+
+  $(".page-scroll").click(function (e) {
+    const tujuan = $(this).attr("href");
+    const elemenTujuan = $(tujuan);
+    $("html, body").animate(
+      {
+        scrollTop: elemenTujuan.offset().top - 60,
+      },
+      500,
+      "easeInOutExpo"
+    );
+    e.preventDefault();
+  });
 });
