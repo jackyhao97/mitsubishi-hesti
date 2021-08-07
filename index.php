@@ -37,7 +37,7 @@
         </div>        
         <div class="col-12 col-sm-6 text-right">
           <p style="margin-bottom: .3rem">Sales resmi PT. Sardana IndahBerlian Motor</p>
-          <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti" class="btn btn-danger hubungi" target="_blank">Hubungi Saya</a>
+          <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti" class="btn btn-danger hubungi" target="_blank">Hubungi Saya</a>
         </div>
       </div>
     </div>
@@ -45,8 +45,8 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-navbar">
-      <a class="navbar-brand text-success mmc-bold font-navbar-whatsapp" target="_blank" href="https://wa.me/+6281262526666?text=Halo Kak Hesti">
-        <i class="fab fa-lg fa-whatsapp"></i> 0812-6252-6666
+      <a class="navbar-brand text-success mmc-bold font-navbar-whatsapp" target="_blank" href="https://wa.me/+6282274190043?text=Halo Kak Hesti">
+        <i class="fab fa-lg fa-whatsapp"></i> 0822-7419-0043
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -142,7 +142,7 @@
           <h5 class="mmc-bold">Counter Sales</h5>
           <p class="mt-2 p-profile">Hesti, Sales counter Sardana Berlian yang sudah melayani Customer Mitsubishi sejak 2016. Pengalaman Hesti dalam menangani Customer sudah tidak usah diragukan lagi karena sudah banyak Customer Hesti yang senang bertransaksi dengan Hesti sendiri.
           <div class="mb-5">
-            <a target="_blank" href="https://wa.me/+6282370304974?text=Hai, Kak Hesti. Saya ingin bertanya tentang produk Mitsubishi." class="btn btn-danger">Hubungi Saya</a>
+            <a target="_blank" href="https://wa.me/+6282274190043?text=Hai, Kak Hesti. Saya ingin bertanya tentang produk Mitsubishi." class="btn btn-danger">Hubungi Saya</a>
             <a href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>" class="btn btn-danger">Testimoni</a>
           </div>
         </div>
@@ -476,7 +476,7 @@
                 <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.685 31.685" style="enable-background:new 0 0 31.685 31.685;" xml:space="preserve"> <g> <path d="M22.507,0H9.175C7.9,0,6.87,1.034,6.87,2.309v27.07c0,1.271,1.03,2.306,2.305,2.306h13.332 c1.273,0,2.307-1.034,2.307-2.306V2.309C24.813,1.034,23.78,0,22.507,0z M23.085,25.672H8.599V3.895h14.486V25.672z M18.932,2.343 h-6.181V1.669h6.182L18.932,2.343L18.932,2.343z M21.577,2.035c0,0.326-0.266,0.59-0.591,0.59c-0.326,0-0.591-0.265-0.591-0.59 s0.265-0.59,0.591-0.59C21.312,1.444,21.577,1.709,21.577,2.035z M18.655,29.225h-5.629v-1.732h5.629V29.225z"></path> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
                 <div class="container-profile-detail">
                   <h5 class="mmc-bold">PHONE</h5>                  
-                  <a href="tel:+6281262526666" class="mmc-bold text-danger">0812-6252-6666</a>
+                  <a href="tel:+6282274190043" class="mmc-bold text-danger">0822-7419-0043</a>
                 </div>                
               </div>            
             </div>
@@ -485,7 +485,7 @@
                 <img alt="" data-src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" class="attachment-medium size-medium lazyloaded" src="https://hondamedancenter.com/wp-content/uploads/2020/11/whatsapp.svg" width="60" height="60">
                 <div class="container-profile-detail">
                   <h5 class="mmc-bold">WHATSAPP</h5>
-                  <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." class="mmc-bold text-danger">0812-6252-6666</a>
+                  <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti." class="mmc-bold text-danger">0822-7419-0043</a>
                 </div>                
               </div>
               <div class="col-sm-6 col-xs-12 d-flex align-items-center mt-4">

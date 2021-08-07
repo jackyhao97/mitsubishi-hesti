@@ -40,7 +40,7 @@
         </div>        
         <div class="col-12 col-sm-6 text-right">
           <p style="margin-bottom: .3rem">Sales resmi PT. Sardana IndahBerlian Motor</p>
-          <a href="https://wa.me/+6281262526666" class="btn btn-danger hubungi">Hubungi Saya</a>
+          <a href="https://wa.me/+6282274190043" class="btn btn-danger hubungi">Hubungi Saya</a>
         </div>
       </div>
     </div>
@@ -48,8 +48,8 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-navbar">
-      <a class="navbar-brand text-success mmc-bold font-navbar-whatsapp" target="_blank" href="https://wa.me/+6281262526666?text=Halo Kak Hesti">
-        <i class="fab fa-lg fa-whatsapp"></i> 0812-6252-6666
+      <a class="navbar-brand text-success mmc-bold font-navbar-whatsapp" target="_blank" href="https://wa.me/+6282274190043?text=Halo Kak Hesti">
+        <i class="fab fa-lg fa-whatsapp"></i> 0822-7419-0043
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -206,13 +206,13 @@
                 <div class="row mt-3 mb-3">
                   <div class="col-lg-12 d-flex justify-content-between">
                     <span><i class="fas fa-lg fa-user"></i> Hesti Surbakti</span>
-                    <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi Eclipse Cross" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0812 6252 6666
+                    <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi Eclipse Cross" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0812 6252 6666
                     </a>
                   </div>                                                  
                 </div>
                 <div class="row mb-3">
                   <div class="col-lg-12 text-center">
-                    <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." target="_blank" class="btn btn-danger">Chat</a>
+                    <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti." target="_blank" class="btn btn-danger">Chat</a>
                     <a class="btn btn-danger" href="<?=BASE_URL.DS.'brosur/eclipse-cross.pdf'?>" target="_blank">Download E-Brochure</a>
                   </div> 
                 </div>
@@ -239,7 +239,7 @@
               </div>
               <div class="form-group row">
                 <div class="col-lg-12 text-right">
-                  <a class="btn btn-danger" href="https://wa.me/+6281262526666?text=Halo Kak Hesti. Saya ingin beli tunai Mitsubishi Eclipse Cross. Gimana prosedurnya?" target="_blank">Beli Tunai</a>
+                  <a class="btn btn-danger" href="https://wa.me/+6282274190043?text=Halo Kak Hesti. Saya ingin beli tunai Mitsubishi Eclipse Cross. Gimana prosedurnya?" target="_blank">Beli Tunai</a>
                 </div>
                 <div class="col-lg-12"><hr class="hr-perhitungan" style="margin-bottom: 0 !important" /></div>
                 <div class="col-lg-12">
@@ -266,7 +266,7 @@
               </div>     
               <div class="form-group row">
                 <div class="col-lg-12 text-right">
-                  <a class="btn btn-danger" href="https://wa.me/+6281262526666?text=Halo Kak Hesti, Saya mau panjar Mitsubishi Eclipse Cross. Gimana caranya?" target="_blank">Booking Fee</a>
+                  <a class="btn btn-danger" href="https://wa.me/+6282274190043?text=Halo Kak Hesti, Saya mau panjar Mitsubishi Eclipse Cross. Gimana caranya?" target="_blank">Booking Fee</a>
                 </div>
                 <div class="col-lg-12"><hr class="hr-perhitungan" style="margin-bottom: 0 !important" /></div>
                 <div class="col-lg-12">

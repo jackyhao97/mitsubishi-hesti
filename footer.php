@@ -7,12 +7,12 @@
             <a href="" class="mmc-bold">DEALER RESMI MITSUBISHI MEDAN</a><br>
             <a href="https://www.sardanagroup.co.id" target="_blank"><i class="fas fa-building"></i> PT. Sardana IndahBerlian Motor</a><br>
             <a class="m-0 p-0 white" href="https://www.google.com/maps/place/Mitsubishi+Sardana+Medan+-+Gatot+Subroto/@3.5897229,98.6548474,17z/data=!3m1!4b1!4m5!3m4!1s0x30312f94a86ecdbb:0x83c7b521f607d461!8m2!3d3.5897229!4d98.6570361?hl=en" target="_blank"><i class="fas fa-map-marker-alt"></i> Jl. Jend. Gatot Subroto No.437, Medan, Sumatera Utara - 20119</a><br>            
-            <a href="https://wa.me/+6282370304974?text=Hai Kak Hesti, Saya ingin bertanya tentang produk Mitsubishi" target="_blank"><i class="fab fa-lg fa-whatsapp"></i> WA: <b>0812 6252 6666</b></a><br />
+            <a href="https://wa.me/+6282274190043?text=Hai Kak Hesti, Saya ingin bertanya tentang produk Mitsubishi" target="_blank"><i class="fab fa-lg fa-whatsapp"></i> WA: <b>0822 7419 0043</b></a><br />
           </div>       
           <div class="col-12 col-md-6 col-lg-4 tetap container-tetap">
             <h6 class="text-uppercase">tetap terhubung dengan kami</h6>
             <ul>
-              <li> <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti" target="_blank"><i class="fab fa-lg fa-whatsapp"></i></a></li>
+              <li> <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti" target="_blank"><i class="fab fa-lg fa-whatsapp"></i></a></li>
               <li><a href="https://web.facebook.com/cieesty.vozuegbf" target="_blank"><i class="fab fa-lg fa-facebook-f"></i></a></li>
               <li><a href="https://www.instagram.com/estikk92/" target="_blank"><i class="fa fa-lg fa-instagram" aria-hidden="true"></i></a></li>              
             </ul> 
@@ -33,7 +33,7 @@
 
   <!-- Sosial Media Desktop -->
   <div class="hoverable-sidenav text-center" id="hoverableSidenav">
-    <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." id="whatsapp" target="_blank">
+    <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti." id="whatsapp" target="_blank">
       <span style="padding-left: 10px">Chat Us</span>
       <i class="fab fa-whatsapp"></i>
     </a>
@@ -45,7 +45,7 @@
       <span>Instagram</span>
       <i class="fa fa-instagram"></i>
     </a>
-    <a href="tel:+6281262526666" id="simulasi" target="_blank">
+    <a href="tel:+6282274190043" id="simulasi" target="_blank">
       <span>Call Us</span>
       <i class="fas fa-phone"></i>
     </a>    
@@ -54,8 +54,8 @@
   <!-- Sosial Media Mobile -->
   <div class="container-fluid media-mobile">
       <div class="row text-center" style="cursor: pointer">
-          <div class="col-3 icon-media-mobile p-0 align-items-center" onclick="window.open('https://wa.me/+6281262526666?text=Halo Kak Hesti.')">
-              <p class="p-0">WA <br/> <small>081262526666</small></p>
+          <div class="col-3 icon-media-mobile p-0 align-items-center" onclick="window.open('https://wa.me/+6282274190043?text=Halo Kak Hesti.')">
+              <p class="p-0">WA <br/> <small>082274190043</small></p>
           </div>
           <div class="col-3 icon-media-mobile p-0" onclick="window.open('https://web.facebook.com/cieesty.vozuegbf')">
               <p class="p-0 mt-3">Facebook</p>
@@ -63,7 +63,7 @@
           <div class="col-3 icon-media-mobile p-0" onclick="window.open('https://www.instagram.com/estikk92/')">
               <p class="p-0 mt-3">Instagram</p>
           </div>
-          <div class="col-3 icon-media-mobile p-0" onclick="window.open('tel:+6281262526666')">
+          <div class="col-3 icon-media-mobile p-0" onclick="window.open('tel:+6282274190043')">
               <p class="p-0">Call<br />Us</p>
           </div>          
       </div>
