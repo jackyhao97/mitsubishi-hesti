@@ -715,6 +715,22 @@ section.testimoni {
   margin-top: 50px;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.text-sales {
+  text-align: right;
+}
+
 /* Tablet */
 @media only screen and (min-device-width: 577px) and (max-device-width: 768px) and (orientation: portrait) {
   .fixed-promo {
@@ -783,6 +799,10 @@ section.testimoni {
 
 /* Mobile (Portrait) */
 @media (max-width: 576px) {
+  .text-sales {
+    text-align: center;
+  }
+
   figure.table {
     overflow: auto;
   }

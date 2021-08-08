@@ -55,7 +55,7 @@
             <img src="<?= BASE_URL.DS; ?>assets/img/logo-sardana-panjang.png" alt="Mitsubishi Sardana Medan" class="logo">
           </a>
         </div>        
-        <div class="col-12 col-sm-6 text-right">
+        <div class="col-12 col-sm-6 text-sales">
           <p style="margin-bottom: .3rem">Sales resmi PT. Sardana IndahBerlian Motor</p>
           <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti" class="btn btn-danger hubungi" target="_blank">Hubungi Saya</a>
         </div>
