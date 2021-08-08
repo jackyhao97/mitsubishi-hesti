@@ -91,20 +91,12 @@
     <!-- slider -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>        
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-rf-limited.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Rockford Limited">
-        </div>
-        <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.jpg'?>" class="d-block w-100" alt="Mitsubishi Pajero Sport">
-        </div>
-        <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-cv.jpg'?>" class="d-block w-100" alt="Mitsubishi Fuso & Colt Diesel">
-        </div>
+          <img src="<?=BASE_URL.DS.'assets/img/slider-l300.jpg'?>" class="d-block w-100" alt="Mitsubishi L300">
+        </div>        
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -305,7 +297,7 @@
     </section>
     <!-- Akhir Main -->
 
-    <section class="interior" id="interior">
+    <section class="interior mt-5" id="interior">
       <div class="container">
         <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5 container-interior">
@@ -361,7 +353,7 @@
       </div>
     </section>
 
-    <section class="exterior" id="exterior">
+    <section class="exterior mt-5" id="exterior">
       <div class="container">
         <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5">

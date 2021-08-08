@@ -31,7 +31,7 @@
   </head>
   <body style="background:white;color:black">    
     <!-- Header -->
-    <div class="container-fluid">
+    <div class="container-fluid" style="background: #e3e3e3">
       <div class="row p-2">
         <div class="col-12 col-sm-6 container-logo">
           <a href="<?=BASE_URL?>">            
@@ -91,18 +91,10 @@
     <!-- slider -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>        
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner">        
         <div class="carousel-item active">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-rf-limited.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Rockford Limited">
-        </div>
-        <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.jpg'?>" class="d-block w-100" alt="Mitsubishi Pajero Sport">
-        </div>
-        <div class="carousel-item">
           <img src="<?=BASE_URL.DS.'assets/img/slider-cv.jpg'?>" class="d-block w-100" alt="Mitsubishi Fuso & Colt Diesel">
         </div>
       </div>
@@ -125,7 +117,7 @@
             <h3 id="carTitle" class="mmc-bold">MITSUBISHI COLT DIESEL FE 71 BC</h3>
           </div>        
           <div class="col-lg-6 col-12 select-car">        
-            <select class="selectpicker" id="selectTipe" data-width="auto" data-live-search="true" title="Silahkan Pilih Mobil Lain...">            
+            <select class="selectpicker" id="selectTipe" data-width="100%" data-live-search="true" data-style="btn-warning">            
               <option value="066">FE 71 BC</option>
               <option value="089">FE 71 LONG BC NC</option>
               <option value="065">FE 71</option>
@@ -152,8 +144,8 @@
                 <div class="swiper-container swiper-container-mitsubishi-colt-diesel">                
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">                
-                      <a href="<?=BASE_URL.DS.'assets/img/colt-diesel/1.png'?>" data-lightbox="view-colt-diesel" class="display">
-                        <img src="<?=BASE_URL.DS.'assets/img/colt-diesel/1.png'?>" width="100%">
+                      <a href="<?=BASE_URL.DS.'assets/img/colt-diesel/1.webp'?>" data-lightbox="view-colt-diesel" class="display">
+                        <img src="<?=BASE_URL.DS.'assets/img/colt-diesel/1.webp'?>" width="100%">
                       </a>                  
                     </div>                
                     <div class="swiper-slide">
@@ -188,24 +180,7 @@
                   <?php
                     endwhile;
                   ?>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12 text-center p-2 background-title">
-                    <h6 class="font-weight-bold text-white mt-1">Kontak Kami</h6>
-                  </div>
-                </div>
-                <div class="row mt-3 mb-3">
-                  <div class="col-lg-12 d-flex justify-content-between">
-                    <span><i class="fas fa-lg fa-user"></i> Hesti Surbakti</span>
-                    <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi Colt Diesel" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0822 7419 0043
-                    </a>
-                  </div>                                                  
-                </div>
-                <div class="row mb-3">
-                  <div class="col-lg-12 text-center">
-                    <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti." target="_blank" class="btn btn-danger">Chat</a>
-                  </div> 
-                </div>
+                </div>                           
               </div>  
             </div>
           </div>
@@ -310,6 +285,18 @@
                   <small class="text-muted">* Simulasi ini hanya sebagai asumsi belum termasuk biaya admin dll. Untuk estimasi cicilan sesungguhnya bisa telepon atau chat via Whatsapp pada kolom Kontak Kami dibawah ini.</small>
                 </div>                      
               </div>
+              <div class="form-group row">
+                <div class="col-lg-12 text-center p-2 background-title">
+                  <h6 class="font-weight-bold text-white mt-1">Kontak Kami</h6>
+                </div>
+              </div>
+              <div class="form-group mt-3 mb-3">
+                <div class="col-lg-12 d-flex justify-content-between">
+                  <span><i class="fas fa-lg fa-user"></i> Hesti Surbakti</span>
+                  <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi Colt Diesel" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0822 7419 0043
+                  </a>
+                </div>                                                  
+              </div>
             </form>
           </div>
         </div>
@@ -317,7 +304,7 @@
     </section>
     <!-- Akhir Main -->
 
-    <section class="interior" id="interior">
+    <section class="interior mt-5" id="interior">
       <div class="container">
         <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5 container-interior">
