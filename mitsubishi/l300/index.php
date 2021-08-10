@@ -27,11 +27,31 @@
     <!-- Bootstrap Select -->
     <link rel="stylesheet" href="<?= BASE_URL.DS ?>assets/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="<?= BASE_URL.DS; ?>assets/css/style.css" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <title>Mitsubishi L300 Medan - Hesti</title>
   </head>
   <body style="background:white;color:black">    
     <!-- Header -->
-    <div class="container-fluid">
+    <div class="container-fluid" style="background: #e3e3e3">
       <div class="row p-2">
         <div class="col-12 col-sm-6 container-logo">
           <a href="<?=BASE_URL?>">            
@@ -91,20 +111,12 @@
     <!-- slider -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>        
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-rf-limited.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Rockford Limited">
-        </div>
-        <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-pajero-sport.jpg'?>" class="d-block w-100" alt="Mitsubishi Pajero Sport">
-        </div>
-        <div class="carousel-item">
-          <img src="<?=BASE_URL.DS.'assets/img/slider-cv.jpg'?>" class="d-block w-100" alt="Mitsubishi Fuso & Colt Diesel">
-        </div>
+          <img src="<?=BASE_URL.DS.'assets/img/slider-l300.jpg'?>" class="d-block w-100" alt="Mitsubishi L300">
+        </div>        
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -125,7 +137,7 @@
             <h3 id="carTitle" class="mmc-bold">MITSUBISHI L300 PICK UP STANDARD</h3>
           </div>        
           <div class="col-lg-6 col-12 select-car">        
-            <select class="selectpicker" id="selectTipe" data-width="auto" data-live-search="true" title="Silahkan Pilih Mobil Lain...">            
+            <select class="selectpicker" id="selectTipe" data-width="100%" data-live-search="true">            
               <option value="031">L300 PICK UP STANDARD</option>
               <option value="032">L300 PICK UP FLATDECK</option>
               <option value="034">L300 CAB CHASIS</option>
@@ -184,7 +196,7 @@
                 <div class="row mt-3 mb-3">
                   <div class="col-lg-12 d-flex justify-content-between">
                     <span><i class="fas fa-lg fa-user"></i> Hesti Surbakti</span>
-                    <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi L300" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0812 6252 6666
+                    <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti, Saya ingin bertanya tentang Mitsubishi L300" target="_blank" class="text-success"><i class="fab fa-lg fa-whatsapp"></i> 0822-7419-0043
                     </a>
                   </div>                                                  
                 </div>
@@ -280,7 +292,7 @@
                   <a class="btn btn-danger" name="buttonHitung" id="buttonHitung">Hitung</a>
                 </div>
                 <div class="col-lg-12 text-center perhitungan" style="display: none">
-                  <small class="text-success">* Perhitungan selesai. Silahkan cek kembali harga.</small>              
+                  <small class="text-success">* Perhitungan selesai. Silahkan cek kembali harga diatas ini.</small>              
                 </div>
                 <div class="col-lg-12 text-center perhitungan-salah" style="display: none">
                   <small class="text-danger">* Uang DP minimum Rp 20 juta. Silahkan hitung kembali.</small>              
@@ -295,7 +307,7 @@
                   <small class="text-muted">* Harga dapat berubah sewaktu-waktu.</small>
                 </div>
                 <div class="col-lg-12 text-justify">
-                  <small class="text-muted">* Simulasi ini hanya sebagai asumsi belum termasuk biaya admin dll. Untuk estimasi cicilan sesungguhnya bisa telepon atau chat via Whatsapp pada kolom Kontak Kami dibawah ini.</small>
+                  <small class="text-muted">* Simulasi ini hanya sebagai asumsi belum termasuk biaya admin dll. Untuk estimasi cicilan sesungguhnya bisa telepon atau chat via Whatsapp pada kolom Kontak Kami.</small>
                 </div>                      
               </div>
             </form>
@@ -305,13 +317,13 @@
     </section>
     <!-- Akhir Main -->
 
-    <section class="interior" id="interior">
+    <section class="interior mt-5" id="interior">
       <div class="container">
         <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5 container-interior">
             <h1 class="mmc-bold">Interior</h1>
             <a
-              class="btn btn-danger"
+              class="btn btn-warning"
               href="https://wa.me/+6285262526666?text=Halo Kak Hesti"
               target="_blank"
             >
@@ -361,7 +373,7 @@
       </div>
     </section>
 
-    <section class="exterior" id="exterior">
+    <section class="exterior mt-5" id="exterior">
       <div class="container">
         <div class="row align-items-center interior-up">
           <div class="col-12 col-md-5">
@@ -372,7 +384,7 @@
           <div class="col-12  col-md-7 container-exterior">
             <h1 class="mmc-bold">Exterior</h1>
             <a
-              class="btn btn-danger"
+              class="btn btn-warning"
               href="https://wa.me/+6282274190043?text=Halo Kak Hesti"
               target="_blank"
             >

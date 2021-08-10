@@ -54,17 +54,17 @@
   <!-- Sosial Media Mobile -->
   <div class="container-fluid media-mobile">
       <div class="row text-center" style="cursor: pointer">
-          <div class="col-3 icon-media-mobile p-0 align-items-center" onclick="window.open('https://wa.me/+6282274190043?text=Halo Kak Hesti.')">
-              <p class="p-0">WA <br/> <small>082274190043</small></p>
+          <div class="col-3 icon-media-mobile p-0 align-items-center" onclick="window.open('https://wa.me/+6282274190043?text=Halo Kak Hesti.')">              
+              <p class="p-0 mt-1"><img src="<?=BASE_URL.DS.'assets/img/call.png'?>" alt="call" style="width:30%">WA</p>              
           </div>
           <div class="col-3 icon-media-mobile p-0" onclick="window.open('https://web.facebook.com/cieesty.vozuegbf')">
-              <p class="p-0 mt-3">Facebook</p>
+              <p class="p-0 mt-1">Facebook</p>
           </div>
           <div class="col-3 icon-media-mobile p-0" onclick="window.open('https://www.instagram.com/estikk92/')">
-              <p class="p-0 mt-3">Instagram</p>
+              <p class="p-0 mt-1">Instagram</p>
           </div>
           <div class="col-3 icon-media-mobile p-0" onclick="window.open('tel:+6282274190043')">
-              <p class="p-0">Call<br />Us</p>
+              <p class="p-0 mt-1">Call Us</p>
           </div>          
       </div>
   </div>
