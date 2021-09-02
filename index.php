@@ -178,7 +178,7 @@
             <h2 class="title mmc-bold">PASSENGER CAR</h2>
           </div>
         </div>
-        <div class="swiper-container swiper-container-xpander text-dark">
+        <div class="swiper swiper-container-xpander text-dark">
           <div class="swiper-wrapper">              
             <div class="swiper-slide" onclick="window.location='mitsubishi/xpander/'">
               <div class="card mb-3" style="max-width: 540px">
@@ -302,7 +302,7 @@
             <h2 class="title mmc-bold">LIGHT COMMERCIAL VEHICLE</h2>
           </div>
         </div>
-        <div class="swiper-container swiper-container-xpander text-dark">
+        <div class="swiper swiper-container-xpander text-dark">
           <div class="swiper-wrapper">
             <div class="swiper-slide" onclick="window.location='mitsubishi/triton/'">
               <div class="card mb-3" style="max-width: 540px">
@@ -370,7 +370,7 @@
             <h2 class="title mmc-bold">COMMERCIAL VEHICLE</h2>
           </div>
         </div>
-        <div class="swiper-container swiper-container-xpander text-dark">
+        <div class="swiper swiper-container-xpander text-dark">
           <div class="swiper-wrapper">
             <div class="swiper-slide" onclick="window.location='mitsubishi/fuso/'">
               <div class="card mb-3" style="max-width: 540px">

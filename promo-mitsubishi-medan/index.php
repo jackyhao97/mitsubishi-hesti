@@ -27,12 +27,32 @@
     <!-- Bootstrap Select -->
     <link rel="stylesheet" href="<?= BASE_URL.DS ?>assets/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="<?= BASE_URL.DS; ?>assets/css/style.css" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <title>Promo Mitsubishi Medan - Hesti</title>
   </head>
   <body style="background:#f2f2f2;color:black">  
     <div class="container-fluid">
       <marquee direction="left" scrollAmount="7" onmouseover="this.stop()" onmouseout="this.start()">        
-        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Pajak PPnBM 0%, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang di <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." target="_blank" class="mmc-bold text-success" style="margin-left: 10px"><i class="fa fa-whatsapp"></i> 0812-6252-6666</a><span></p>
+        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Pajak PPnBM 0%, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang di <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti." target="_blank" class="mmc-bold text-success" style="margin-left: 10px"><i class="fa fa-whatsapp"></i> 0822-7419-0043</a><span></p>
       </marquee>      
     </div>
 
@@ -107,7 +127,7 @@
           <?=$row["deskripsi"]?>
         </div>
         <div class="col-lg-4 col-12 fixed-promo">
-          <div class="swiper-container swiper-container-promo text-dark">
+          <div class="swiper swiper-container-promo text-dark">
             <div class="swiper-wrapper">
               <div class="swiper-slide" id="promo-xpander">
                 <div class="card mb-3" style="max-width: 540px;background:black;color:white">
@@ -195,6 +215,102 @@
                           <div class="col-5 mmc-bold">Harga mulai</div>
                           <?php
                             $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'ECLIPSE CROSS' AND discontinue = 0");
+                            $row = $sql->fetch_assoc();
+                          ?>
+                          <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                        </div>                        
+                        <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                      </div>
+                    </div>              
+                  </div>   
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card mb-3" id="promo-triton" style="max-width: 540px;background:black;color:white">
+                  <div class="row no-gutters">
+                    <div class="col-md-12 text-center">
+                      <img src="<?= BASE_URL.DS.'assets/img/triton/triton-black.webp'; ?>" class="card-img w-80" alt="Mitsubishi Triton Medan">
+                    </div>
+                    <div class="col-md-12">
+                      <div class="card-body">
+                        <h5 class="card-title text-center mmc-bold">Mitsubishi Triton</h5>
+                        <hr style="border-top: 3px solid rgba(0,0,0,.1);background:red">
+                        <div class="row">
+                          <div class="col-5 mmc-bold">Harga mulai</div>
+                          <?php
+                            $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'TRITON' AND discontinue = 0");
+                            $row = $sql->fetch_assoc();
+                          ?>
+                          <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                        </div>                        
+                        <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                      </div>
+                    </div>              
+                  </div>   
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card mb-3" id="promo-l300" style="max-width: 540px;background:black;color:white">
+                  <div class="row no-gutters">
+                    <div class="col-md-12 text-center">
+                      <img src="<?= BASE_URL.DS.'assets/img/l300/1.webp'; ?>" class="card-img w-80" alt="Mitsubishi L300 Medan">
+                    </div>
+                    <div class="col-md-12">
+                      <div class="card-body">
+                        <h5 class="card-title text-center mmc-bold">Mitsubishi L300</h5>
+                        <hr style="border-top: 3px solid rgba(0,0,0,.1);background:red">
+                        <div class="row">
+                          <div class="col-5 mmc-bold">Harga mulai</div>
+                          <?php
+                            $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'l300' AND discontinue = 0");
+                            $row = $sql->fetch_assoc();
+                          ?>
+                          <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                        </div>                        
+                        <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                      </div>
+                    </div>              
+                  </div>   
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card mb-3" id="promo-colt-diesel" style="max-width: 540px;background:black;color:white">
+                  <div class="row no-gutters">
+                    <div class="col-md-12 text-center">
+                      <img src="<?= BASE_URL.DS.'assets/img/colt-diesel/1.webp'; ?>" class="card-img w-80" alt="Mitsubishi Colt Diesel Medan">
+                    </div>
+                    <div class="col-md-12">
+                      <div class="card-body">
+                        <h5 class="card-title text-center mmc-bold">Mitsubishi Colt Diesel</h5>
+                        <hr style="border-top: 3px solid rgba(0,0,0,.1);background:red">
+                        <div class="row">
+                          <div class="col-5 mmc-bold">Harga mulai</div>
+                          <?php
+                            $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'COLT DIESEL' AND discontinue = 0");
+                            $row = $sql->fetch_assoc();
+                          ?>
+                          <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                        </div>                        
+                        <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                      </div>
+                    </div>              
+                  </div>   
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card mb-3" id="promo-fuso" style="max-width: 540px;background:black;color:white">
+                  <div class="row no-gutters">
+                    <div class="col-md-12 text-center">
+                      <img src="<?= BASE_URL.DS.'assets/img/fuso/box-besi.webp'; ?>" class="card-img w-80" alt="Mitsubishi Fuso Medan">
+                    </div>
+                    <div class="col-md-12">
+                      <div class="card-body">
+                        <h5 class="card-title text-center mmc-bold">Mitsubishi Fuso</h5>
+                        <hr style="border-top: 3px solid rgba(0,0,0,.1);background:red">
+                        <div class="row">
+                          <div class="col-5 mmc-bold">Harga mulai</div>
+                          <?php
+                            $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'fuso' AND discontinue = 0");
                             $row = $sql->fetch_assoc();
                           ?>
                           <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
