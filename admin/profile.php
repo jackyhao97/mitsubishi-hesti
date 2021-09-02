@@ -21,14 +21,14 @@
 
   if(isset($_POST['simpan']))
   {    
-    $model = isset($_POST['model_mobil']) ? $_POST['model_mobil'] : '';
-    $harga = isset($_POST['harga_mobil']) ? $_POST['harga_mobil'] : '';
-    if ($model == '') echo "<script>alert('Mohon untuk memilih model mobil')</script>";      
-    else if ($harga == '') echo "<script>alert('Mohon untuk mengisi harga terbaru.')</script";
+    $username = isset($_POST['username']) ? $_POST['username'] : '';
+    $password = isset($_POST['password']) ? $_POST['password'] : '';
+    if ($username == '') echo "<script>alert('Mohon untuk mengisi username')</script>";      
+    else if ($password == '') echo "<script>alert('Mohon untuk mengisi password.')</script";
     else
     {      
-      $hasil = $conn->query("UPDATE `tb_harga` SET `harga` = '$harga' WHERE `kode` = '$model'");
-      if ($conn->affected_rows) echo "<script>alert('Harga berhasil diubah.')</script>";
+      $hasil = $conn->query("UPDATE `tb_user` SET `password` = '$password' WHERE `username` = '$username'");
+      if ($conn->affected_rows) echo "<script>alert('Profile berhasil diubah.')</script>";
       else echo "<script>alert('Ubah gagal. Silahkan coba kembali.')</script>";
     }
   }
@@ -164,25 +164,20 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800 font-weight-bold">HARGA MOBIL</h1>
-                    <form class="form-mitsubishi p-3" method="post">
-                      <div class="form-group">                                      
-                        <label for="model_mobil">Model</label>
-                        <select class="form-control" id="model_mobil" name="model_mobil">
+                    <h1 class="h3 mb-2 text-gray-800 font-weight-bold">PROFILE</h1>
+                    <form class="form-mitsubishi p-3" method="post">                      
+                      <div class="form-group">
+                        <label for="harga_mobil">Username</label>
                         <?php
-                          $tampilHarga = $conn->query('SELECT * FROM tb_harga WHERE discontinue = 0 ORDER BY urutan');
-                          while ($row = $tampilHarga->fetch_array()) :
+                          $username = $conn->query("SELECT * FROM tb_user WHERE id = 2");
+                          $row = $username->fetch_array();
                         ?>
-                          <option value="<?=$row['kode']?>"><?=$row['merek'].' '.$row['tipe']?></option>                          
-                        <?php
-                          endwhile;
-                        ?>
-                        </select>  
+                        <input type="text" class="form-control" id="username" name="username" value="<?=$row['username']?>" readonly>
                       </div>
                       <div class="form-group">
-                        <label for="harga_mobil">Harga Terbaru</label>
-                        <input type="text" class="form-control" id="harga_mobil" name="harga_mobil">
-                      </div>                    
+                        <label for="harga_mobil">Password</label>
+                        <input type="password" class="form-control" id="password" name="password">
+                      </div>
                       <button type="submit" class="btn btn-primary" name="simpan">Simpan</button>
                     </form>
                 </div>
