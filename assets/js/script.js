@@ -962,6 +962,38 @@ $(document).ready(function () {
       "/mitsubishi/eclipse-cross/";
   });
 
+  $("#promo-triton").click(() => {
+    window.location =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      "/mitsubishi/triton/";
+  });
+
+  $("#promo-l300").click(() => {
+    window.location =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      "/mitsubishi/l300/";
+  });
+
+  $("#promo-colt-diesel").click(() => {
+    window.location =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      "/mitsubishi/colt-diesel/";
+  });
+
+  $("#promo-fuso").click(() => {
+    window.location =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      "/mitsubishi/fuso/";
+  });
+
   $(".page-scroll").click(function (e) {
     const tujuan = $(this).attr("href");
     const elemenTujuan = $(tujuan);

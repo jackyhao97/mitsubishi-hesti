@@ -723,12 +723,23 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
 .text-sales {
   text-align: right;
+}
+
+#promo-xpander,
+#promo-xpander-cross,
+#promo-pajero-sport,
+#promo-eclipse-cross,
+#promo-triton,
+#promo-l300,
+#promo-colt-diesel,
+#promo-fuso {
+  cursor: pointer;
 }
 
 /* Tablet */
