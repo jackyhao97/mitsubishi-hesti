@@ -27,12 +27,32 @@
     <!-- Bootstrap Select -->
     <link rel="stylesheet" href="<?= BASE_URL.DS ?>assets/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="<?= BASE_URL.DS; ?>assets/css/style.css" />
-    <title>Promo Mitsubishi Medan - Hesti</title>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="<?=BASE_URL.DS.'assets/img/'?>favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <title>Promo Mitsubishi Medan - Hesti</title>    
   </head>
   <body style="background:#f2f2f2;color:black">  
     <div class="container-fluid">
       <marquee direction="left" scrollAmount="7" onmouseover="this.stop()" onmouseout="this.start()">        
-        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Pajak PPnBM 0%, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang di <a href="https://wa.me/+6281262526666?text=Halo Kak Hesti." target="_blank" class="mmc-bold text-success" style="margin-left: 10px"><i class="fa fa-whatsapp"></i> 0812-6252-6666</a><span></p>
+        <p class="text-danger mmc-bold" style="font-style: italic;margin-bottom:0">PROMO Pajak PPnBM 0%, Harga Turun Drastis, Diskon Besar Besaran, Bunga Kredit 0% Dan Free Aksesoris. Promo Hanya Berlaku Setiap Pemesanan Melalui Website Ini.. <span class="text-primary mmc-bold">Ajukan penawaran sekarang di <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti." target="_blank" class="mmc-bold text-success" style="margin-left: 10px"><i class="fa fa-whatsapp"></i> 0812-6252-6666</a><span></p>
       </marquee>      
     </div>
 
@@ -126,7 +146,7 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Xpander dapat menghubungi <b><a href="https://wa.me/+6281262526666?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Xpander." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 081262526666</a></b></p>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Xpander dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Xpander." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0822-7419-0043</a></b></p>
             </div>
           </div>
         </div>
@@ -157,7 +177,7 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Xpander Cross dapat menghubungi <b><a href="https://wa.me/+6281262526666?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Xpander Cross." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 081262526666</a></b></p>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Xpander Cross dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Xpander Cross." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0822-7419-0043</a></b></p>
             </div>
           </div>
           <div class="col-md-4 order-1 order-sm-2">
@@ -194,7 +214,7 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Pajero Sport dapat menghubungi <b><a href="https://wa.me/+6281262526666?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Pajero Sport." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 081262526666</a></b></p>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Pajero Sport dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Pajero Sport." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0822-7419-0043</a></b></p>
             </div>
           </div>    
         </div>
@@ -225,7 +245,7 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Eclipse Cross dapat menghubungi <b><a href="https://wa.me/+6281262526666?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Eclipse Cross." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 081262526666</a></b></p>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Eclipse Cross dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Eclipse Cross." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0822-7419-0043</a></b></p>
             </div>
           </div>
           <div class="col-md-4 order-1 order-sm-2">
@@ -262,7 +282,7 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi L300 dapat menghubungi <b><a href="https://wa.me/+6281262526666?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi L300." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 081262526666</a></b></p>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi L300 dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi L300." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0822-7419-0043</a></b></p>
             </div>
           </div>   
         </div>
@@ -293,7 +313,7 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Triton dapat menghubungi <b><a href="https://wa.me/+6281262526666?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Triton" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 081262526666</a></b></p>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Triton dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Triton" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0822-7419-0043</a></b></p>
             </div>
           </div>    
           <div class="col-md-4 order-1 order-sm-2">
@@ -330,7 +350,7 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Colt Diesel dapat menghubungi <b><a href="https://wa.me/+6281262526666?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Colt Diesel." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 081262526666</a></b></p>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Colt Diesel dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Colt Diesel." style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0822-7419-0043</a></b></p>
             </div>
           </div>   
         </div>
@@ -361,7 +381,7 @@
                 </tbody>
               </table>
               <p class="card-text"><small class="text-muted">* Harga OTR dapat berubah-ubah.</small></p>
-              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Fuso dapat menghubungi <b><a href="https://wa.me/+6281262526666?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Fuso" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 081262526666</a></b></p>
+              <p class="card-text">Untuk info selengkapnya mengenai simulasi kredit Mitsubishi Fuso dapat menghubungi <b><a href="https://wa.me/+6282274190043?text=[WS]Halo Sardana Berlian. Saya ingin mengetahui simulasi kredit terbaru dari Mitsubishi Fuso" style="color: #1caa51"><i class="fa fa-lg fa-whatsapp"></i> 0822-7419-0043</a></b></p>
             </div>
           </div>    
           <div class="col-md-4 order-1 order-sm-2">

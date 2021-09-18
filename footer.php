@@ -25,8 +25,8 @@
       </div>      
     </div>   
     <div class="row">
-      <div class="col-12 text-left">
-        <small>Copyright &copy; <?= date('Y'); ?> by JaVa</small>
+      <div class="col-12 d-flex justify-content-center">
+        <small class="text-center">Copyright <?=date('Y')?> &copy; Mitsubishi Medan Vandys<br>Support by JaVa Website</small>        
       </div>
     </div> 
   </div>

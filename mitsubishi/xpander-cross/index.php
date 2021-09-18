@@ -132,7 +132,7 @@
           <div class="col-lg-6 pr-lg-5 scale-down">
             <div class="row">
               <div class="col-lg-12" style="border: 1px solid #aaa">
-                <div class="swiper-container swiper-container-mitsubishi-xpander-cross">                
+                <div class="swiper swiper-container-mitsubishi-xpander-cross">                
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">                
                       <a href="<?= BASE_URL.DS.'assets/img/cross/1.webp'; ?>" data-lightbox="view-xpander-cross" class="display">
@@ -351,7 +351,7 @@
           </div>
         </div>
       </div>
-      <div class="swiper-container swiper-container-interior mb-3">
+      <div class="swiper swiper-container-interior mb-3">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="card">
@@ -467,7 +467,7 @@
           </div>          
         </div>
       </div>
-      <div class="swiper-container swiper-container-exterior mb-3">
+      <div class="swiper swiper-container-exterior mb-3">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="card">

@@ -131,7 +131,7 @@
           <div class="col-lg-6 pr-lg-5 scale-down">
             <div class="row">
               <div class="col-lg-12" style="border: 1px solid #aaa">
-                <div class="swiper-container swiper-container-mitsubishi-triton">                
+                <div class="swiper swiper-container-mitsubishi-triton">                
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">                
                       <a href="<?= BASE_URL.DS.'assets/img/triton/1.webp'; ?>" data-lightbox="view-triton" class="display">
@@ -350,7 +350,7 @@
           </div>
         </div>
       </div>
-      <div class="swiper-container swiper-container-interior mb-3">
+      <div class="swiper swiper-container-interior mb-3">
         <div class="swiper-wrapper">                      
           <div class="swiper-slide">              
             <a href="<?= BASE_URL.DS.'assets/img/triton/interior/1.jpg'; ?>" data-lightbox="interior" >
@@ -421,7 +421,7 @@
           </div>          
         </div>
       </div>
-      <div class="swiper-container swiper-container-exterior mb-3">
+      <div class="swiper swiper-container-exterior mb-3">
         <div class="swiper-wrapper">            
           <div class="swiper-slide">              
             <a href="<?= BASE_URL.DS.'assets/img/triton/exterior/1.jpg'; ?>" data-lightbox="exterior" >
