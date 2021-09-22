@@ -810,6 +810,10 @@ input[type="number"] {
 
 /* Mobile (Portrait) */
 @media (max-width: 576px) {
+  .footer-copyright {
+    margin-bottom: 3.8rem;
+  }
+
   .text-sales {
     text-align: center;
   }

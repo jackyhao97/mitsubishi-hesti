@@ -66,8 +66,8 @@
           </a>
         </div>        
         <div class="col-12 col-sm-6 text-sales">
-          <p style="margin-bottom: .3rem">Sales resmi PT. Sardana IndahBerlian Motor</p>
-          <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti" class="btn btn-danger hubungi" target="_blank">Hubungi Saya</a>
+          <p style="margin-bottom: .3rem">Sales senior PT. Sardana IndahBerlian Motor</p>
+          <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti" class="btn btn-success hubungi" target="_blank">Hubungi Saya</a>
         </div>
       </div>
     </div>
@@ -173,7 +173,7 @@
           <p class="mt-2 p-profile">Hesti, Sales counter Sardana Berlian yang sudah melayani Customer Mitsubishi sejak 2016. Pengalaman Hesti dalam menangani Customer sudah tidak usah diragukan lagi karena sudah banyak Customer Hesti yang senang bertransaksi dengan Hesti sendiri.
           <div class="mb-5">
             <a target="_blank" href="https://wa.me/+6282274190043?text=Hai, Kak Hesti. Saya ingin bertanya tentang produk Mitsubishi." class="btn btn-danger">Hubungi Saya</a>
-            <a href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>" class="btn btn-danger">Testimoni</a>
+            <a href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>" class="btn btn-warning">Testimoni</a>
           </div>
         </div>
       </div>      
