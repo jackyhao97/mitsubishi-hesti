@@ -27,7 +27,7 @@
     <hr style="border-top: 1px solid rgba(255,255,255,.4)">
     <div class="row footer-copyright">
       <div class="col-12 d-flex justify-content-center">
-        <small class="text-center">Copyright <?=date('Y')?> &copy; Mitsubishi Medan Vandys<br>Support by <a href="https://jackyhao97.github.io/" target="_blank" style="text-decoration: underline">JaVa Website</a></small>
+        <small class="text-center">Copyright <?=date('Y')?> &copy; Mitsubishi Medan Hesti<br>Support by <a href="https://jackyhao97.github.io/" target="_blank" style="text-decoration: underline">JaVa Website</a></small>
       </div>
     </div> 
   </div>
