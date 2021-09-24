@@ -548,7 +548,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="<?=BASE_URL.DS?>assets/js/jquery.easing.1.3.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="<?= BASE_URL.DS; ?>assets/js/lightbox.js"></script>
     <script src="<?= BASE_URL.DS; ?>assets/js/script.js"></script>
   </body>
