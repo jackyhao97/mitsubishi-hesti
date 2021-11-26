@@ -126,9 +126,13 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-new-xpander.jpg'?>" class="d-block w-100" alt="Mitsubishi New Xpander">
+        </div>
+        <div class="carousel-item">
           <img src="<?=BASE_URL.DS.'assets/img/slider-rf-limited.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Rockford Limited">
         </div>
         <div class="carousel-item">
@@ -190,6 +194,66 @@
         </div>
         <div class="swiper swiper-container-xpander text-dark">
           <div class="swiper-wrapper">              
+            <div class="swiper-slide">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander.png'; ?>" class="card-img w-80" alt="Mitsubishi New Xpander Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi New Xpander</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <!-- <p class="text-justify">The New Xpander hadir untuk membuat momen bersama keluarga lebih menyenangkan dengan fitur-fitur baru yang mengesankan.</p> -->
+                          <a href="https://docs.google.com/gview?url=https://assets.mitsubishi-motors.co.id/products/brosur/1637634489-web-brosur-rnbmc-101121pdf.pdf" class="btn btn-warning" target="_blank">Download Brochure</a>
+                          <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti. Saya ingin bertanya tentang Mitsubishi New Xpander. (Sumber website mitsubishihesti.xyz)" target="_blank" class="btn btn-success">Tanya kami</a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'NEW XPANDER' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/cross/xpander-cross-gray.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Cross Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi New Xpander Cross</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <!-- <p class="text-justify">Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV.</p> -->
+                          <a href="https://docs.google.com/gview?url=https://assets.mitsubishi-motors.co.id/products/brosur/1637634529-web-brochure-rnsuv-101121pdf.pdf" class="btn btn-warning" target="_blank">Download Brochure</a>
+                          <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti. Saya ingin bertanya tentang Mitsubishi New Xpander Cross. (Sumber website mitsubishihesti.xyz)" target="_blank" class="btn btn-success">Tanya kami</a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'NEW XPANDER CROSS' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>
             <div class="swiper-slide" onclick="window.location='mitsubishi/xpander/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
