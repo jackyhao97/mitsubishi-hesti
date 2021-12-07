@@ -90,6 +90,8 @@
             <div class="dropdown">
               <a class="btn btn-dark dropdown-toggle dropdown-produk text-uppercase mmc-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: black; border: 1px solid black">Produk</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background: black; padding: 0">
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/new-xpander/'?>">NEW XPANDER <img src="<?=BASE_URL.DS.'assets/img/thumbs/new-xpander-thumb.png'?>" alt="Mitsubishi New Xpander" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/new-xpander-cross/'?>">NEW XPANDER CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" alt="Mitsubishi New Xpander Cross" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/pajero-sport/'?>">PAJERO SPORT <img src="<?=BASE_URL.DS.'assets/img/thumbs/pajero-sport-thumb.png'?>" alt="Mitsubishi Pajero Sport" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">XPANDER <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-thumb.png'?>" alt="Mitsubishi Xpander" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander-cross/'?>">XPANDER CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" alt="Mitsubishi Xpander Cross" class="img-dropdown"></a>
@@ -194,7 +196,7 @@
         </div>
         <div class="swiper swiper-container-xpander text-dark">
           <div class="swiper-wrapper">              
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="window.location='mitsubishi/new-xpander/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
@@ -205,9 +207,7 @@
                       <h5 class="card-title text-center mmc-bold">Mitsubishi New Xpander</h5>
                       <div class="row">
                         <div class="col-12 desc-height">
-                          <!-- <p class="text-justify">The New Xpander hadir untuk membuat momen bersama keluarga lebih menyenangkan dengan fitur-fitur baru yang mengesankan.</p> -->
-                          <a href="https://docs.google.com/gview?url=https://assets.mitsubishi-motors.co.id/products/brosur/1637634489-web-brosur-rnbmc-101121pdf.pdf" class="btn btn-warning" target="_blank">Download Brochure</a>
-                          <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti. Saya ingin bertanya tentang Mitsubishi New Xpander. (Sumber website mitsubishihesti.xyz)" target="_blank" class="btn btn-success">Tanya kami</a>
+                          <p class="text-justify">The New Xpander hadir untuk membuat momen bersama keluarga lebih menyenangkan dengan fitur-fitur baru yang mengesankan.</p>
                         </div>
                       </div>
                       <div class="row">
@@ -224,7 +224,7 @@
                 </div>   
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide" onclick="window.location='mitsubishi/new-xpander-cross/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
                   <div class="col-md-12 text-center">
@@ -235,9 +235,7 @@
                       <h5 class="card-title text-center mmc-bold">Mitsubishi New Xpander Cross</h5>
                       <div class="row">
                         <div class="col-12 desc-height">
-                          <!-- <p class="text-justify">Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV.</p> -->
-                          <a href="https://docs.google.com/gview?url=https://assets.mitsubishi-motors.co.id/products/brosur/1637634529-web-brochure-rnsuv-101121pdf.pdf" class="btn btn-warning" target="_blank">Download Brochure</a>
-                          <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti. Saya ingin bertanya tentang Mitsubishi New Xpander Cross. (Sumber website mitsubishihesti.xyz)" target="_blank" class="btn btn-success">Tanya kami</a>
+                          <p class="text-justify">Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV.</p>
                         </div>
                       </div>
                       <div class="row">

@@ -1,5 +1,7 @@
-<?php  
-  require_once "../config.php";
+<?php
+  session_start();
+  require_once '../../config.php';
+  require_once '../../functions.php';  
 ?>
 
 <!DOCTYPE html>
@@ -19,9 +21,11 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.0/swiper-bundle.min.css" />
     <link rel="stylesheet" href="<?= BASE_URL.DS.'assets/css/lightbox.css'; ?>">      
     <script src="https://kit.fontawesome.com/00610b519d.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap Select -->
+    <link rel="stylesheet" href="<?= BASE_URL.DS ?>assets/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="<?= BASE_URL.DS; ?>assets/css/style.css" />
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=BASE_URL.DS.'assets/img/'?>apple-touch-icon-114x114.png" />
@@ -43,18 +47,36 @@
     <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-    <title>Mitsubishi Hesti - Promo PPnBM Mitsubishi Medan</title>
+    <title>Mitsubishi New Xpander Cross Medan - Hesti</title>
+    <style>
+      .swiper-mitsubishi-new-xpander .swiper-pagination-bullet {
+        background: red;
+        width: 20px;
+        height: 20px;
+      }
+
+      .parallax-xpander {
+        background: url(../../assets/img/parallax-new-xpander.jpg);
+        background-size: cover;
+      }
+
+      @media (max-width: 576px) {
+        iframe {
+          width: 100%;
+        }
+      }
+    </style>
   </head>
-  <body>    
+  <body style="background:white;color:black">    
     <!-- Header -->
-    <div class="container-fluid">
+    <div class="container-fluid" style="background: #e3e3e3">
       <div class="row p-2">
         <div class="col-12 col-sm-6 container-logo">
           <a href="<?=BASE_URL?>">            
             <img src="<?= BASE_URL.DS; ?>assets/img/logo-sardana-panjang.png" alt="Mitsubishi Sardana Medan" class="logo">
           </a>
         </div>        
-        <div class="col-12 col-sm-6 text-right">
+        <div class="col-12 col-sm-6 text-sales">
           <p style="margin-bottom: .3rem">Sales resmi PT. Sardana IndahBerlian Motor</p>
           <a href="https://wa.me/+6282274190043" class="btn btn-danger hubungi">Hubungi Saya</a>
         </div>
@@ -106,36 +128,110 @@
     </nav>  
     <!-- Akhir Navbar -->  
 
-    <section class="testimoni" id="testimoni">
-      <h1 class="text-center mmc-bold">Testimoni</h1>
-      <div class="container">    
-        <div class="row">  
-        <?php
-          $query = $conn->query("SELECT nama,caption FROM tb_testimoni ORDER BY tgl_buat DESC");
-          while ($row = $query->fetch_array()) {
-        ?>
-          <div class="col-12 col-sm-3 container-img-testimoni cp mt-4">            
-            <a
-              href="<?=BASE_URL.DS.'assets/img/testimoni/'.$row['nama']?>"
-              data-lightbox="Testimoni"
-              data-title="<?=$row['caption']?>"              
-            >
-              <img
-                src="<?=BASE_URL.DS.'assets/img/testimoni/'.$row['nama']?>"
-                alt="<?=$row['caption']?>"
-                class="img-testimoni"
-              />
-            </a>
-          </div>
-        <?php
-          }
-        ?>
+    <!-- Slider -->
+    <div class="swiper swiper-mitsubishi-new-xpander">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/new-xpander-cross.jpg' ?>" alt="Mitsubishi New Xpander" class="w-100 slider-1">
+        </div>
+        <div class="swiper-slide">
+          <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-desktop.jpg' ?>" alt="Mitsubishi New Xpander" class="w-100 slider-2">
         </div>
       </div>
-    </section>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Akhir Slider -->
 
+    <!-- Price -->
+    <div class="container mt-5">
+      <h2 class="text-uppercase mmc-bold text-center text-black">Harga New Xpander Cross Medan</h2>
+      <p class="text-center text-muted">Lihat harga terbaru New Xpander Cross untuk wilayah Medan dan sekitarnya khusus untuk anda pengunjung website <a href="<?= BASE_URL; ?>" target="_blank">mitsubishihesti.xyz</a></p>
+      <table class="table table-striped table-bordered table-width text-center">
+        <thead>
+          <tr class="bg-danger text-white">
+            <th scope="col">Tipe</th>
+            <th scope="col">Harga OTR</th>          
+          </tr>
+        </thead>
+        <tbody class="mmc-medium">
+          <?php 
+            $sql = $conn->query("SELECT tipe,harga FROM tb_harga WHERE merek = 'NEW XPANDER CROSS' AND discontinue = 0 ORDER BY harga");
+            while ($row = mysqli_fetch_array($sql, MYSQLI_ASSOC)) :
+          ?>
+          <tr>
+            <td><?= $row["tipe"]; ?></td>
+            <td>Rp. <?= number_format($row["harga"],0,',','.'); ?></td>
+          </tr>
+          <?php endwhile; ?>
+        </tbody>      
+      </table>
+      <small class="text-muted">* Harga OTR Sumatera Utara.</small><br />
+      <small class="text-muted">* Harga dapat berubah sewaktu-waktu tanpa pemberitahuan sebelumnya.</small><br />
+      <p class="text-black mt-2 mmc-bold">Untuk info detail harga lebih lanjut dapat menghubungi kami disini <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti, Saya ingin bertanya lebih lanjut harga dari new xpander cross. (Sumber website mitsubishihesti.xyz)" class="text-success mmc-bold" target="_blank"><i class="fa fa-lg fa-whatsapp"></i> 0822-7419-0043</a></p>
+    </div>
+    <!-- Akhir Price -->
+
+    <!-- Video -->
+    <section class="video-colt mt-5 parallax-xpander">
+      <div class="container-100 p-4 text-center text-white">
+        <h1 class="mmc-bold">Video New Xpander Cross</h1>
+        <p>Dapatkan video menarik tentang Mitsubishi New Xpander Cross berikut.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/c8lEWDGAHEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+    <!-- Akhir Video -->
+
+    <h2 class="mmc-bold text-center mt-5">360 Exterior New Xpander Cross</h2>
+    <div class="Sirv" data-src="https://andshant.sirv.com/new-xpander-cross/product.spin" mousewheelstep="0"></div>
+
+    <h2 class="mmc-bold text-center mt-5">Interior New Xpander Cross</h2>
+    <div class="swiper swiper-interior-new-xpander">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/2nd-row-arm-rest-with-cup-holder.jpg'; ?>">
+          <h4 class="text-center mmc-bold">2nd Row Arm Rest With Cup Holder</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/closed-storage-box-cvt.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Closed Storage Box CVT</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/luggage-under-tray.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Luggage Under Tray</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/modern-interior.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Modern Interior</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-9-audio-headunit-with-smartphone-connectivity.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New 9 Audio Headunit With Smartphone Connectivity</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-dual-tone-syntethic-leather-seat-with-heat-guard-function.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New Dual Tone syntethic Leather Seat With Heat Guard Function</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-electric-parking-brake-epb-with-brake-auto-hold-bah.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New Electric parking Brake</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/new-steering-wheel.jpg'; ?>">
+          <h4 class="text-center mmc-bold">New Steering Wheel</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/softpad-material.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Softpad Material</h4>
+        </div>
+        <div class="swiper-slide">
+          <img class="w-100" src="<?= BASE_URL.DS.'assets/img/new-xpander-cross/interior/stop-button-kos.jpg'; ?>">
+          <h4 class="text-center mmc-bold">Keyless Operating System</h4>
+        </div>
+      </div>
+    </div>
+  
     <!-- Footer -->
-    <?php require_once '../footer.php'; ?>
+    <?php require_once '../../footer.php'; ?>
     <!-- Akhir Footer -->
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
@@ -150,8 +246,46 @@
       integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
       crossorigin="anonymous"
     ></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.0/swiper-bundle.min.js"></script>
     <script src="<?= BASE_URL.DS; ?>assets/js/lightbox.js"></script>
     <script src="<?= BASE_URL.DS; ?>assets/js/script.js"></script>
+    <script src="https://scripts.sirv.com/sirv.js"></script>
+    <script>
+      new Swiper(".swiper-mitsubishi-new-xpander", {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        slidesPerView: 1,
+      });
+
+      new Swiper(".swiper-interior-new-xpander", {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        spaceBetween: 10,
+        breakpoints: {
+          800: {
+            slidesPerView: 3
+          },
+          600: {
+            slidesPerView: 2
+          },
+          300: {
+            slidesPerView: 1
+          }
+        },
+      });
+
+      if (window.matchMedia("(max-width: 576px)").matches) {
+        $(".slider-1").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander-cross/new-xpander-cross-mb.jpg' ?>')
+        $(".slider-2").attr('src','<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander-2-mobile.jpg' ?>')
+      }
+    </script>
   </body>
 </html>
