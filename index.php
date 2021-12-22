@@ -20,6 +20,16 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204479708-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-204479708-1');
+    </script>
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="<?= BASE_URL.DS.'assets/css/lightbox.css'; ?>">      
     <script src="https://kit.fontawesome.com/00610b519d.js" crossorigin="anonymous"></script>
@@ -44,7 +54,7 @@
     <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
-    <title>Mitsubishi Hesti - Promo PPnBM Mitsubishi Medan</title>
+    <title>Mitsubishi Hesti - Promo & Simulasi Kredit Mitsubishi Medan</title>
   </head>
   <body>    
     <!-- Header -->
@@ -56,8 +66,8 @@
           </a>
         </div>        
         <div class="col-12 col-sm-6 text-sales">
-          <p style="margin-bottom: .3rem">Sales resmi PT. Sardana IndahBerlian Motor</p>
-          <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti" class="btn btn-danger hubungi" target="_blank">Hubungi Saya</a>
+          <p style="margin-bottom: .3rem">Sales senior PT. Sardana IndahBerlian Motor</p>
+          <a href="https://wa.me/+6282274190043?text=Halo Kak Hesti" class="btn btn-success hubungi" target="_blank">Hubungi Saya</a>
         </div>
       </div>
     </div>
@@ -80,6 +90,8 @@
             <div class="dropdown">
               <a class="btn btn-dark dropdown-toggle dropdown-produk text-uppercase mmc-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: black; border: 1px solid black">Produk</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background: black; padding: 0">
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/new-xpander/'?>">NEW XPANDER <img src="<?=BASE_URL.DS.'assets/img/thumbs/new-xpander-thumb.png'?>" alt="Mitsubishi New Xpander" class="img-dropdown"></a>
+                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/new-xpander-cross/'?>">NEW XPANDER CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" alt="Mitsubishi New Xpander Cross" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/pajero-sport/'?>">PAJERO SPORT <img src="<?=BASE_URL.DS.'assets/img/thumbs/pajero-sport-thumb.png'?>" alt="Mitsubishi Pajero Sport" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">XPANDER <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-thumb.png'?>" alt="Mitsubishi Xpander" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander-cross/'?>">XPANDER CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" alt="Mitsubishi Xpander Cross" class="img-dropdown"></a>
@@ -116,9 +128,13 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img src="<?=BASE_URL.DS.'assets/img/slider-new-xpander.jpg'?>" class="d-block w-100" alt="Mitsubishi New Xpander">
+        </div>
+        <div class="carousel-item">
           <img src="<?=BASE_URL.DS.'assets/img/slider-rf-limited.jpg'?>" class="d-block w-100" alt="Mitsubishi Xpander Rockford Limited">
         </div>
         <div class="carousel-item">
@@ -163,7 +179,7 @@
           <p class="mt-2 p-profile">Hesti, Sales counter Sardana Berlian yang sudah melayani Customer Mitsubishi sejak 2016. Pengalaman Hesti dalam menangani Customer sudah tidak usah diragukan lagi karena sudah banyak Customer Hesti yang senang bertransaksi dengan Hesti sendiri.
           <div class="mb-5">
             <a target="_blank" href="https://wa.me/+6282274190043?text=Hai, Kak Hesti. Saya ingin bertanya tentang produk Mitsubishi." class="btn btn-danger">Hubungi Saya</a>
-            <a href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>" class="btn btn-danger">Testimoni</a>
+            <a href="<?=BASE_URL.DS.'testimoni-mitsubishi-medan/'?>" class="btn btn-warning">Testimoni</a>
           </div>
         </div>
       </div>      
@@ -180,6 +196,62 @@
         </div>
         <div class="swiper swiper-container-xpander text-dark">
           <div class="swiper-wrapper">              
+            <div class="swiper-slide" onclick="window.location='mitsubishi/new-xpander/'">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/new-xpander/new-xpander.png'; ?>" class="card-img w-80" alt="Mitsubishi New Xpander Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi New Xpander</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <p class="text-justify">The New Xpander hadir untuk membuat momen bersama keluarga lebih menyenangkan dengan fitur-fitur baru yang mengesankan.</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'NEW XPANDER' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>
+            <div class="swiper-slide" onclick="window.location='mitsubishi/new-xpander-cross/'">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <img src="<?= BASE_URL.DS.'assets/img/cross/xpander-cross-gray.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Cross Medan">
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <h5 class="card-title text-center mmc-bold">Mitsubishi New Xpander Cross</h5>
+                      <div class="row">
+                        <div class="col-12 desc-height">
+                          <p class="text-justify">Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV.</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-5 mmc-bold">Harga mulai</div>
+                        <?php
+                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'NEW XPANDER CROSS' AND discontinue = 0");
+                          $row = $sql->fetch_assoc();
+                        ?>
+                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
+                      </div>                        
+                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
+                    </div>
+                  </div>              
+                </div>   
+              </div>
+            </div>
             <div class="swiper-slide" onclick="window.location='mitsubishi/xpander/'">
               <div class="card mb-3" style="max-width: 540px">
                 <div class="row no-gutters">
@@ -538,7 +610,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="<?=BASE_URL.DS?>assets/js/jquery.easing.1.3.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="<?= BASE_URL.DS; ?>assets/js/lightbox.js"></script>
     <script src="<?= BASE_URL.DS; ?>assets/js/script.js"></script>
   </body>
