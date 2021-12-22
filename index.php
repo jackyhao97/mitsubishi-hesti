@@ -93,8 +93,6 @@
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/new-xpander/'?>">NEW XPANDER <img src="<?=BASE_URL.DS.'assets/img/thumbs/new-xpander-thumb.png'?>" alt="Mitsubishi New Xpander" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/new-xpander-cross/'?>">NEW XPANDER CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" alt="Mitsubishi New Xpander Cross" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/pajero-sport/'?>">PAJERO SPORT <img src="<?=BASE_URL.DS.'assets/img/thumbs/pajero-sport-thumb.png'?>" alt="Mitsubishi Pajero Sport" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander/'?>">XPANDER <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-thumb.png'?>" alt="Mitsubishi Xpander" class="img-dropdown"></a>
-                <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/xpander-cross/'?>">XPANDER CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/xpander-cross-thumb.png'?>" alt="Mitsubishi Xpander Cross" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/eclipse-cross/'?>">ECLIPSE CROSS <img src="<?=BASE_URL.DS.'assets/img/thumbs/eclipse-cross-thumb.png'?>" alt="Mitsubishi Eclipse Cross" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/triton/'?>">TRITON <img src="<?=BASE_URL.DS.'assets/img/thumbs/triton-thumb.png'?>" alt="Mitsubishi Triton" class="img-dropdown"></a>
                 <a class="dropdown-item dropdown-hover text-white mmc-bold" href="<?=BASE_URL.DS.'mitsubishi/l300/'?>">L300 <img src="<?=BASE_URL.DS.'assets/img/thumbs/l300-thumb.png'?>" alt="Mitsubishi L300" class="img-dropdown"></a>
@@ -242,62 +240,6 @@
                         <div class="col-5 mmc-bold">Harga mulai</div>
                         <?php
                           $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'NEW XPANDER CROSS' AND discontinue = 0");
-                          $row = $sql->fetch_assoc();
-                        ?>
-                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
-                      </div>                        
-                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
-                    </div>
-                  </div>              
-                </div>   
-              </div>
-            </div>
-            <div class="swiper-slide" onclick="window.location='mitsubishi/xpander/'">
-              <div class="card mb-3" style="max-width: 540px">
-                <div class="row no-gutters">
-                  <div class="col-md-12 text-center">
-                    <img src="<?= BASE_URL.DS.'assets/img/xpander/red-ultimate-xpander.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Medan">
-                  </div>
-                  <div class="col-md-12">
-                    <div class="card-body">
-                      <h5 class="card-title text-center mmc-bold">Mitsubishi Xpander</h5>
-                      <div class="row">
-                        <div class="col-12 desc-height">
-                          <p class="text-justify">Generasi terbaru MPV yang diciptakan untuk menjawab semua keinginan keluarga Indonesia. </p>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-5 mmc-bold">Harga mulai</div>
-                        <?php
-                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'XPANDER' AND discontinue = 0");
-                          $row = $sql->fetch_assoc();
-                        ?>
-                        <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
-                      </div>                        
-                      <p class="card-text"><small class="text-muted"> Medan | OTR Sumatera Utara</small></p>
-                    </div>
-                  </div>              
-                </div>   
-              </div>
-            </div>
-            <div class="swiper-slide" onclick="window.location='mitsubishi/xpander-cross/'">
-              <div class="card mb-3" style="max-width: 540px">
-                <div class="row no-gutters">
-                  <div class="col-md-12 text-center">
-                    <img src="<?= BASE_URL.DS.'assets/img/cross/xpander-cross-gray.webp'; ?>" class="card-img w-80" alt="Mitsubishi Xpander Cross Medan">
-                  </div>
-                  <div class="col-md-12">
-                    <div class="card-body">
-                      <h5 class="card-title text-center mmc-bold">Mitsubishi Xpander Cross</h5>
-                      <div class="row">
-                        <div class="col-12 desc-height">
-                          <p class="text-justify">Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV dan dilengkapi dengan tampilan yang lebih sporty dan tangguh.</p>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-5 mmc-bold">Harga mulai</div>
-                        <?php
-                          $sql = $conn->query("SELECT MIN(harga) as harga, merek, tipe FROM tb_harga WHERE merek = 'XPANDER CROSS' AND discontinue = 0");
                           $row = $sql->fetch_assoc();
                         ?>
                         <div class="col-7 mmc-bold"><?= "Rp " . number_format($row["harga"], 0, ",", "."); ?></div>
