@@ -345,7 +345,7 @@
           </div>
           <div class="col-12 col-md-7">
             <p class="desc-interior">
-              Interior nyaman
+              Jadikan perjalanan Anda menyenangkan dengan desain dashboard yang tegas dan modern dilengkapi sensasi berkendara yang menawan.
             </p>
           </div>
         </div>
